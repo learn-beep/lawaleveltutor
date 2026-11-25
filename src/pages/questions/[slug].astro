@@ -1,0 +1,81 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import Motif from '../../components/Motif.astro';
+import Icon from '../../components/Icon.astro';
+import Hint from '../../components/Hint.astro';
+import { allTopics, questionsForTopic, groupInfo, essayTitle, paperLabel, FIRST_SERIES } from '../../lib/data';
+import { deckFor } from '../../lib/decks';
+export function getStaticPaths() {
+  return allTopics.map((t) => ({ params: { slug: t.slug }, props: { topic: t } }));
+}
+const { topic } = Astro.props;
+const qs = questionsForTopic(topic.slug);
+const current = qs.filter((q) => !q.notCurrentSpec);
+const years = [...new Set(qs.map((q) => q.year))].sort((a, b) => b - a);
+const deck = deckFor(topic.slug);
+const gi = groupInfo(topic.group);
+const count = (f) => current.filter((q) => q.format === f).length;
+const essays = current.filter((q) => q.format === 'Essay');
+const scenarios = current.filter((q) => q.format === 'Scenario');
+const since = FIRST_SERIES.split(' ')[1];
+const short = topic.name.split(':')[0];
+---
+<Base title={`${short}: OCR A-level Law past-paper questions`} description={`Every OCR A-level and AS Law past-paper question on ${topic.name.toLowerCase()} since ${since} (${current.length} question${current.length === 1 ? '' : 's'}), with the scenarios, mark schemes and examiner comments.`} context={`topic:${topic.slug}`}>
+  <div class="topic-head"><h1>{topic.name} <span class={`badge badge-${gi.badge}`}>{gi.short}</span></h1><Motif kind={gi.motif} /></div>
+  <div class="where">
+    <dl>
+      <dt>Where it is examined</dt><dd>{gi.where}</dd>
+      <dt>Level</dt><dd>{topic.asOrA}</dd>
+      <dt>Specification</dt><dd>{gi.area}, section {topic.code}: {topic.statements.length} content line{topic.statements.length === 1 ? '' : 's'}</dd>
+      <dt>Since {since}</dt><dd>{current.length ? <>{current.length} question{current.length === 1 ? '' : 's'}: {scenarios.length} scenario{scenarios.length === 1 ? '' : 's'}, {essays.length} essay{essays.length === 1 ? '' : 's'}, {count('Describe or explain')} describe or explain, {count('Evaluation')} evaluation</> : 'No question has been set on this section yet'}</dd>
+    </dl>
+  </div>
+  <div class="score-note" id="myscore" hidden></div>
+
+  {deck && <div class="btn-row"><a class="btn btn-accent" href={`/questions/${topic.slug}/terms/`}><Icon name="layers" />Key terms cards ({deck.terms.length})</a></div>}
+
+  <h2>Specification content</h2>
+  <ul class="spec-list">{topic.statements.map((id) => <li><strong>{id}</strong> {topic.statementText[id].replace(' [A level only]', '')}{topic.asStatements?.includes(id) ? <span class="pill pill-easy" style="margin-left:.4rem">AS and A level</span> : <span class="pill pill-medium" style="margin-left:.4rem">A level only</span>}</li>)}</ul>
+
+  {scenarios.length > 0 && <><h2>Every scenario question on this topic</h2>
+  <div class="table-wrap"><table><thead><tr><th>Series</th><th>Paper</th><th>Q</th><th>Marks</th><th>Question</th></tr></thead>
+  <tbody>{scenarios.map((q) => <tr><td>{q.series}</td><td>{paperLabel(q)}</td><td><a href={`#${q.id}`}>{q.question}</a></td><td>{q.marks}</td><td>{essayTitle(q)}</td></tr>)}</tbody></table></div></>}
+
+  {essays.length > 0 && <><h2>Every essay set on this topic</h2>
+  <div class="table-wrap"><table><thead><tr><th>Series</th><th>Paper</th><th>Q</th><th>Marks</th><th>Title</th></tr></thead>
+  <tbody>{essays.map((q) => <tr><td>{q.series}</td><td>{paperLabel(q)}</td><td><a href={`#${q.id}`}>{q.question}</a></td><td>{q.marks}</td><td>{essayTitle(q)}</td></tr>)}</tbody></table></div></>}
+
+  <h2>Past-paper questions</h2>
+  {current.length === 0 ? <p>OCR has not yet set a question that is mainly on this section in the papers published since {since}. It is still on the specification, and its content is drawn on in other questions: see the other <a href="/questions/">{gi.area.toLowerCase()} topics</a>.</p> : <>
+  <p><a class="btn" href={`/questions/${topic.slug}/print/`}><Icon name="printer" />Print this topic as a pack</a></p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All ({current.length})</button>
+    {count('Describe or explain') > 0 && <button class="chip" type="button" aria-pressed="false" data-filter="format:Describe or explain">Describe or explain</button>}
+    {count('Evaluation') > 0 && <button class="chip" type="button" aria-pressed="false" data-filter="format:Evaluation">Evaluation</button>}
+    {scenarios.length > 0 && <button class="chip" type="button" aria-pressed="false" data-filter="format:Scenario">Scenarios</button>}
+    {essays.length > 0 && <button class="chip" type="button" aria-pressed="false" data-filter="format:Essay">Essays</button>}
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:AS">AS</button>
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:A level">A level</button>
+    {years.slice(0, 3).map((y) => <button class="chip" type="button" aria-pressed="false" data-filter={`year:${y}`}>{y}</button>)}
+  </div><div class="count" id="count"></div></div>
+  <Hint id="reveal" text="Tap a question to zoom it. The mark scheme (with the levels of response and indicative content) and the examiner's comment open underneath." />
+  {qs.map((q) => <QuestionCard q={q} />)}
+  </>}
+
+  <script define:vars={{ slug: topic.slug }}>
+    try { const s = JSON.parse(localStorage.getItem('malt-scores') || '{}')[slug]; if (s && s.total) { const el = document.getElementById('myscore'); el.hidden = false; el.innerHTML = `Your practice score on this topic: <strong>${s.earned}/${s.total}</strong> (${Math.round(100 * s.earned / s.total)}%) over ${s.n} question${s.n === 1 ? '' : 's'}. <a href="/practice/">Practise more</a>`; } } catch {}
+  </script>
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const cards = document.querySelectorAll('.qcard');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false'));
+      c.setAttribute('aria-pressed', 'true');
+      const f = c.getAttribute('data-filter') || '';
+      const [key, val] = f.split(':');
+      cards.forEach((card) => { card.hidden = !!f && card.getAttribute('data-' + key) !== val; });
+      document.getElementById('count').textContent = `Showing ${[...cards].filter((c) => !c.hidden).length} of ${cards.length}`;
+    }));
+  </script>
+</Base>

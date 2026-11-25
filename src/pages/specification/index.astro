@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hint from '../../components/Hint.astro';
+import spec from '../../data/spec.json';
+import { GROUPS } from '../../lib/data';
+const sections = spec.filter((s) => s.statements.length);
+const total = sections.reduce((n, s) => n + s.statements.length, 0);
+const mains = [...new Set(sections.map((s) => s.code.split('.')[0]))].map((n) => [n, sections.find((s) => s.code.startsWith(n + '.')).main]);
+const where = (title) => (GROUPS.find((g) => g[0] === title) || [])[4] || '';
+---
+<Base title="OCR A-level Law specification checklist (H418 and H018), tickable" description="Every content line of the OCR AS and A-level Law specification (H018/H418) as a tickable checklist, with the A-level-only content marked and links to the past-paper questions for each section." context="specification" leadLine="Big gaps on the checklist? A tutor can plan the order to close them.">
+  <h1>Specification checklist</h1>
+  <p>Every content line in the OCR Law specification (A Level H418 and AS Level H018, version 2.0), in OCR's own words. Tick what you're confident with; ticks are saved in this browser only. Lines marked A level only are not in the AS specification. A-level students study human rights law or the law of contract, not both.</p>
+  <Hint id="ticks" text="Ticks are saved in this browser only. The revision planner uses them to pick your weak topics." />
+  <p class="muted"><span id="done">0</span> of {total} ticked · <button class="chip" type="button" id="clear">Clear my ticks</button></p>
+  {mains.map(([n, h]) => (
+    <>
+      <h2 class="strand-head">{n}. {h}</h2>
+      <p class="muted">{where(h)}</p>
+      {sections.filter((s) => s.code.startsWith(n + '.')).map((s) => (
+        <section>
+          <h3>{s.code} {s.title} {s.topic && <a class="small-text" href={`/questions/${s.topic}/`}>questions</a>}</h3>
+          <ul class="spec-list">
+            {s.statements.map((st) => (
+              <li><label><input type="checkbox" data-spec={st.id} /><span><strong>{st.id}</strong> {st.text.replace(' [A level only]', '')}{!st.as && <span class="pill pill-medium" style="margin-left:.4rem">A level only</span>}</span></label></li>
+            ))}
+          </ul>
+          {s.sectionGuidance.length > 0 && <details class="small-text"><summary>OCR's guidance for this section</summary><ul>{s.sectionGuidance.map((g) => <li>{g}</li>)}</ul></details>}
+        </section>
+      ))}
+    </>
+  ))}
+  <script>
+    const KEY = 'malt-spec';
+    const boxes = document.querySelectorAll('input[data-spec]');
+    const done = document.getElementById('done');
+    let state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch {}
+    const paint = () => { let n = 0; boxes.forEach((b) => { b.checked = !!state[b.dataset.spec]; if (b.checked) n++; }); done.textContent = String(n); };
+    boxes.forEach((b) => b.addEventListener('change', () => { state[b.dataset.spec] = b.checked; try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} paint(); }));
+    document.getElementById('clear').addEventListener('click', () => { state = {}; try { localStorage.removeItem(KEY); } catch {} paint(); });
+    paint();
+  </script>
+</Base>

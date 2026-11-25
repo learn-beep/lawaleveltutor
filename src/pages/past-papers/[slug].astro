@@ -1,0 +1,38 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allPapers, byId, topicByslug, OCR_MATERIALS } from '../../lib/data';
+export function getStaticPaths() {
+  return allPapers.map((p) => ({ params: { slug: p.slug }, props: { paper: p } }));
+}
+const { paper } = Astro.props;
+const qs = paper.questions.map((id) => byId.get(id)).filter(Boolean);
+const level = paper.qual === 'AS' ? 'AS' : 'A-level';
+const sam = paper.kind !== 'exam';
+const when = sam ? 'Sample paper' : paper.series;
+const title = `${when} ${level} ${paper.paper} (${paper.spec}/0${paper.paperNo})`;
+const al = paper.qual !== 'AS';
+const rubric = al
+  ? (Number(paper.paperNo) <= 2
+    ? 'Section A: answer Question 1 or 2 (8 marks) and Question 3 or 4 (12 marks). Section B: choose Part 1 or Part 2 and answer its three questions; the starred essay is the same in both parts. 80 marks, 2 hours.'
+    : 'Section A: answer one of the two starred essays (20 marks), using examples from the whole course. Section B: choose Part 1 or Part 2 and answer its three questions; the starred essay is the same in both parts. 80 marks, 2 hours.')
+  : 'Answer all eight questions, 8 marks each. Section A is four questions; Section B is four questions, two of them on the scenario. 64 marks, 1 hour 30 minutes.';
+---
+<Base title={`OCR Law ${title}: questions, mark scheme and examiner's report by question`} description={`Every question in OCR Law ${title}, ${paper.name}, with its topic, marks and AO split, the mark scheme and the examiner's comments.`} context={`paper:${paper.slug}`} leadLine="Want a paper marked and gone through with you? Message us.">
+  <h1>{when}: {level} {paper.paper}</h1>
+  <p class="muted">{paper.name} · {paper.spec}/0{paper.paperNo} · {paper.total} marks · {qs.length} questions · <a href={OCR_MATERIALS} rel="noopener">Paper, mark scheme and report on OCR's site</a>{sam ? " · OCR's sample assessment material; no examiners' report exists for it" : ''}</p>
+  <p>{rubric}</p>
+  <h2>Question by question</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Q</th><th>Section</th><th>Topic</th><th>Marks</th><th>AO</th><th>Type</th></tr></thead>
+    <tbody>{qs.map((q) => <tr>
+      <td><a href={`#${q.id}`}>{q.question}</a></td>
+      <td>{q.section.split(':')[0].replace('Section ', '')}</td>
+      <td>{q.topics.map((t, i) => <>{i ? ', ' : ''}<a href={`/questions/${t}/`}>{topicByslug.get(t)?.name.split(':')[0] ?? t}</a></>)}</td>
+      <td>{q.marks}</td><td>{(q.aoText || '').replace(/=/g, ' ').replace(/,/g, ', ')}</td><td>{q.format}</td>
+    </tr>)}</tbody>
+  </table></div>
+  <h2>The questions</h2>
+  <div class="jump">{qs.map((q) => <a href={`#${q.id}`}>{q.number}</a>)}</div>
+  {qs.map((q) => <QuestionCard q={q} showTopics={true} />)}
+</Base>

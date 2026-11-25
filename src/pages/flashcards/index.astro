@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { decks } from '../../lib/decks';
+---
+<Base title="OCR A-level Law flashcards: key terms and definitions by topic" description="Free flashcards for OCR A-level Law: the key legal terms and definitions for each topic, with an exam tip on each and spaced repetition saved in your browser." context="flashcards" leadLine="Terms learned but the scenarios still stuck in Level 2? That's what a tutor fixes.">
+  <h1>Flashcards</h1>
+  <p>Key terms and definitions for each topic as flip cards, with spaced repetition saved in your browser. Each card carries a tip on how to use the term in an answer. The AO1 marks in every question are for accurate law: a term defined precisely, with its case or section, is what moves an answer up the levels. Decks for the remaining topics are being written.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Topic</th><th>Terms</th></tr></thead>
+    <tbody>{decks.map((d) => <tr><td><a href={`/questions/${d.topic}/`}>{d.name}</a></td><td><a href={`/questions/${d.topic}/terms/`}>{d.terms.length} terms</a></td></tr>)}</tbody>
+  </table></div>
+  <h2>How to use them</h2>
+  <ul>
+    <li>Say the answer out loud before you flip. Then be honest with "Knew it" or "Didn't know it": the cards you miss come back every round, the ones you know come back less often.</li>
+    <li>The target is the definition a lawyer would give: the rule in one precise sentence, with the case or statutory section that it comes from.</li>
+    <li>"Print all" on any deck gives you paper cards.</li>
+  </ul>
+</Base>

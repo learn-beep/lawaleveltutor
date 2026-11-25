@@ -1,0 +1,40 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuestionCard from '../../../components/QuestionCard.astro';
+import { allQuestions, FIRST_SERIES } from '../../../lib/data';
+export function getStaticPaths() {
+  // [slug, format, title, intro]
+  const T = [
+    ['describe-explain', 'Describe or explain', 'Describe and explain questions (8 marks)', 'Section A of A-level Papers 1 and 2 and most of the AS papers: "Describe…" or "Explain…" for 8 marks, all AO1. The top level needs accurate, detailed and fully developed knowledge, with cases, statutes and examples where they fit. No evaluation is credited.'],
+    ['evaluation', 'Evaluation', 'Evaluation questions (8 and 12 marks)', '"Discuss the advantages…", "Discuss the disadvantages…": 12 marks at A level and 8 at AS, all AO3. Marks are for developed points of analysis and evaluation that stay on the question asked; describing the law earns nothing here, and a list of undeveloped points stays in the lower levels.'],
+    ['scenarios', 'Scenario', 'Scenario (problem) questions (20 marks at A level, 8 at AS)', '"Advise whether…": identify the law the scenario raises, state it accurately with authority (8 AO1 marks at A level), then apply it to each person and event and reach a conclusion (12 AO2 marks). AS scenarios are 8 marks of application only. Follow any instruction not to discuss a particular issue: nothing is credited for it.'],
+    ['essays', 'Essay', 'Essays (20 marks at A level, 8 at AS)', 'The starred extended-response questions: 8 AO1 marks for the law and 12 AO3 marks for analysis and evaluation at A level, including the nature of law essays on Papers 3 and 4, which ask for examples from across the whole course. At AS the essay is 8 marks of evaluation.'],
+  ];
+  return T.map(([slug, matcher, title, intro]) => ({ params: { type: slug }, props: { slug, matcher, title, intro, others: T.filter((t) => t[0] !== slug) } }));
+}
+const { slug, matcher, title, intro, others } = Astro.props;
+const qs = allQuestions.filter((q) => q.format === matcher && !q.notCurrentSpec).sort((a, b) => b.year - a.year || a.level.localeCompare(b.level) || a.paper.localeCompare(b.paper) || a.number - b.number);
+const papers = [...new Set(qs.map((q) => q.paper))].sort();
+---
+<Base title={`${title.split(' (')[0]}: OCR A-level Law past-paper questions`} description={`${qs.length} ${title.split(' (')[0].toLowerCase()} from OCR AS and A-level Law papers since ${FIRST_SERIES.split(' ')[1]}, with mark schemes and examiner comments.`} context={`type:${slug}`}>
+  <h1>{title}</h1>
+  <p>{intro} {qs.length} questions.</p>
+  <p class="muted">Other types: {others.map((t, i) => <>{i ? ' · ' : ''}<a href={`/questions/type/${t[0]}/`}>{t[2]}</a></>)}</p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All</button>
+    {papers.map((p) => <button class="chip" type="button" aria-pressed="false" data-filter={`paper:${p}`}>{p}</button>)}
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:AS">AS</button>
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:A level">A level</button>
+  </div><div class="count" id="count"></div></div>
+  {qs.map((q) => <div data-wrap data-paper={q.paper}><QuestionCard q={q} showTopics={true} /></div>)}
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const wraps = document.querySelectorAll('[data-wrap]');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false')); c.setAttribute('aria-pressed', 'true');
+      const [key, val] = (c.getAttribute('data-filter') || '').split(':');
+      wraps.forEach((w) => { const card = w.querySelector('.qcard'); const v = key === 'paper' ? w.dataset.paper : card.getAttribute('data-' + key); w.hidden = !!key && v !== val; });
+      document.getElementById('count').textContent = `Showing ${[...wraps].filter((w) => !w.hidden).length} of ${wraps.length}`;
+    }));
+  </script>
+</Base>

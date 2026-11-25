@@ -1,0 +1,47 @@
+{
+ "topic": "non-fatal-offences",
+ "name": "Non-fatal offences against the person",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Assault",
+   "definition": "Intentionally or recklessly causing the victim to apprehend immediate unlawful force. A common law offence charged under s39 Criminal Justice Act 1988.",
+   "examiner": "No touching is needed. Words or silence can be enough (Ireland, Constanza); \"immediate\" means imminent (Smith v Chief Superintendent of Woking Police Station)."
+  },
+  {
+   "term": "Battery",
+   "definition": "Intentionally or recklessly applying unlawful force to another person. Charged under s39 Criminal Justice Act 1988.",
+   "examiner": "The slightest touching counts (Collins v Wilcock), it can be indirect (DPP v K, Haystead) and it can be by a continuing act (Fagan v MPC)."
+  },
+  {
+   "term": "Assault occasioning actual bodily harm (s47)",
+   "definition": "An assault or battery that causes actual bodily harm, under s47 Offences Against the Person Act 1861.",
+   "examiner": "The mens rea is only that of the assault or battery: no need to intend or foresee the harm (Roberts, Savage). This is the point most scenario answers miss."
+  },
+  {
+   "term": "Actual bodily harm",
+   "definition": "Any hurt or injury calculated to interfere with the health or comfort of the victim; it need not be permanent but must be more than trifling.",
+   "examiner": "Miller (1954) and Chan-Fook. It includes psychiatric injury (Ireland), loss of consciousness (T v DPP) and cutting off hair (DPP v Smith 2006)."
+  },
+  {
+   "term": "Wound",
+   "definition": "A break in the continuity of the whole skin: both the outer and inner layers.",
+   "examiner": "JCC v Eisenhower: internal bleeding from a ruptured blood vessel was not a wound. A small cut that breaks both layers is."
+  },
+  {
+   "term": "Grievous bodily harm",
+   "definition": "Really serious harm.",
+   "examiner": "DPP v Smith (1961); \"serious harm\" is enough (Saunders). The victim's age and health are taken into account (Bollom). It includes serious psychiatric injury (Burstow) and infection with a serious disease (Dica)."
+  },
+  {
+   "term": "Section 20",
+   "definition": "Unlawfully and maliciously wounding or inflicting grievous bodily harm. Maximum sentence five years.",
+   "examiner": "Mens rea: intention or recklessness as to some harm, not serious harm (Mowatt, Parmenter). Compare the s47 maximum, also five years: a standard evaluation point."
+  },
+  {
+   "term": "Section 18",
+   "definition": "Unlawfully and maliciously wounding or causing grievous bodily harm with intent to do grievous bodily harm, or with intent to resist arrest. Maximum sentence life.",
+   "examiner": "A specific intent offence: recklessness is not enough (Belfon). Intention can be direct or oblique."
+  }
+ ]
+}

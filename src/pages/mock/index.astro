@@ -1,0 +1,91 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+---
+<Base title="OCR A-level Law mini-mock builder: timed papers from real questions" description="Build a timed mock from real OCR Law past-paper questions in the exact shape of A-level Paper 1, 2, 3 or 4 or the AS papers: a section or the whole paper. Play it on screen or print it with the mark schemes." context="mock" leadLine="Want a mock marked properly and gone through? Message us.">
+  <h1>Mini-mock builder</h1>
+  <p>Builds a paper in the shape of the OCR exam from real questions, with the choices already made for you. A-level Papers 1 and 2: Section A is one 8-mark and one 12-mark question, Section B is one Part (two 20-mark scenarios and the 20-mark essay). Papers 3 and 4: Section A is one 20-mark nature of law essay, Section B is one Part. AS papers are eight 8-mark questions. Section A questions come from different years; a Section B part is kept whole, from one paper, so the scenarios and the questions match.</p>
+  <div class="panel" id="setup">
+    <h3>Level</h3>
+    <div class="chips" data-group="level"><button class="chip" type="button" data-v="A level" aria-pressed="true">A level</button><button class="chip" type="button" data-v="AS">AS</button></div>
+    <h3>Paper</h3>
+    <div class="chips" data-group="paper"><button class="chip" type="button" data-v="Paper 1" aria-pressed="true">Paper 1: legal system and criminal law</button><button class="chip" type="button" data-v="Paper 2">Paper 2: law making and tort</button><button class="chip" type="button" data-v="Paper 3">Paper 3: nature of law and human rights</button><button class="chip" type="button" data-v="Paper 4">Paper 4: nature of law and contract</button></div>
+    <h3>Length</h3>
+    <div class="chips" data-group="part"><button class="chip" type="button" data-v="A" aria-pressed="true">Section A</button><button class="chip" type="button" data-v="B">Section B</button><button class="chip" type="button" data-v="full">Full paper</button></div>
+    <p class="muted" id="shape"></p>
+    <div><button class="btn btn-accent" type="button" id="build">Build my mock</button></div>
+  </div>
+  <div id="paper" hidden>
+    <div class="playbar"><span id="title"></span><span class="timer" id="timer"></span><span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start timer</button> <button class="btn" type="button" id="print"><Icon name="printer" />Print</button> <button class="btn" type="button" id="share"><Icon name="link" />Copy link</button></span></div>
+    <div id="cards"></div>
+    <div class="btn-row"><button class="btn btn-accent" type="button" id="rebuild">Build another</button></div>
+  </div>
+  <script>
+    import { loadBank, card, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = { level: 'A level', paper: 'Paper 1', part: 'A' };
+    let bank = null, timer = null, secs = 0;
+    const TEXT = {
+      'A level|12': { A: 'Section A: one 8-mark describe or explain question and one 12-mark evaluation question (20 marks, 30 minutes).', B: 'Section B: one Part, two 20-mark scenarios and the 20-mark essay (60 marks, 1 hour 30).', full: 'The whole paper (80 marks, 2 hours).' },
+      'A level|34': { A: 'Section A: one 20-mark nature of law essay (20 marks, 30 minutes).', B: 'Section B: one Part, two 20-mark scenarios and the 20-mark essay (60 marks, 1 hour 30).', full: 'The whole paper (80 marks, 2 hours).' },
+      AS: { A: 'Section A: four 8-mark questions (32 marks, 45 minutes).', B: 'Section B: four 8-mark questions from one paper, two of them on its scenario (32 marks, 45 minutes).', full: 'The whole paper (64 marks, 1 hour 30).' },
+    };
+    const kind = () => sel.level === 'AS' ? 'AS' : `A level|${/[12]$/.test(sel.paper) ? '12' : '34'}`;
+    const noSuch = () => sel.level === 'AS' && /[34]$/.test(sel.paper);
+    function shape() { $('#shape').textContent = noSuch() ? 'AS has only Papers 1 and 2.' : TEXT[kind()][sel.part]; }
+    document.querySelectorAll('[data-group]').forEach((g) => g.querySelectorAll('.chip').forEach((b) => b.addEventListener('click', () => { g.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); sel[g.dataset.group] = b.dataset.v; shape(); })));
+    shape();
+    loadBank().then((b) => { bank = b; });
+    // one question for each slot, each from a different series where possible
+    function fill(pool, slots) {
+      const used = new Set(), out = [];
+      for (const ok of slots) {
+        const c = shuffle(pool.filter(ok));
+        const q = c.find((x) => !used.has(x.s)) || c[0];
+        if (q) { used.add(q.s); out.push(q); }
+      }
+      return out;
+    }
+    function sectionA() {
+      const lv = bank.q.filter((q) => !q.old && q.c && q.l === sel.level && q.sc === 'A');
+      if (sel.level === 'AS') return fill(lv.filter((q) => q.p === sel.paper), [1, 2, 3, 4].map((n) => (q) => q.n === n));
+      // Papers 3 and 4 print the same Section A; the bank keeps Paper 3's copy
+      if (/[34]$/.test(sel.paper)) return fill(lv.filter((q) => q.p === 'Paper 3'), [() => true]);
+      return fill(lv.filter((q) => q.p === sel.paper), [(q) => q.m === 8, (q) => q.m === 12]);
+    }
+    function sectionB() {
+      const lv = bank.q.filter((q) => !q.old && q.c && q.l === sel.level && q.sc === 'B' && q.p === sel.paper);
+      const ids = shuffle([...new Set(lv.map((q) => q.pid))]);
+      for (const pid of ids) {
+        const qs = lv.filter((q) => q.pid === pid).sort((a, b) => a.n - b.n);
+        if (sel.level === 'AS') { if (qs.length === 4) return qs; continue; }
+        const part = Math.random() < 0.5 ? 1 : 2;
+        const scen = qs.filter((q) => q.f === 'Scenario' && q.pt === part), essay = qs.filter((q) => q.f === 'Essay');
+        if (scen.length === 2 && essay.length === 1) return scen.concat(essay);
+      }
+      return [];
+    }
+    $('#build').addEventListener('click', () => {
+      if (!bank || noSuch()) return;
+      const picked = sel.part === 'A' ? sectionA() : sel.part === 'B' ? sectionB() : sectionA().concat(sectionB());
+      if (!picked.length) { $('#shape').textContent = 'Nothing matched; try another combination.'; return; }
+      $('#setup').hidden = true; $('#paper').hidden = false;
+      open(picked, `${sel.level === 'AS' ? 'AS' : 'A-level'} ${sel.paper}`);
+      location.hash = 'set=' + picked.map((q) => q.id).join(',');
+      window.scrollTo({ top: 0 });
+    });
+    function open(picked, label) {
+      const total = picked.reduce((a, q) => a + q.m, 0);
+      $('#title').textContent = `${label}: ${picked.length} questions, ${total} marks`;
+      // A level is 80 marks in 2 hours (90 seconds a mark); AS is 64 marks in 90 minutes
+      secs = Math.round(total * (picked[0].l === 'AS' ? 5400 / 64 : 90)); $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      const holder = $('#cards'); holder.innerHTML = '';
+      picked.forEach((q, n) => { const c = card(q); c.querySelector('.meta strong').textContent = `Question ${n + 1} (from ${q.s} ${q.l === 'AS' ? 'AS' : 'A-level'} ${q.p} Q${q.n})`; holder.appendChild(c); });
+    }
+    $('#share').addEventListener('click', async () => { const url = location.href.split('#')[0] + location.hash; try { await navigator.clipboard.writeText(url); window.maltToast && window.maltToast('Link copied'); } catch { prompt('Copy this link', url); } });
+    loadBank().then(() => { const m = location.hash.match(/set=([^&]+)/); if (!m || !bank) return; const picked = m[1].split(',').map((id) => bank.q.find((q) => q.id === id)).filter(Boolean); if (!picked.length) return; $('#setup').hidden = true; $('#paper').hidden = false; open(picked, 'Shared mock'); });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+    $('#print').addEventListener('click', () => { document.querySelectorAll('#cards img[data-src]').forEach((img) => { img.src = img.dataset.src; img.removeAttribute('data-src'); }); setTimeout(() => window.print(), 300); });
+    $('#rebuild').addEventListener('click', () => { if (timer) clearInterval(timer); $('#paper').hidden = true; $('#setup').hidden = false; window.scrollTo({ top: 0 }); });
+  </script>
+</Base>

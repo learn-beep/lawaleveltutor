@@ -1,0 +1,17 @@
+{
+  "site": {
+    "name": "A-level Law Tutor",
+    "domain": "https://www.lawaleveltutor.com",
+    "whatsapp": "447888786687",
+    "email": "enquiries@lawaleveltutor.com",
+    "company": "aleveltutors.online Limited",
+    "companyNumber": "14401016",
+    "registeredOffice": "5 Northbrook Court, Northbrook Avenue, Winchester SO23 0JP",
+    "spec": "OCR A Level Law (H418) and AS Level Law (H018), specification version 2.0.",
+    "examYear": 2027
+  },
+  "whatsappMessage": "Hi, I'm looking for an OCR Law Tutor. The student is in Year ..... Their name is ..................... we would like ........ lessons per week, the best two times for tutoring are ................. and ......................",
+  "faviconLetter": "L",
+  "paperNames": {"H418-1": "Paper 1", "H418-2": "Paper 2", "H418-3": "Paper 3", "H418-4": "Paper 4", "H018-1": "Paper 1", "H018-2": "Paper 2"},
+  "oldSpecFlag": "not_current_spec"
+}

@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import { allQuestions, allTopics, essayTitle, paperLabel, FIRST_SERIES } from '../../lib/data';
+const essays = allQuestions.filter((q) => q.format === 'Essay' && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const title = (q) => essayTitle(q).slice(0, 320);
+const byTopic = allTopics.map((t) => [t, essays.filter((q) => q.topics.includes(t.slug))]).filter(([, qs]) => qs.length);
+const n20 = essays.filter((q) => q.marks === 20).length, n8 = essays.filter((q) => q.marks === 8).length;
+const since = FIRST_SERIES.split(' ')[1];
+---
+<Base title={`Every OCR A-level Law essay question since ${since}, by topic, with a timed essay tool`} description={`All the 20-mark essay questions set on OCR A-level Law since ${since}, and the 8-mark AS essays, grouped by topic, with the series each was set and a timed-essay tool that reveals the mark scheme and levels of response.`} context="essays" leadLine="Want your essays marked against the OCR levels? Message us.">
+  <h1>Every essay title, and a timed practice tool</h1>
+  <p>{n20} twenty-mark essays (the starred questions on the A-level papers, including the nature of law essays on Papers 3 and 4) and {n8} eight-mark AS essays, grouped by topic with the series each appeared in. Pick one to write under timed conditions (about 1.5 minutes a mark, the exam's pace: 30 minutes for a 20-marker), then open the mark scheme with its levels of response and indicative content and award yourself a level.</p>
+  <p class="muted">An A-level essay is marked on two grids: 8 marks for knowledge of the law (AO1) and 12 for analysis and evaluation (AO3). The starred questions also assess how well the answer is organised. Looking for "advise whether" questions? See the <a href="/questions/type/scenarios/">scenario questions</a>.</p>
+  <h2>Timed essay</h2>
+  <div class="panel">
+    <div class="chips" id="topic-chips">{byTopic.map(([t]) => <button class="chip" type="button" data-topic={t.slug} aria-pressed="false">{t.name.split(':')[0]}</button>)}</div>
+    <div class="chips" data-group="marks"><button class="chip" type="button" data-v="" aria-pressed="true">Any</button><button class="chip" type="button" data-v="20">20-mark (A level)</button><button class="chip" type="button" data-v="8">8-mark (AS)</button></div>
+    <div><button class="btn btn-accent" type="button" id="draw">Give me a title</button> <span class="muted">(random from the selected topics, or from all)</span></div>
+  </div>
+  <div id="play" hidden>
+    <div class="playbar"><span id="which"></span><span class="timer" id="timer">30:00</span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start the clock</button></div>
+    <div id="card"></div>
+    <div class="panel"><h3>Award yourself a level</h3><div class="markrow" id="levels"><span>Level:</span>{[1, 2, 3, 4].map((l) => <button class="chip" type="button" data-level={l}>{l}</button>)}</div><p class="muted" id="levelnote"></p></div>
+  </div>
+  <h2>All titles by topic</h2>
+  {byTopic.map(([t, qs]) => <><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({qs.length})</span></h3>
+    <div class="table-wrap"><table><thead><tr><th>Series</th><th>Paper</th><th>Marks</th><th>Title</th></tr></thead>
+    <tbody>{qs.map((q) => <tr><td>{q.series}</td><td>{paperLabel(q)} Q{q.number}</td><td>{q.marks}</td><td><a href={`/questions/${t.slug}/#${q.id}`}>{title(q)}</a></td></tr>)}</tbody></table></div></>)}
+  <script>
+    import { loadBank, card, saveScore, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = new Set(); let marks = '', bank = null, timer = null, secs = 1800, current = null;
+    document.querySelectorAll('[data-topic]').forEach((b) => b.addEventListener('click', () => { const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', String(on)); on ? sel.add(b.dataset.topic) : sel.delete(b.dataset.topic); }));
+    document.querySelectorAll('[data-group="marks"] .chip').forEach((b) => b.addEventListener('click', () => { document.querySelectorAll('[data-group="marks"] .chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); marks = b.dataset.v; }));
+    loadBank().then((b) => { bank = b; });
+    $('#draw').addEventListener('click', () => {
+      if (!bank) return;
+      const pool = bank.q.filter((q) => q.f === 'Essay' && !q.old && q.c && (!marks || q.m === Number(marks)) && (!sel.size || q.t.some((t) => sel.has(t))));
+      if (!pool.length) return;
+      current = shuffle(pool)[0];
+      secs = Math.round(current.m * 90);
+      $('#play').hidden = false; $('#which').textContent = `${current.s} ${current.l === 'AS' ? 'AS' : 'A-level'} ${current.p} Q${current.n} (${current.m} marks)`; $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      $('#levelnote').innerHTML = 'OCR marks these in four levels on each grid. At A level, Level 4 is 7–8 for AO1 (excellent, accurate, fully developed knowledge with relevant authority) and 10–12 for AO3 (excellent analysis and evaluation, wide ranging, sustained focus on the question, key points fully developed). Judge the two grids separately in the mark scheme; the level you tap here is your overall judgement. <em>Levels summarised by the site, to be checked by our tutor.</em>';
+      const holder = $('#card'); holder.innerHTML = ''; holder.appendChild(card(current));
+      document.querySelectorAll('[data-level]').forEach((x) => x.setAttribute('aria-pressed', 'false'));
+      window.scrollTo({ top: $('#play').offsetTop - 80, behavior: 'smooth' });
+    });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+    document.querySelectorAll('[data-level]').forEach((b) => b.addEventListener('click', () => {
+      document.querySelectorAll('[data-level]').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true');
+      if (current) { const table = { 20: [0, 4, 9, 14, 19], 12: [0, 2, 5, 8, 11], 8: [0, 2, 4, 6, 8] }[current.m] || [0, 4, 9, 14, 19]; saveScore(current.t, table[Number(b.dataset.level)], current.m, current.id); }
+    }));
+  </script>
+</Base>

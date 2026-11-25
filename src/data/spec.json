@@ -1,0 +1,2798 @@
+[
+{
+"code": "1.1",
+"title": "Civil courts and other forms of dispute resolution",
+"main": "The legal system",
+"sectionGuidance": [
+"the jurisdictions of the County Court and the three divisions of the High Court",
+"grounds/reasons to appeal",
+"First appeal from the three tracks, further appeal to the Court of Appeal (Civil Division), High Court Appeals, Appeal from the Court of Appeal (Civil Division)",
+"how employment tribunals work",
+"negotiation, mediation, conciliation and arbitration"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "civil-courts-and-adr",
+"statements": [
+{
+"id": "1.1(a)",
+"short": "",
+"text": "County Court and High Court: jurisdictions, pre-trial procedures, the three tracks",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"civil-courts-and-adr"
+]
+},
+{
+"id": "1.1(b)",
+"short": "",
+"text": "Appeals and appellate courts",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"civil-courts-and-adr"
+]
+},
+{
+"id": "1.1(c)",
+"short": "",
+"text": "Employment tribunals and Alternative Dispute Resolution",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"civil-courts-and-adr"
+]
+},
+{
+"id": "1.1(d)",
+"short": "",
+"text": "Advantages and disadvantages of using the civil courts and Alternative Dispute Resolution to resolve disputes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"civil-courts-and-adr"
+]
+}
+]
+},
+{
+"code": "1.2",
+"title": "Criminal courts and lay people",
+"main": "The legal system",
+"sectionGuidance": [
+"summary offences, triable either-way offences, indictable offences and their pre-trial procedures",
+"grounds/reasons to appeal",
+"appeals to the Crown Court, Case stated appeal to the Queen's Bench Divisional Court, Appeals to the Court of Appeal (Criminal Division) and Appeals to the UKSC",
+"the aims of sentencing set out in s142 Criminal Justice Act 2003",
+"custodial and non-custodial sentences for adults"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "criminal-courts-and-lay-people",
+"statements": [
+{
+"id": "1.2(a)",
+"short": "",
+"text": "Criminal process: jurisdiction of the Magistrates’ Court and the Crown Court, including classification of offences and pre-trial procedures",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-courts-and-lay-people"
+]
+},
+{
+"id": "1.2(b)",
+"short": "",
+"text": "Appeals and appellate courts",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-courts-and-lay-people"
+]
+},
+{
+"id": "1.2(c)",
+"short": "",
+"text": "Sentencing and court powers: aims, factors and types of sentences for adults",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-courts-and-lay-people"
+]
+},
+{
+"id": "1.2(d)",
+"short": "",
+"text": "Lay magistrates and juries: qualifications, selection, appointment and their role in criminal cases",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-courts-and-lay-people"
+]
+},
+{
+"id": "1.2(e)",
+"short": "",
+"text": "The advantages and disadvantages of using juries in criminal cases",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-courts-and-lay-people"
+]
+}
+]
+},
+{
+"code": "1.3",
+"title": "Legal personnel",
+"main": "The legal system",
+"sectionGuidance": [
+"how the legal professions are regulated",
+"the different levels of judges and their respective roles",
+"how judicial independence is achieved: security of tenure, immunity from suit, independence from the other two arms of the state and independence from the case"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "legal-personnel",
+"statements": [
+{
+"id": "1.3(a)",
+"short": "",
+"text": "Barristers, solicitors and legal executives: role and the regulation of legal professions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"legal-personnel"
+]
+},
+{
+"id": "1.3(b)",
+"short": "",
+"text": "The judiciary: types and role in civil and criminal courts",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"legal-personnel"
+]
+},
+{
+"id": "1.3(c)",
+"short": "",
+"text": "The separation of powers and the independence of the judiciary",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"legal-personnel"
+]
+},
+{
+"id": "1.3(d)",
+"short": "",
+"text": "Evaluation of the judiciary, including the advantages of judicial independence",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"legal-personnel"
+]
+}
+]
+},
+{
+"code": "1.4",
+"title": "Access to justice",
+"main": "The legal system",
+"sectionGuidance": [
+"the Legal Aid Agency: availability and restrictions on government funding for civil and criminal cases",
+"other advice agencies could include Citizens Advice, Law Centres, Pro Bono Units, Free Representation Units, Trade Unions, Insurance companies and Charities",
+"impact of the changes to the legal aid budget"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "access-to-justice",
+"statements": [
+{
+"id": "1.4(a)",
+"short": "",
+"text": "Government funding for civil and criminal cases",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"access-to-justice"
+]
+},
+{
+"id": "1.4(b)",
+"short": "",
+"text": "Private funding, conditional fees, other advice agencies",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"access-to-justice"
+]
+},
+{
+"id": "1.4(c)",
+"short": "",
+"text": "Evaluation of access to justice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"access-to-justice"
+]
+}
+]
+},
+{
+"code": "2.1",
+"title": "Rules and theory",
+"main": "Criminal law",
+"sectionGuidance": [
+"definition of crime",
+"sources of criminal law",
+"the elements of criminal liability",
+"those involved in a criminal case – prosecution and defence",
+"the burden of proof, the standard of proof and reverse onus",
+"the aims and purpose of criminal law",
+"the principles of criminal law"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "criminal-law-rules-and-theory",
+"statements": [
+{
+"id": "2.1(a)",
+"short": "",
+"text": "An outline of the rules of criminal law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-law-rules-and-theory"
+]
+},
+{
+"id": "2.1(b)",
+"short": "",
+"text": "An overview of the theories of criminal law [A level only]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"criminal-law-rules-and-theory"
+]
+}
+]
+},
+{
+"code": "2.2",
+"title": "General elements of criminal liability",
+"main": "Criminal law",
+"sectionGuidance": [
+"conduct and consequence crimes; voluntary acts and state of affairs; categories of omissions; factual and legal causation, ways the chain of causation can be broken",
+"direct and oblique intention, subjective recklessness, negligence and gross negligence, strict liability including the methods used to establish whether an offence is a strict liability offence, transferred malice, coincidence of actus reus and mens rea"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "actus-reus-and-mens-rea",
+"statements": [
+{
+"id": "2.2(a)",
+"short": "",
+"text": "Actus reus: conduct and consequence crimes; voluntary acts and omissions; involuntariness; causation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+},
+{
+"id": "2.2(b)",
+"short": "",
+"text": "Mens rea: fault; intention and subjective recklessness; negligence and strict liability; transferred malice; coincidence of actus reus and mens rea",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+}
+]
+},
+{
+"code": "2.3",
+"title": "Fatal offences against the person",
+"main": "Criminal law",
+"sectionGuidance": [
+"definition of murder; the actus reus and mens rea requirements of the offence",
+"the partial defence of loss of control (s54 Coroners and Justice Act 2009)",
+"the partial defence of diminished responsibility (s2(1) Homicide Act 1957 as amended by s52 Coroners and Justice Act 2009)",
+"actus reus and mens rea of unlawful act manslaughter",
+"actus reus and mens rea of gross negligence manslaughter"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "murder-and-manslaughter",
+"statements": [
+{
+"id": "2.3(a)",
+"short": "",
+"text": "Murder: actus reus and mens rea",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"murder-and-manslaughter"
+]
+},
+{
+"id": "2.3(b)",
+"short": "",
+"text": "Voluntary manslaughter: defences of loss of control and diminished responsibility under Coroners and Justice Act 2009",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"murder-and-manslaughter"
+]
+},
+{
+"id": "2.3(c)",
+"short": "",
+"text": "Involuntary manslaughter: unlawful act manslaughter and gross negligence manslaughter",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"murder-and-manslaughter"
+]
+}
+]
+},
+{
+"code": "2.4",
+"title": "Non-fatal offences against the person",
+"main": "Criminal law",
+"sectionGuidance": [
+"definition of assault",
+"actus reus and mens rea of assault",
+"actus reus and mens rea of battery",
+"actus reus and mens rea under s47 Offences Against the Person Act 1861",
+"actus reus and mens rea under s20 Offences Against the Person Act 1861",
+"actus reus and mens rea under s18 Offences Against the Person Act 1861"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "non-fatal-offences",
+"statements": [
+{
+"id": "2.4(a)",
+"short": "",
+"text": "Common assault: assault and battery under s39 Criminal Justice Act 1988",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"non-fatal-offences"
+]
+},
+{
+"id": "2.4(b)",
+"short": "",
+"text": "Assault occasioning actual bodily harm, wounding and grievous bodily harm under s47, s20, s18 Offences Against the Person Act 1861",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"non-fatal-offences"
+]
+}
+]
+},
+{
+"code": "2.5",
+"title": "Offences against property",
+"main": "Criminal law",
+"sectionGuidance": [
+"definition of theft, robbery and burglary",
+"actus reus and mens rea of theft",
+"actus reus and mens rea of robbery",
+"actus reus and mens rea of burglary"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "theft-robbery-and-burglary",
+"statements": [
+{
+"id": "2.5(a)",
+"short": "",
+"text": "Theft under s1 Theft Act 1968",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"theft-robbery-and-burglary"
+]
+},
+{
+"id": "2.5(b)",
+"short": "",
+"text": "Robbery under s8 Theft Act 1968",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"theft-robbery-and-burglary"
+]
+},
+{
+"id": "2.5(c)",
+"short": "",
+"text": "Burglary under s9(1)(a) and s9(1)(b) Theft Act 1968",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"theft-robbery-and-burglary"
+]
+}
+]
+},
+{
+"code": "2.6",
+"title": "Mental capacity defences",
+"main": "Criminal law",
+"sectionGuidance": [
+"definition of insanity, automatism and intoxication",
+"starting point for the defence; M’Naghten rules; consequences of an insanity verdict; non-insane automatism",
+"voluntary and involuntary intoxication"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "insanity-automatism-and-intoxication",
+"statements": [
+{
+"id": "2.6(a)",
+"short": "",
+"text": "Insanity, automatism, intoxication",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"insanity-automatism-and-intoxication"
+]
+}
+]
+},
+{
+"code": "2.7",
+"title": "General defences",
+"main": "Criminal law",
+"sectionGuidance": [
+"the defence of self-defence and how it can be applied; reasonable and necessary force",
+"definition of and rules for duress by threats defences",
+"definitions and rules for duress of circumstances and necessity defences",
+"definition of consent and the main rules / elements of the defence"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "self-defence-duress-and-consent",
+"statements": [
+{
+"id": "2.7(a)",
+"short": "",
+"text": "Self-defence, duress by threats, duress of circumstances and necessity",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"self-defence-duress-and-consent"
+]
+},
+{
+"id": "2.7(b)",
+"short": "",
+"text": "Consent",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"self-defence-duress-and-consent"
+]
+}
+]
+},
+{
+"code": "2.8",
+"title": "Preliminary offences",
+"main": "Criminal law",
+"sectionGuidance": [
+"actus reus and mens rea of attempt",
+"factual and legal impossibility"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "attempts",
+"statements": [
+{
+"id": "2.8(a)",
+"short": "",
+"text": "Attempts: the actus reus and mens rea; impossibility",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"attempts"
+]
+}
+]
+},
+{
+"code": "2.9",
+"title": "Evaluation",
+"main": "Criminal law",
+"sectionGuidance": [
+"Common frameworks include whether an area of non-fatal offences or defence is:",
+"fit for purpose",
+"up-to-date",
+"just or unjust",
+"effective or ineffective",
+"balances principle and policy",
+"fair or unfair",
+"based on sound moral principles"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "criminal-law-evaluation",
+"statements": [
+{
+"id": "2.9(a)",
+"short": "",
+"text": "Critical evaluation of: non-fatal offences against the person",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-law-evaluation"
+]
+},
+{
+"id": "2.9(b)",
+"short": "",
+"text": "Critical evaluation of: defences: intoxication, self-defence and consent [A level only]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"criminal-law-evaluation"
+]
+},
+{
+"id": "2.9(c)",
+"short": "",
+"text": "Critical evaluation of: ideas for reform",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"criminal-law-evaluation"
+]
+}
+]
+},
+{
+"code": "3.1",
+"title": "Parliamentary law making",
+"main": "Law making",
+"sectionGuidance": [
+"Public Bills, Private Bills and Private Members’ Bills",
+"Hybrid Bills, Ten-minute rule Bills and details about pre-legislative procedures in either House is not required",
+"no need to give a detailed account of the Parliament Acts 1911 & 1949. No need to cover commencement"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "parliamentary-law-making",
+"statements": [
+{
+"id": "3.1(a)",
+"short": "",
+"text": "Legislative process – Green and White Papers, different types of Bill, legislative stages in the House of Commons and the House of Lords, and the role of the Crown",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+},
+{
+"id": "3.1(b)",
+"short": "",
+"text": "Advantages and disadvantages of the legislative process",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+}
+]
+},
+{
+"code": "3.2",
+"title": "Delegated legislation",
+"main": "Law making",
+"sectionGuidance": [
+"brief description of each type of delegated legislation with a supporting example for each",
+"Legislative Reform Orders, Henry VIII powers, Orders of Council",
+"parliamentary control to include approval of Parent Act, Negative Resolution Procedure, Affirmative Resolution Procedure and scrutiny by committee",
+"judicial review to include procedural ultra vires, substantive ultra vires and 'Wednesbury Unreasonableness'",
+"you do not need to cover procedures, locus standii or remedies for judicial review",
+"effectiveness and ineffectiveness of parliamentary and judicial controls"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "delegated-legislation",
+"statements": [
+{
+"id": "3.2(a)",
+"short": "",
+"text": "Types of delegated legislation: Orders in Council, Statutory Instruments and By-laws",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "3.2(b)",
+"short": "",
+"text": "Controls on delegated legislation by Parliament and the courts, and their effectiveness",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "3.2(c)",
+"short": "",
+"text": "Reasons for the use of delegated legislation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "3.2(d)",
+"short": "",
+"text": "Advantages and disadvantages of delegated legislation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+}
+]
+},
+{
+"code": "3.3",
+"title": "Statutory interpretation",
+"main": "Law making",
+"sectionGuidance": [
+"brief description of the operation of each rule/ approach, any relevant features and examples",
+"the need for statutory interpretation",
+"brief description of some of each type of aid with examples where appropriate",
+"position regarding human rights law"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "statutory-interpretation",
+"statements": [
+{
+"id": "3.3(a)",
+"short": "",
+"text": "Rules of statutory interpretation: the literal rule, the golden rule and the mischief rule",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "3.3(b)",
+"short": "",
+"text": "The purposive approach",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "3.3(c)",
+"short": "",
+"text": "Intrinsic and extrinsic aids to interpretation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "3.3(d)",
+"short": "",
+"text": "Impact of European Union Law and the Human Rights Act 1998 on statutory interpretation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "3.3(e)",
+"short": "",
+"text": "Advantages and disadvantages of the different rules and approaches to statutory interpretation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+}
+]
+},
+{
+"code": "3.4",
+"title": "Judicial precedent",
+"main": "Law making",
+"sectionGuidance": [
+"explain both the civil and criminal court hierarchies and appreciate their relevance to stare decisis",
+"explain the exceptions to the general rule of stare decisis: the UK Supreme Court under Practice Directions 3 & 4; The Court of Appeal under the doctrine set out in Young v Bristol Aeroplane",
+"the Court of Appeal’s historic resistance to the doctrine of stare decisis in relation to being bound by the UKSC",
+"types of precedent and the methods used by judges when dealing with such precedent, illustrated with cases"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "judicial-precedent",
+"statements": [
+{
+"id": "3.4(a)",
+"short": "",
+"text": "The Doctrine of Precedent including stare decisis, ratio decidendi and obiter dicta",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "3.4(b)",
+"short": "",
+"text": "The hierarchy of the courts including the Supreme Court",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "3.4(c)",
+"short": "",
+"text": "Binding, persuasive and original precedent; overruling; reversing; distinguishing",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "3.4(d)",
+"short": "",
+"text": "Advantages and disadvantages of precedent",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+}
+]
+},
+{
+"code": "3.5",
+"title": "Law reform",
+"main": "Law making",
+"sectionGuidance": [
+"specific influences with some supported examples of Acts they have brought in or amended",
+"explain how these influences work in anything other than outline detail",
+"who the Law Commission are, what do they do and how do they do it"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "law-reform",
+"statements": [
+{
+"id": "3.5(a)",
+"short": "",
+"text": "Influences on Parliament: political, public opinion, media, pressure groups and lobbyists including the Law Commission",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"law-reform"
+]
+},
+{
+"id": "3.5(b)",
+"short": "",
+"text": "Law reform by the Law Commission",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"law-reform"
+]
+},
+{
+"id": "3.5(c)",
+"short": "",
+"text": "Advantages and disadvantages of influences on law making",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"law-reform"
+]
+}
+]
+},
+{
+"code": "3.6",
+"title": "European Union law",
+"main": "Law making",
+"sectionGuidance": [
+"the membership, role and legal functions of the European Commission, the European Parliament, the Council of the European Union and the Court of Justice of the European Union",
+"treaties, regulations and directives",
+"the extension of rights to individuals through doctrines developed by both the CJEU and domestic courts",
+"the concept of supremacy of EU Law over the domestic law of member states with a focus on impact on Sovereignty of Parliament during the UK's membership of the European Union"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "european-union-law",
+"statements": [
+{
+"id": "3.6(a)",
+"short": "",
+"text": "Institutions of the European Union",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"european-union-law"
+]
+},
+{
+"id": "3.6(b)",
+"short": "",
+"text": "Sources of European Union law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"european-union-law"
+]
+},
+{
+"id": "3.6(c)",
+"short": "",
+"text": "Impact of European Union law on the law of England and Wales",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"european-union-law"
+]
+}
+]
+},
+{
+"code": "4.1",
+"title": "Rules and theory",
+"main": "The law of tort",
+"sectionGuidance": [
+"the aims of Tort Law",
+"understand tortious liability",
+"recognise who is the claimant and who is the defendant",
+"whether proof of fault is required and, if so, the nature of the fault",
+"the relevance of any possible defences",
+"the aim of a tortious action",
+"understand that the parties to a civil action may include any combination of both ‘natural’ and ‘legal’ persons",
+"the protected interests in Tort",
+"issues raised by the so-called ‘compensation culture’",
+"the basic differences between tort and contract, and tort and crime"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "tort-rules-and-theory",
+"statements": [
+{
+"id": "4.1(a)",
+"short": "",
+"text": "An outline of the rules of the law of tort",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"tort-rules-and-theory"
+]
+},
+{
+"id": "4.1(b)",
+"short": "",
+"text": "An overview of the theory of the law of tort [A level only]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-rules-and-theory"
+]
+}
+]
+},
+{
+"code": "4.2",
+"title": "Liability in negligence",
+"main": "The law of tort",
+"sectionGuidance": [
+"recognise a potential action in negligence",
+"the elements required for an action in negligence",
+"the relevance of any actionable defence, appreciate the burden and standard of proof and the role of compensation in the form of damages",
+"economic loss (negligent misstatement), psychiatric injury or liability for defective products",
+"no need to go into any specific detail on the way negligence applies to special groups such as the police, fire and other emergency services, lawyers and judges, local authorities and other public bodies, social services etc"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "negligence",
+"statements": [
+{
+"id": "4.2(a)",
+"short": "",
+"text": "Liability in negligence for injury to people and damage to property",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.2(b)",
+"short": "",
+"text": "The duty of care: Donoghue v Stevenson (1932) and the neighbour principle, the Caparo test and Robinson v Chief Constable of West Yorkshire (2018)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.2(c)",
+"short": "",
+"text": "Breach of duty: the objective standard of care and the reasonable man; risk factors",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.2(d)",
+"short": "",
+"text": "Damage: factual causation; legal causation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"negligence"
+]
+}
+]
+},
+{
+"code": "4.3",
+"title": "Occupiers’ liability",
+"main": "The law of tort",
+"sectionGuidance": [
+"definition of a lawful visitor",
+"the duty owed to a lawful visitor and when that duty is breached",
+"defences",
+"definition of a trespasser",
+"the duty owed to a trespasser and when that duty is breached",
+"defences"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "occupiers-liability",
+"statements": [
+{
+"id": "4.3(a)",
+"short": "",
+"text": "Liability in respect of lawful visitors (Occupiers’ Liability Act 1957)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"occupiers-liability"
+]
+},
+{
+"id": "4.3(b)",
+"short": "",
+"text": "Liability in respect of trespassers (Occupiers’ Liability Act 1984)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"occupiers-liability"
+]
+}
+]
+},
+{
+"code": "4.4",
+"title": "Torts connected to land",
+"main": "The law of tort",
+"sectionGuidance": [
+"basic elements of private nuisance, who can claim, what amounts to a nuisance, what amounts to an unreasonable interference, who may be sued, defences, remedies",
+"define the tort in Rylands v Fletcher, requirements to bring a claim, defences"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "private-nuisance-and-rylands-v-fletcher",
+"statements": [
+{
+"id": "4.4(a)",
+"short": "",
+"text": "Private nuisance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"private-nuisance-and-rylands-v-fletcher"
+]
+},
+{
+"id": "4.4(b)",
+"short": "",
+"text": "Rylands v Fletcher",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"private-nuisance-and-rylands-v-fletcher"
+]
+}
+]
+},
+{
+"code": "4.5",
+"title": "Vicarious liability",
+"main": "The law of tort",
+"sectionGuidance": [
+"the Salmond test for imposing liability in relation to unintentional torts",
+"the basic tests for establishing that the tortfeasor is an employee",
+"whether the tort has occurred in/within or not in/outwith the course of employment",
+"new approaches when dealing with tortfeasors who do not fit in the classic employer-employee relationship"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "vicarious-liability",
+"statements": [
+{
+"id": "4.5(a)",
+"short": "",
+"text": "Nature and purpose of vicarious liability",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"vicarious-liability"
+]
+},
+{
+"id": "4.5(b)",
+"short": "",
+"text": "Liability for employees, including traditional tests of employment status, 'akin to employment' tests, liability for torts committed in or not in the course of employment",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"vicarious-liability"
+]
+},
+{
+"id": "4.5(c)",
+"short": "",
+"text": "Liability for torts 'closely connected' to employment",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"vicarious-liability"
+]
+}
+]
+},
+{
+"code": "4.6",
+"title": "Defences",
+"main": "The law of tort",
+"sectionGuidance": [
+"contributory negligence and volenti non fit injuria: what it is and how it operates",
+"private nuisance: defences available and not available",
+"Rylands v Fletcher: defences available"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "tort-defences",
+"statements": [
+{
+"id": "4.6(a)",
+"short": "",
+"text": "Contributory negligence",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+},
+{
+"id": "4.6(b)",
+"short": "",
+"text": "Volenti non fit injuria",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+},
+{
+"id": "4.6(c)",
+"short": "",
+"text": "Defences specific to claims connected to private nuisance and Rylands v Fletcher",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+}
+]
+},
+{
+"code": "4.7",
+"title": "Remedies",
+"main": "The law of tort",
+"sectionGuidance": [
+"the basis of damages",
+"the basic concept of mitigation",
+"the basic concept of an injunction"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "tort-remedies",
+"statements": [
+{
+"id": "4.7(a)",
+"short": "",
+"text": "Compensatory damages",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"tort-remedies"
+]
+},
+{
+"id": "4.7(b)",
+"short": "",
+"text": "Mitigation of loss",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"tort-remedies"
+]
+},
+{
+"id": "4.7(c)",
+"short": "",
+"text": "Injunctions [A level only]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-remedies"
+]
+}
+]
+},
+{
+"code": "4.8",
+"title": "Evaluation",
+"main": "The law of tort",
+"sectionGuidance": [
+"Common frameworks include:",
+"advantages and disadvantages",
+"the fairness or unfairness of a particular area",
+"the balancing of competing interests",
+"the extent to which any tort achieves one or more of the aims of tort law (or indeed their own aims)",
+"comparing and contrasting two similar torts"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "tort-evaluation",
+"statements": [
+{
+"id": "4.8(a)",
+"short": "",
+"text": "Critical evaluation of: liability in negligence",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"tort-evaluation"
+]
+},
+{
+"id": "4.8(b)",
+"short": "",
+"text": "Critical evaluation of: occupiers’ liability",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"tort-evaluation"
+]
+},
+{
+"id": "4.8(c)",
+"short": "",
+"text": "Critical evaluation of: vicarious liability [A level only]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"tort-evaluation"
+]
+}
+]
+},
+{
+"code": "5.1",
+"title": "Introduction to the nature of law",
+"main": "The nature of law",
+"sectionGuidance": [
+"the differences between civil and criminal law: procedure, purpose and outcomes, including the different court systems",
+"the development and application of each area of law",
+"the principle of the rule of law as an underpinning concept for justice, human rights and as a guiding principle of the law, including core elements of the rule of law",
+"evaluation of the rule of law"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": false,
+"topic": "introduction-to-the-nature-of-law",
+"statements": [
+{
+"id": "5.1(a)",
+"short": "",
+"text": "Law and rules: the difference between enforceable legal rules and principles and other rules and norms of behaviour",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-the-nature-of-law"
+]
+},
+{
+"id": "5.1(b)",
+"short": "",
+"text": "The connections between law, morality and justice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-the-nature-of-law"
+]
+},
+{
+"id": "5.1(c)",
+"short": "",
+"text": "The differences between civil and criminal law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-the-nature-of-law"
+]
+},
+{
+"id": "5.1(d)",
+"short": "",
+"text": "An overview of the development of English Law: custom, common law, statute law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-the-nature-of-law"
+]
+},
+{
+"id": "5.1(e)",
+"short": "",
+"text": "The rule of law: definition and importance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-the-nature-of-law"
+]
+}
+]
+},
+{
+"code": "5.2",
+"title": "Law and morality",
+"main": "The nature of law",
+"sectionGuidance": [
+"define morality and law; the function of morals and law",
+"overlap and difference between immoral and illegal acts",
+"the main legal theories underpinning the law; such as legal positivism and natural law",
+"pluralism as a key factor in shaping the approach to morality in our society",
+"issues where morality and law have clashed in the courts",
+"the main arguments and issues in the Devlin- Hart debate and be able to apply the main arguments to specific areas and cases",
+"evaluation of law and morality"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "law-and-morality",
+"statements": [
+{
+"id": "5.2(a)",
+"short": "",
+"text": "The distinction between law and morals",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-morality"
+]
+},
+{
+"id": "5.2(b)",
+"short": "",
+"text": "The diversity of moral views in a pluralist society",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-morality"
+]
+},
+{
+"id": "5.2(c)",
+"short": "",
+"text": "The relationship between law and morals and its importance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-morality"
+]
+},
+{
+"id": "5.2(d)",
+"short": "",
+"text": "The legal enforcement of moral values",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-morality"
+]
+}
+]
+},
+{
+"code": "5.3",
+"title": "Law and justice",
+"main": "The nature of law",
+"sectionGuidance": [
+"the different types of justice within the law",
+"the different theories of justice which affect the way that the law is conducted",
+"it is not necessary to learn every theory and case in detail",
+"the extent to which the legal system produces just outcomes",
+"evaluation of law and justice"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "law-and-justice",
+"statements": [
+{
+"id": "5.3(a)",
+"short": "",
+"text": "The meaning of justice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-justice"
+]
+},
+{
+"id": "5.3(b)",
+"short": "",
+"text": "Theories of justice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-justice"
+]
+},
+{
+"id": "5.3(c)",
+"short": "",
+"text": "The extent to which the law achieves justice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-justice"
+]
+}
+]
+},
+{
+"code": "5.4",
+"title": "Law and society",
+"main": "The nature of law",
+"sectionGuidance": [
+"the role that the law has in shaping society through social control and vice-versa",
+"the role of the media in creating moral panic as an agent of social change",
+"the theories behind law as a social control mechanism; formal and informal mechanisms",
+"the different theories and how they are reflected in the legal system: consensus theory, conflict theory and labelling theory",
+"the different viewpoints within realism, such as left realism and right realism; the impact of the approaches on specific areas of the law",
+"evaluation of law and society"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "law-and-society",
+"statements": [
+{
+"id": "5.4(a)",
+"short": "",
+"text": "The role law plays in society",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-society"
+]
+},
+{
+"id": "5.4(b)",
+"short": "",
+"text": "The law as a social control mechanism",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-society"
+]
+},
+{
+"id": "5.4(c)",
+"short": "",
+"text": "The way in which the law creates and deals with consensus and conflict",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-society"
+]
+},
+{
+"id": "5.4(d)",
+"short": "",
+"text": "The realist approach to law making",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"law-and-society"
+]
+}
+]
+},
+{
+"code": "6.1",
+"title": "Rules and theory",
+"main": "Human rights law",
+"sectionGuidance": [
+"features and underpinning principles of human rights law: universality, interdependence, inalienable and indivisible rights, dignity, pluralism",
+"constitutional theories which underpin human rights law: rule of law, democracy, separation of powers",
+"approaches to interpretation including balancing of rights, proportionality, margin of appreciation"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "human-rights-rules-and-theory",
+"statements": [
+{
+"id": "6.1(a)",
+"short": "",
+"text": "An outline of the rules of human rights law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-rules-and-theory"
+]
+},
+{
+"id": "6.1(b)",
+"short": "",
+"text": "An overview of the theory of human rights law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-rules-and-theory"
+]
+}
+]
+},
+{
+"code": "6.2",
+"title": "Protection of the individual’s human rights and freedoms in the UK",
+"main": "Human rights law",
+"sectionGuidance": [
+"contextual background of the Second World War for the creation of the ECHR",
+"understand the relationship between the ECtHR, the Convention and the Council of Europe",
+"the provisions in the main sections within the Human Rights Act and the impact they have on domestic law",
+"understanding that the devolution settlements contained guarantees that human rights would be respected"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "echr-and-the-human-rights-act",
+"statements": [
+{
+"id": "6.2(a)",
+"short": "",
+"text": "The history of the European Convention on Human Rights and the European Court of Human Rights",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-and-the-human-rights-act"
+]
+},
+{
+"id": "6.2(b)",
+"short": "",
+"text": "The impact of the Human Rights Act 1998",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-and-the-human-rights-act"
+]
+},
+{
+"id": "6.2(c)",
+"short": "",
+"text": "The entrenched nature of the Human Rights Act 1998 in the devolution settlements of Scotland, Wales and Northern Ireland",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-and-the-human-rights-act"
+]
+}
+]
+},
+{
+"code": "6.3",
+"title": "Key provisions of the European Convention on Human Rights",
+"main": "Human rights law",
+"sectionGuidance": [
+"definitions of key terms within the articles",
+"understand that the restrictions consist of a combination of limitations within the articles of the ECHR and within domestic law in statute and common law"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "echr-articles-5-6-8-10-11",
+"statements": [
+{
+"id": "6.3(a)",
+"short": "",
+"text": "Article 5: the right to liberty and security",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+},
+{
+"id": "6.3(b)",
+"short": "",
+"text": "Article 6: the right to a fair trial",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+},
+{
+"id": "6.3(c)",
+"short": "",
+"text": "Article 8: the right to respect for family and private life",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+},
+{
+"id": "6.3(d)",
+"short": "",
+"text": "Article 10: the right to freedom of expression",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+},
+{
+"id": "6.3(e)",
+"short": "",
+"text": "Article 11: freedom of assembly",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+},
+{
+"id": "6.3(f)",
+"short": "",
+"text": "Restrictions permitted by the European Convention on Human Rights",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"echr-articles-5-6-8-10-11"
+]
+}
+]
+},
+{
+"code": "6.4",
+"title": "Human rights and English law",
+"main": "Human rights law",
+"sectionGuidance": [
+"public order offences in relation to restricting Articles 10 and 11: breach of the peace, criminal offences under the Public Order Act 1986 of riot, violent disorder and affray, illegal forms of assembly",
+"police powers in relation to Articles 5 and 6 to stop and search, arrest and detain under the Police and Criminal Evidence Act 1984, including the rights of the individual",
+"interception of communications in relation to restricting Article 8 including acquisition of data and surveillance under Regulation of Investigatory Powers Act 2000, and general privacy protections and lawful interceptions under Investigatory Powers Act 2016",
+"duty of confidentiality in relation to rights under Articles 8 and 10",
+"obscenity in relation to restricting Article 10",
+"torts of defamation in relation to restricting Article 10 and trespass to land in relation to restricting Article 11",
+"harassment in relation to restricting Article 10"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "human-rights-and-english-law",
+"statements": [
+{
+"id": "6.4(a)",
+"short": "",
+"text": "Public order offences",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(b)",
+"short": "",
+"text": "Police powers",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(c)",
+"short": "",
+"text": "Interception of  communications",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(d)",
+"short": "",
+"text": "Duty of confidentiality",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(e)",
+"short": "",
+"text": "Obscenity",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(f)",
+"short": "",
+"text": "Torts of defamation and trespass",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+},
+{
+"id": "6.4(g)",
+"short": "",
+"text": "Harassment",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-and-english-law"
+]
+}
+]
+},
+{
+"code": "6.5",
+"title": "Enforcement of human rights law",
+"main": "Human rights law",
+"sectionGuidance": [
+"role of domestic courts in interpreting and applying human rights",
+"the mechanisms within the domestic courts for enforcing human rights pre and post 2000",
+"the process of enforcing human rights through judicial review",
+"the procedure for bringing a case before the ECtHR, including the criteria for admission of a case; the guiding principles of the ECtHR"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "enforcement-of-human-rights",
+"statements": [
+{
+"id": "6.5(a)",
+"short": "",
+"text": "Role of domestic courts",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"enforcement-of-human-rights"
+]
+},
+{
+"id": "6.5(b)",
+"short": "",
+"text": "The process of judicial review",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"enforcement-of-human-rights"
+]
+},
+{
+"id": "6.5(c)",
+"short": "",
+"text": "The role of the European Court of Human Rights",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"enforcement-of-human-rights"
+]
+}
+]
+},
+{
+"code": "6.6",
+"title": "Evaluation",
+"main": "Human rights law",
+"sectionGuidance": [
+"the protections and restrictions offered by the ECHR and English law",
+"criticisms of the Human Rights Act 1998",
+"idea of a UK Bill of Rights"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "human-rights-evaluation",
+"statements": [
+{
+"id": "6.6(a)",
+"short": "",
+"text": "Critical evaluation of human rights protection in the UK: Articles 5, 6, 8, 10 and 11 of the European Convention on Human Rights",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-evaluation"
+]
+},
+{
+"id": "6.6(b)",
+"short": "",
+"text": "Critical evaluation of human rights protection in the UK: the Human Rights Act 1998",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-evaluation"
+]
+},
+{
+"id": "6.6(c)",
+"short": "",
+"text": "Critical evaluation of human rights protection in the UK: ideas for reform",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"human-rights-evaluation"
+]
+}
+]
+},
+{
+"code": "7.1",
+"title": "Rules and theory",
+"main": "The law of contract",
+"sectionGuidance": [
+"the parties to the contract",
+"the burden of proof",
+"sources of contract law",
+"remedies",
+"freedom of contract",
+"acting on good faith",
+"consumer protection",
+"balancing interests and justice",
+"principle of fault",
+"inequality of bargaining power"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "contract-rules-and-theory",
+"statements": [
+{
+"id": "7.1(a)",
+"short": "",
+"text": "An outline of the rules of the law of contract",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-rules-and-theory"
+]
+},
+{
+"id": "7.1(b)",
+"short": "",
+"text": "An overview of the theory of the law of contract",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-rules-and-theory"
+]
+}
+]
+},
+{
+"code": "7.2",
+"title": "Formation",
+"main": "The law of contract",
+"sectionGuidance": [
+"key concepts: invitation to treat, bilateral offer, unilateral offer, counter offers",
+"what is the presumption in domestic contracts? When is it rebutted in domestic contracts?",
+"what is the presumption in commercial contracts? When is it rebutted in commercial contracts?",
+"rules of consideration",
+"promissory estoppel",
+"privity: the rule itself, the common law exceptions to privity; Statutory exceptions"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "7.2(a)",
+"short": "",
+"text": "Offer and acceptance, including the rules of communication and revocation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+},
+{
+"id": "7.2(b)",
+"short": "",
+"text": "Intention to create legal relations: domestic and commercial, presumptions and rebuttals",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+},
+{
+"id": "7.2(c)",
+"short": "",
+"text": "Consideration: adequacy, sufficiency, past consideration, pre-existing duties",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+},
+{
+"id": "7.2(d)",
+"short": "",
+"text": "Privity: the rights of third parties under the Contract (Rights of Third Parties) Act 1999 and common law exceptions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "7.3",
+"title": "Terms",
+"main": "The law of contract",
+"sectionGuidance": [
+"the concept of terms and incorporation; the difference between express and implied terms; implied terms through common law, by statute, by course of dealings",
+"terms which are implied by the Consumer Rights Act",
+"terms implied by the Sale of Goods Act 1979 and the Supply of Goods and Services Act 1982 are not essential",
+"term-based and breach-based approach; consequences for breach of each kind of term; problems with the term-based approach; situations where a term will be identified as a condition",
+"common law regulation of exclusion clauses, Statutory regulation of exclusion clause, Regulation of exclusion clauses in non-consumer contracts"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "contract-terms",
+"statements": [
+{
+"id": "7.3(a)",
+"short": "",
+"text": "Express and implied terms, including the Consumer Rights Act 2015",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+},
+{
+"id": "7.3(b)",
+"short": "",
+"text": "Types of term: conditions, warranties, innominate terms",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+},
+{
+"id": "7.3(c)",
+"short": "",
+"text": "Exclusion and limitation clauses, including the Unfair Contract Terms Act 1977 and the Consumer Rights Act 2015",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+}
+]
+},
+{
+"code": "7.4",
+"title": "Vitiating factors",
+"main": "The law of contract",
+"sectionGuidance": [
+"fraudulent misrepresentation, negligent misstatement, statutory misrepresentation, innocent misrepresentation, remedies for each kind of misrepresentation",
+"the nature of the threat, the consequences of the threat, extra criteria (Pao On v Lau Yiu Long), remedies and limits"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "misrepresentation-and-economic-duress",
+"statements": [
+{
+"id": "7.4(a)",
+"short": "",
+"text": "Misrepresentation, including omission in consumer contexts and the Misrepresentation Act 1967",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"misrepresentation-and-economic-duress"
+]
+},
+{
+"id": "7.4(b)",
+"short": "",
+"text": "Economic duress",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"misrepresentation-and-economic-duress"
+]
+}
+]
+},
+{
+"code": "7.5",
+"title": "Discharge",
+"main": "The law of contract",
+"sectionGuidance": [
+"discharged through performance; exceptions: tender of performance, severable contracts, substantial performance, acceptance of partial performance, delayed performance",
+"grounds for claiming frustration, limits to frustration and the financial consequences of a contract being frustrated",
+"meaning of repudiatory breach; damages for repudiatory breach and for non-repudiatory breach; breach of a condition, an innominate term and a warranty",
+"nature of anticipatory breach; choices the other party has"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "discharge-of-contract",
+"statements": [
+{
+"id": "7.5(a)",
+"short": "",
+"text": "Performance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"discharge-of-contract"
+]
+},
+{
+"id": "7.5(b)",
+"short": "",
+"text": "Frustration",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"discharge-of-contract"
+]
+},
+{
+"id": "7.5(c)",
+"short": "",
+"text": "Breach of contract: actual and anticipatory breach",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"discharge-of-contract"
+]
+}
+]
+},
+{
+"code": "7.6",
+"title": "Remedies",
+"main": "The law of contract",
+"sectionGuidance": [
+"basis for a claim in damages, Special situations, Foreseeability of the losses, mitigation, enforceability of liquidated damages clauses",
+"specific performance",
+"injunctions",
+"awareness of the remedies for breach of rights in the Consumer Rights Act: rejection and partial rejection of goods, how the right is exercised, time limit for short term right to reject, reduction in price and having work redone"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "contract-remedies",
+"statements": [
+{
+"id": "7.6(a)",
+"short": "",
+"text": "Damages: compensatory damages; causation and remoteness of damage; mitigation of loss",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "7.6(b)",
+"short": "",
+"text": "Equitable remedies",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "7.6(c)",
+"short": "",
+"text": "Consumer remedies under the Consumer Rights Act 2015",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+}
+]
+},
+{
+"code": "7.7",
+"title": "Evaluation",
+"main": "The law of contract",
+"sectionGuidance": [
+"offer and acceptance",
+"intention to create legal relations",
+"consideration",
+"privity of contract",
+"incorporation of terms",
+"classification of terms",
+"exclusion clauses",
+"ideas for reform for the above areas"
+],
+"paper": null,
+"option": null,
+"area": null,
+"theme": null,
+"aLevelOnly": true,
+"topic": "contract-evaluation",
+"statements": [
+{
+"id": "7.7(a)",
+"short": "",
+"text": "Critical evaluation of: formation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-evaluation"
+]
+},
+{
+"id": "7.7(b)",
+"short": "",
+"text": "Critical evaluation of: contract terms",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-evaluation"
+]
+},
+{
+"id": "7.7(c)",
+"short": "",
+"text": "Critical evaluation of: ideas for reform",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"contract-evaluation"
+]
+}
+]
+}
+]

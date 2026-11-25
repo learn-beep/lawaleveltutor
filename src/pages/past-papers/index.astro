@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers, OCR_MATERIALS, FIRST_SERIES } from '../../lib/data';
+const sat = allPapers.filter((p) => p.kind === 'exam');
+const seriesList = [...new Set([...sat].sort((a, b) => b.year - a.year).map((p) => p.series))];
+const cell = (series, spec, n) => sat.find((p) => p.series === series && p.spec === spec && Number(p.paperNo) === n);
+const sam = (spec, n) => allPapers.find((p) => p.kind !== 'exam' && p.spec === spec && Number(p.paperNo) === n);
+const latest = seriesList[0];
+const names = ['The legal system and criminal law', 'Law making and the law of tort', 'The nature of law and human rights', 'The nature of law and the law of contract'];
+---
+<Base title={`OCR A-level Law past papers (H418 and AS H018) ${FIRST_SERIES.split(' ')[1]}–${latest.split(' ')[1]} with question-by-question tables`} description={`Every OCR A-level Law (H418) and AS Law (H018) paper from ${FIRST_SERIES} to ${latest}, plus OCR's sample papers: each question with its topic, marks, mark scheme and examiner's comment.`} context="past-papers">
+  <h1>OCR A-level Law past papers</h1>
+  <p>Every H418 and H018 series from {FIRST_SERIES} to {latest}, plus OCR's sample assessment papers. Each paper page lists every question with its section, topic, marks, assessment objectives and type, and shows the questions with their mark schemes and examiner's comments. There were no summer exams in 2020 or 2021.</p>
+  <p><a class="btn" href={OCR_MATERIALS} rel="noopener">OCR's own papers, mark schemes and reports</a></p>
+  <h2>A level (H418)</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th>{[1, 2, 3, 4].map((n) => <th>Paper {n}</th>)}</tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2, 3, 4].map((n) => { const p = cell(s, 'H418', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>Paper {n}</a> : '—'}</td>; })}</tr>)}
+      <tr><td>Sample papers</td>{[1, 2, 3, 4].map((n) => { const p = sam('H418', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>Paper {n}</a> : '—'}</td>; })}</tr></tbody>
+  </table></div>
+  <ul>{names.map((n, i) => <li><strong>Paper {i + 1}</strong> (H418/0{i + 1}): {n}</li>)}</ul>
+  <p class="muted">Students sit Papers 1 and 2 and either Paper 3 or Paper 4. Papers 3 and 4 print the same two nature of law essays in Section A.</p>
+  <h2 id="as">AS (H018)</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th><th>Paper 1</th><th>Paper 2</th></tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2].map((n) => { const p = cell(s, 'H018', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>Paper {n}</a> : '—'}</td>; })}</tr>)}
+      <tr><td>Sample papers</td>{[1, 2].map((n) => { const p = sam('H018', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>Paper {n}</a> : '—'}</td>; })}</tr></tbody>
+  </table></div>
+  <p class="muted">OCR has not published an examiners' report for June 2023 AS Paper 2 that we can use, so that paper shows questions and mark schemes only. The June 2026 papers will be added when OCR releases them to the public.</p>
+</Base>

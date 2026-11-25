@@ -1,0 +1,902 @@
+[
+{
+"id": "JUN25_H0181",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2025/H018_2025-06_P1_QP.pdf",
+"ms": "AS H018 (2022+)/June 2025/H018_2025-06_P1_MS.pdf",
+"er": "AS H018 (2022+)/June 2025/H018_2025-06_P1_ER.pdf"
+},
+"slug": "june-2025-h018-1",
+"questions": [
+"JUN25_H0181-01",
+"JUN25_H0181-02",
+"JUN25_H0181-03",
+"JUN25_H0181-04",
+"JUN25_H0181-05",
+"JUN25_H0181-06",
+"JUN25_H0181-07",
+"JUN25_H0181-08"
+]
+},
+{
+"id": "JUN25_H0182",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2025/H018_2025-06_P2_QP.pdf",
+"ms": "AS H018 (2022+)/June 2025/H018_2025-06_P2_MS.pdf",
+"er": "AS H018 (2022+)/June 2025/H018_2025-06_P2_ER.pdf"
+},
+"slug": "june-2025-h018-2",
+"questions": [
+"JUN25_H0182-01",
+"JUN25_H0182-02",
+"JUN25_H0182-03",
+"JUN25_H0182-04",
+"JUN25_H0182-05",
+"JUN25_H0182-06",
+"JUN25_H0182-07",
+"JUN25_H0182-08"
+]
+},
+{
+"id": "JUN25_H4181",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2025/H418_2025-06_P1_QP.pdf",
+"ms": "A level H418 (2022+)/June 2025/H418_2025-06_P1_MS.pdf",
+"er": "A level H418 (2022+)/June 2025/H418_2025-06_P1_ER.pdf"
+},
+"slug": "june-2025-h418-1",
+"questions": [
+"JUN25_H4181-01",
+"JUN25_H4181-02",
+"JUN25_H4181-03",
+"JUN25_H4181-04",
+"JUN25_H4181-05",
+"JUN25_H4181-06",
+"JUN25_H4181-07",
+"JUN25_H4181-08",
+"JUN25_H4181-09"
+]
+},
+{
+"id": "JUN25_H4182",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2025/H418_2025-06_P2_QP.pdf",
+"ms": "A level H418 (2022+)/June 2025/H418_2025-06_P2_MS.pdf",
+"er": "A level H418 (2022+)/June 2025/H418_2025-06_P2_ER.pdf"
+},
+"slug": "june-2025-h418-2",
+"questions": [
+"JUN25_H4182-01",
+"JUN25_H4182-02",
+"JUN25_H4182-03",
+"JUN25_H4182-04",
+"JUN25_H4182-05",
+"JUN25_H4182-06",
+"JUN25_H4182-07",
+"JUN25_H4182-08",
+"JUN25_H4182-09"
+]
+},
+{
+"id": "JUN25_H4183",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "3",
+"paper": "Paper 3",
+"name": "The nature of law and human rights",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2025/H418_2025-06_P3_QP.pdf",
+"ms": "A level H418 (2022+)/June 2025/H418_2025-06_P3_MS.pdf",
+"er": "A level H418 (2022+)/June 2025/H418_2025-06_P3_ER.pdf"
+},
+"slug": "june-2025-h418-3",
+"questions": [
+"JUN25_H4183-01",
+"JUN25_H4183-02",
+"JUN25_H4183-03",
+"JUN25_H4183-04",
+"JUN25_H4183-05",
+"JUN25_H4183-06",
+"JUN25_H4183-07"
+]
+},
+{
+"id": "JUN25_H4184",
+"bundle": null,
+"series": "June 2025",
+"year": 2025,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "4",
+"paper": "Paper 4",
+"name": "The nature of law and the law of contract",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2025/H418_2025-06_P4_QP.pdf",
+"ms": "A level H418 (2022+)/June 2025/H418_2025-06_P4_MS.pdf",
+"er": "A level H418 (2022+)/June 2025/H418_2025-06_P4_ER.pdf"
+},
+"slug": "june-2025-h418-4",
+"questions": [
+"JUN25_H4184-01",
+"JUN25_H4184-02",
+"JUN25_H4184-03",
+"JUN25_H4184-04",
+"JUN25_H4184-05",
+"JUN25_H4184-06",
+"JUN25_H4184-07"
+]
+},
+{
+"id": "JUN24_H0181",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2024/H018_2024-06_P1_QP.pdf",
+"ms": "AS H018 (2022+)/June 2024/H018_2024-06_P1_MS.pdf",
+"er": "AS H018 (2022+)/June 2024/H018_2024-06_P1_ER.pdf"
+},
+"slug": "june-2024-h018-1",
+"questions": [
+"JUN24_H0181-01",
+"JUN24_H0181-02",
+"JUN24_H0181-03",
+"JUN24_H0181-04",
+"JUN24_H0181-05",
+"JUN24_H0181-06",
+"JUN24_H0181-07",
+"JUN24_H0181-08"
+]
+},
+{
+"id": "JUN24_H0182",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2024/H018_2024-06_P2_QP.pdf",
+"ms": "AS H018 (2022+)/June 2024/H018_2024-06_P2_MS.pdf",
+"er": "AS H018 (2022+)/June 2024/H018_2024-06_P2_ER.pdf"
+},
+"slug": "june-2024-h018-2",
+"questions": [
+"JUN24_H0182-01",
+"JUN24_H0182-02",
+"JUN24_H0182-03",
+"JUN24_H0182-04",
+"JUN24_H0182-05",
+"JUN24_H0182-06",
+"JUN24_H0182-07",
+"JUN24_H0182-08"
+]
+},
+{
+"id": "JUN24_H4181",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2024/H418_2024-06_P1_QP.pdf",
+"ms": "A level H418 (2022+)/June 2024/H418_2024-06_P1_MS.pdf",
+"er": "A level H418 (2022+)/June 2024/H418_2024-06_P1_ER.pdf"
+},
+"slug": "june-2024-h418-1",
+"questions": [
+"JUN24_H4181-01",
+"JUN24_H4181-02",
+"JUN24_H4181-03",
+"JUN24_H4181-04",
+"JUN24_H4181-05",
+"JUN24_H4181-06",
+"JUN24_H4181-07",
+"JUN24_H4181-08",
+"JUN24_H4181-09"
+]
+},
+{
+"id": "JUN24_H4182",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2024/H418_2024-06_P2_QP.pdf",
+"ms": "A level H418 (2022+)/June 2024/H418_2024-06_P2_MS.pdf",
+"er": "A level H418 (2022+)/June 2024/H418_2024-06_P2_ER.pdf"
+},
+"slug": "june-2024-h418-2",
+"questions": [
+"JUN24_H4182-01",
+"JUN24_H4182-02",
+"JUN24_H4182-03",
+"JUN24_H4182-04",
+"JUN24_H4182-05",
+"JUN24_H4182-06",
+"JUN24_H4182-07",
+"JUN24_H4182-08",
+"JUN24_H4182-09"
+]
+},
+{
+"id": "JUN24_H4183",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "3",
+"paper": "Paper 3",
+"name": "The nature of law and human rights",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2024/H418_2024-06_P3_QP.pdf",
+"ms": "A level H418 (2022+)/June 2024/H418_2024-06_P3_MS.pdf",
+"er": "A level H418 (2022+)/June 2024/H418_2024-06_P3_ER.pdf"
+},
+"slug": "june-2024-h418-3",
+"questions": [
+"JUN24_H4183-01",
+"JUN24_H4183-02",
+"JUN24_H4183-03",
+"JUN24_H4183-04",
+"JUN24_H4183-05",
+"JUN24_H4183-06",
+"JUN24_H4183-07"
+]
+},
+{
+"id": "JUN24_H4184",
+"bundle": null,
+"series": "June 2024",
+"year": 2024,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "4",
+"paper": "Paper 4",
+"name": "The nature of law and the law of contract",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2024/H418_2024-06_P4_QP.pdf",
+"ms": "A level H418 (2022+)/June 2024/H418_2024-06_P4_MS.pdf",
+"er": "A level H418 (2022+)/June 2024/H418_2024-06_P4_ER.pdf"
+},
+"slug": "june-2024-h418-4",
+"questions": [
+"JUN24_H4184-01",
+"JUN24_H4184-02",
+"JUN24_H4184-03",
+"JUN24_H4184-04",
+"JUN24_H4184-05",
+"JUN24_H4184-06",
+"JUN24_H4184-07"
+]
+},
+{
+"id": "JUN23_H0181",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2023/H018_2023-06_P1_QP.pdf",
+"ms": "AS H018 (2022+)/June 2023/H018_2023-06_P1_MS.pdf",
+"er": "AS H018 (2022+)/June 2023/H018_2023-06_P1_ER.pdf"
+},
+"slug": "june-2023-h018-1",
+"questions": [
+"JUN23_H0181-01",
+"JUN23_H0181-02",
+"JUN23_H0181-03",
+"JUN23_H0181-04",
+"JUN23_H0181-05",
+"JUN23_H0181-06",
+"JUN23_H0181-07",
+"JUN23_H0181-08"
+]
+},
+{
+"id": "JUN23_H0182",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2023/H018_2023-06_P2_QP.pdf",
+"ms": "AS H018 (2022+)/June 2023/H018_2023-06_P2_MS.pdf",
+"er": null
+},
+"slug": "june-2023-h018-2",
+"questions": [
+"JUN23_H0182-01",
+"JUN23_H0182-02",
+"JUN23_H0182-03",
+"JUN23_H0182-04",
+"JUN23_H0182-05",
+"JUN23_H0182-06",
+"JUN23_H0182-07",
+"JUN23_H0182-08"
+]
+},
+{
+"id": "JUN23_H4181",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2023/H418_2023-06_P1_QP.pdf",
+"ms": "A level H418 (2022+)/June 2023/H418_2023-06_P1_MS.pdf",
+"er": "A level H418 (2022+)/June 2023/H418_2023-06_P1_ER.pdf"
+},
+"slug": "june-2023-h418-1",
+"questions": [
+"JUN23_H4181-01",
+"JUN23_H4181-02",
+"JUN23_H4181-03",
+"JUN23_H4181-04",
+"JUN23_H4181-05",
+"JUN23_H4181-06",
+"JUN23_H4181-07",
+"JUN23_H4181-08",
+"JUN23_H4181-09"
+]
+},
+{
+"id": "JUN23_H4182",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2023/H418_2023-06_P2_QP.pdf",
+"ms": "A level H418 (2022+)/June 2023/H418_2023-06_P2_MS.pdf",
+"er": "A level H418 (2022+)/June 2023/H418_2023-06_P2_ER.pdf"
+},
+"slug": "june-2023-h418-2",
+"questions": [
+"JUN23_H4182-01",
+"JUN23_H4182-02",
+"JUN23_H4182-03",
+"JUN23_H4182-04",
+"JUN23_H4182-05",
+"JUN23_H4182-06",
+"JUN23_H4182-07",
+"JUN23_H4182-08",
+"JUN23_H4182-09"
+]
+},
+{
+"id": "JUN23_H4183",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "3",
+"paper": "Paper 3",
+"name": "The nature of law and human rights",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2023/H418_2023-06_P3_QP.pdf",
+"ms": "A level H418 (2022+)/June 2023/H418_2023-06_P3_MS.pdf",
+"er": "A level H418 (2022+)/June 2023/H418_2023-06_P3_ER.pdf"
+},
+"slug": "june-2023-h418-3",
+"questions": [
+"JUN23_H4183-01",
+"JUN23_H4183-02",
+"JUN23_H4183-03",
+"JUN23_H4183-04",
+"JUN23_H4183-05",
+"JUN23_H4183-06",
+"JUN23_H4183-07"
+]
+},
+{
+"id": "JUN23_H4184",
+"bundle": null,
+"series": "June 2023",
+"year": 2023,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "4",
+"paper": "Paper 4",
+"name": "The nature of law and the law of contract",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2023/H418_2023-06_P4_QP.pdf",
+"ms": "A level H418 (2022+)/June 2023/H418_2023-06_P4_MS.pdf",
+"er": "A level H418 (2022+)/June 2023/H418_2023-06_P4_ER.pdf"
+},
+"slug": "june-2023-h418-4",
+"questions": [
+"JUN23_H4184-01",
+"JUN23_H4184-02",
+"JUN23_H4184-03",
+"JUN23_H4184-04",
+"JUN23_H4184-05",
+"JUN23_H4184-06",
+"JUN23_H4184-07"
+]
+},
+{
+"id": "JUN22_H0181",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2022/H018_2022-06_P1_QP.pdf",
+"ms": "AS H018 (2022+)/June 2022/H018_2022-06_P1_MS.pdf",
+"er": "AS H018 (2022+)/June 2022/H018_2022-06_P1_ER.pdf"
+},
+"slug": "june-2022-h018-1",
+"questions": [
+"JUN22_H0181-01",
+"JUN22_H0181-02",
+"JUN22_H0181-03",
+"JUN22_H0181-04",
+"JUN22_H0181-05",
+"JUN22_H0181-06",
+"JUN22_H0181-07",
+"JUN22_H0181-08"
+]
+},
+{
+"id": "JUN22_H0182",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 64,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "AS H018 (2022+)/June 2022/H018_2022-06_P2_QP.pdf",
+"ms": "AS H018 (2022+)/June 2022/H018_2022-06_P2_MS.pdf",
+"er": "AS H018 (2022+)/June 2022/H018_2022-06_P2_ER.pdf"
+},
+"slug": "june-2022-h018-2",
+"questions": [
+"JUN22_H0182-01",
+"JUN22_H0182-02",
+"JUN22_H0182-03",
+"JUN22_H0182-04",
+"JUN22_H0182-05",
+"JUN22_H0182-06",
+"JUN22_H0182-07",
+"JUN22_H0182-08"
+]
+},
+{
+"id": "JUN22_H4181",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2022/H418_2022-06_P1_QP.pdf",
+"ms": "A level H418 (2022+)/June 2022/H418_2022-06_P1_MS.pdf",
+"er": "A level H418 (2022+)/June 2022/H418_2022-06_P1_ER.pdf"
+},
+"slug": "june-2022-h418-1",
+"questions": [
+"JUN22_H4181-01",
+"JUN22_H4181-02",
+"JUN22_H4181-03",
+"JUN22_H4181-04",
+"JUN22_H4181-05",
+"JUN22_H4181-06",
+"JUN22_H4181-07",
+"JUN22_H4181-08",
+"JUN22_H4181-09"
+]
+},
+{
+"id": "JUN22_H4182",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2022/H418_2022-06_P2_QP.pdf",
+"ms": "A level H418 (2022+)/June 2022/H418_2022-06_P2_MS.pdf",
+"er": "A level H418 (2022+)/June 2022/H418_2022-06_P2_ER.pdf"
+},
+"slug": "june-2022-h418-2",
+"questions": [
+"JUN22_H4182-01",
+"JUN22_H4182-02",
+"JUN22_H4182-03",
+"JUN22_H4182-04",
+"JUN22_H4182-05",
+"JUN22_H4182-06",
+"JUN22_H4182-07",
+"JUN22_H4182-08",
+"JUN22_H4182-09"
+]
+},
+{
+"id": "JUN22_H4183",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "3",
+"paper": "Paper 3",
+"name": "The nature of law and human rights",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2022/H418_2022-06_P3_QP.pdf",
+"ms": "A level H418 (2022+)/June 2022/H418_2022-06_P3_MS.pdf",
+"er": "A level H418 (2022+)/June 2022/H418_2022-06_P3_ER.pdf"
+},
+"slug": "june-2022-h418-3",
+"questions": [
+"JUN22_H4183-01",
+"JUN22_H4183-02",
+"JUN22_H4183-03",
+"JUN22_H4183-04",
+"JUN22_H4183-05",
+"JUN22_H4183-06",
+"JUN22_H4183-07"
+]
+},
+{
+"id": "JUN22_H4184",
+"bundle": null,
+"series": "June 2022",
+"year": 2022,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "4",
+"paper": "Paper 4",
+"name": "The nature of law and the law of contract",
+"total": 80,
+"source": null,
+"kind": "exam",
+"files": {
+"qp": "A level H418 (2022+)/June 2022/H418_2022-06_P4_QP.pdf",
+"ms": "A level H418 (2022+)/June 2022/H418_2022-06_P4_MS.pdf",
+"er": "A level H418 (2022+)/June 2022/H418_2022-06_P4_ER.pdf"
+},
+"slug": "june-2022-h418-4",
+"questions": [
+"JUN22_H4184-01",
+"JUN22_H4184-02",
+"JUN22_H4184-03",
+"JUN22_H4184-04",
+"JUN22_H4184-05",
+"JUN22_H4184-06",
+"JUN22_H4184-07"
+]
+},
+{
+"id": "SAM_H0181",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 64,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H018_SAM_P1_QP+MS.pdf",
+"ms": "Sample assessment materials/H018_SAM_P1_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h018-1",
+"questions": [
+"SAM_H0181-01",
+"SAM_H0181-02",
+"SAM_H0181-03",
+"SAM_H0181-04",
+"SAM_H0181-05",
+"SAM_H0181-06",
+"SAM_H0181-07",
+"SAM_H0181-08"
+]
+},
+{
+"id": "SAM_H0182",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "AS",
+"spec": "H018",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 64,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H018_SAM_P2_QP+MS.pdf",
+"ms": "Sample assessment materials/H018_SAM_P2_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h018-2",
+"questions": [
+"SAM_H0182-01",
+"SAM_H0182-02",
+"SAM_H0182-03",
+"SAM_H0182-04",
+"SAM_H0182-05",
+"SAM_H0182-06",
+"SAM_H0182-07",
+"SAM_H0182-08"
+]
+},
+{
+"id": "SAM_H4181",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "1",
+"paper": "Paper 1",
+"name": "The legal system and criminal law",
+"total": 80,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H418_SAM_P1_QP+MS.pdf",
+"ms": "Sample assessment materials/H418_SAM_P1_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h418-1",
+"questions": [
+"SAM_H4181-01",
+"SAM_H4181-02",
+"SAM_H4181-03",
+"SAM_H4181-04",
+"SAM_H4181-05",
+"SAM_H4181-06",
+"SAM_H4181-07",
+"SAM_H4181-08",
+"SAM_H4181-09"
+]
+},
+{
+"id": "SAM_H4182",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "2",
+"paper": "Paper 2",
+"name": "Law making and the law of tort",
+"total": 80,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H418_SAM_P2_QP+MS.pdf",
+"ms": "Sample assessment materials/H418_SAM_P2_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h418-2",
+"questions": [
+"SAM_H4182-01",
+"SAM_H4182-02",
+"SAM_H4182-03",
+"SAM_H4182-04",
+"SAM_H4182-05",
+"SAM_H4182-06",
+"SAM_H4182-07",
+"SAM_H4182-08",
+"SAM_H4182-09"
+]
+},
+{
+"id": "SAM_H4183",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "3",
+"paper": "Paper 3",
+"name": "The nature of law and human rights",
+"total": 80,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H418_SAM_P3_QP+MS.pdf",
+"ms": "Sample assessment materials/H418_SAM_P3_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h418-3",
+"questions": [
+"SAM_H4183-01",
+"SAM_H4183-02",
+"SAM_H4183-03",
+"SAM_H4183-04",
+"SAM_H4183-05",
+"SAM_H4183-06",
+"SAM_H4183-07"
+]
+},
+{
+"id": "SAM_H4184",
+"bundle": null,
+"series": "Sample",
+"year": 2020,
+"qual": "A-level",
+"spec": "H418",
+"paperNo": "4",
+"paper": "Paper 4",
+"name": "The nature of law and the law of contract",
+"total": 80,
+"source": null,
+"kind": "specimen",
+"files": {
+"qp": "Sample assessment materials/H418_SAM_P4_QP+MS.pdf",
+"ms": "Sample assessment materials/H418_SAM_P4_QP+MS.pdf",
+"er": null
+},
+"slug": "sample-h418-4",
+"questions": [
+"SAM_H4184-01",
+"SAM_H4184-02",
+"SAM_H4184-03",
+"SAM_H4184-04",
+"SAM_H4184-05",
+"SAM_H4184-06",
+"SAM_H4184-07"
+]
+}
+]

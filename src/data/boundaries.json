@@ -1,0 +1,57 @@
+{
+  "source": "OCR's subject grade boundaries for A Level Law (H418), out of 240: three 80-mark papers added together with no weighting. Figures as compiled by tutor2u from OCR's boundary documents and not yet checked by us against OCR's own PDFs. OCR sets a separate boundary for each option (Papers 1, 2 and 3, or Papers 1, 2 and 4); in some years the two differ by one to three marks, so treat these as a guide.",
+  "alevel": [
+    {
+      "series": "June 2026",
+      "max": 240,
+      "A*": 180,
+      "A": 152,
+      "B": 122,
+      "C": 92,
+      "D": 64,
+      "E": 34
+    },
+    {
+      "series": "June 2025",
+      "max": 240,
+      "A*": 175,
+      "A": 147,
+      "B": 118,
+      "C": 89,
+      "D": 60,
+      "E": 32
+    },
+    {
+      "series": "June 2024",
+      "max": 240,
+      "A*": 186,
+      "A": 160,
+      "B": 129,
+      "C": 98,
+      "D": 69,
+      "E": 40
+    },
+    {
+      "series": "June 2023",
+      "max": 240,
+      "A*": 183,
+      "A": 158,
+      "B": 128,
+      "C": 96,
+      "D": 66,
+      "E": 35
+    },
+    {
+      "series": "June 2022",
+      "max": 240,
+      "A*": 178,
+      "A": 147,
+      "B": 116,
+      "C": 86,
+      "D": 56,
+      "E": 26
+    }
+  ],
+  "asSource": "",
+  "as": []
+}

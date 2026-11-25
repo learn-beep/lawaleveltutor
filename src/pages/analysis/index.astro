@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import Heatmap from '../../components/Heatmap.astro';
+import weighting from '../../data/weighting.json';
+import { allPapers } from '../../lib/data';
+const areas = Object.entries(weighting.areas).map(([code, title]) => [code, `${code} ${title}`]);
+const sat = allPapers.filter((p) => p.spec === 'H418' && p.kind === 'exam');
+const series = [...new Set(sat.map((p) => p.series))].reverse();
+const marks = (s, area) => Math.round(sat.filter((p) => p.series === s).reduce((n, p) => n + (weighting.byPaper[p.id]?.[area] || 0), 0));
+---
+<Base title={`What comes up in OCR A-level Law: marks by topic, ${series[0].split(' ')[1]}–${series[series.length - 1].split(' ')[1]}`} description="Marks printed on each section of the OCR A-level Law specification in every series, counted from the content each question assesses, as a heat map." context="analysis">
+  <h1>What comes up, section by section</h1>
+  <p>Marks printed on each specification section across the four A-level papers in each series, counted from the main content each question assesses (a question on two sections is split between them). Darker cells carry more marks; the right-hand column is the total. These are the marks printed, not the marks a student answers: every paper offers a choice, so a section can carry 20 marks in a part of the paper you do not choose. The nature of law essays, printed on both Paper 3 and Paper 4, are counted once.</p>
+  <Heatmap areas={areas} series={series} value={marks} title="Marks by specification section by series" short={(s) => s.replace('June ', 'Jun ').replace(' 20', ' ')} />
+  <p class="muted">{series[series.length - 1]} is the most recent series OCR has released to the public; the June 2026 papers will be added when they are. With four series the pattern is thin: use it to see what has not been asked for a while, not to predict the next paper.</p>
+  <p><a href="/what-came-up/">What came up in the latest papers</a> · <a href="/timeline/">Every paper as a timeline</a></p>
+</Base>

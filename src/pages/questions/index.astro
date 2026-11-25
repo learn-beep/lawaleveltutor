@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allTopics, groupInfo, GROUPS, FIRST_SERIES } from '../../lib/data';
+const groups = GROUPS.map((g) => [g[0], g[4], g[0]]);
+---
+<Base title={`OCR A-level Law questions by topic (every paper since ${FIRST_SERIES.split(' ')[1]})`} description={`Every OCR AS and A-level Law past-paper question since ${FIRST_SERIES.split(' ')[1]} sorted into ${allTopics.length} topics, each with its scenarios, mark schemes, examiner comments and every essay title set.`} context="questions-index">
+  <h1>Questions by topic</h1>
+  <p>Every OCR AS (H018) and A-level (H418) Law past-paper question since {FIRST_SERIES}, with OCR's sample papers, sorted into topics by the specification content each question assesses. Each topic page shows every question with its scenario, the mark scheme with its levels of response, the examiner's comment, and filters by paper, year and question type. The nature of law essays printed on both Paper 3 and Paper 4 are shown once.</p>
+  {groups.map(([h, where, key]) => (
+    <>
+      <h2 class="strand-head">{h}</h2>
+      <p class="muted">{where}</p>
+      <ul class="topic-list">
+        {allTopics.filter((t) => t.group === key).map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.name}</span><span class="strand"><span class={`badge badge-${groupInfo(t.group).badge}`}>{t.code}</span> {t.parts} question{t.parts === 1 ? '' : 's'}</span></a></li>)}
+      </ul>
+    </>
+  ))}
+  <h2>By question type</h2>
+  <p>Or work on a kind of question across every topic: <a href="/questions/type/describe-explain/">8-mark describe and explain questions</a>, <a href="/questions/type/evaluation/">8- and 12-mark evaluation questions</a>, <a href="/questions/type/scenarios/">scenario (problem) questions</a>, <a href="/questions/type/essays/">essays</a>.</p>
+</Base>
