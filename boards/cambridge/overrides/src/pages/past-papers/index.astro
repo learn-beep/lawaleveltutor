@@ -1,0 +1,33 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers, OCR_MATERIALS, seriesRank } from '../../lib/data';
+const exams = allPapers.filter((p) => p.kind === 'exam');
+const seriesList = [...new Set(exams.map((p) => p.series))].sort((a, b) => seriesRank(b) - seriesRank(a));
+const cell = (series, n) => exams.filter((p) => p.series === series && p.paperNo === String(n)).sort((a, b) => a.comp.localeCompare(b.comp));
+const specimens = allPapers.filter((p) => p.kind === 'specimen');
+const reprinted = exams.filter((p) => p.reprints?.length);
+---
+<Base title="Cambridge International A Level Law 9084 past papers 2023–2025, question by question" description="Every Cambridge International AS and A Level Law (9084) paper since 2023: June and November, all time-zone variants, each with a question-by-question table, mark schemes and examiners' report comments." context="past-papers">
+  <h1>Cambridge 9084 Law past papers</h1>
+  <p>Every June and November series since the current syllabus was first examined in 2023, in every time-zone variant, plus Cambridge's specimen papers. Each paper page lists every question with its topic, marks, assessment objectives and type, and shows the questions with the mark scheme and the examiners' report. The papers are Cambridge's own; most of the copies used here were taken from past-paper archives online, as Cambridge publishes only a few recent papers on its public site.</p>
+  <p><a class="btn" href={OCR_MATERIALS} rel="noopener">Cambridge's 9084 syllabus page</a></p>
+  <p class="muted">The variant is the second digit of the paper code: 9084/12 is Paper 1, variant 2. Schools sit the variant set for their time zone, so the variants of one series are different papers on the same syllabus.</p>
+  <h2>AS and A Level (9084)</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th><th>Paper 1</th><th>Paper 2</th><th>Paper 3</th><th>Paper 4</th></tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2, 3, 4].map((n) => { const ps = cell(s, n); return <td>{ps.length ? ps.map((p, i) => <>{i ? ' · ' : ''}<a href={`/past-papers/${p.slug}/`}>{p.spec}/{p.comp}</a></>) : '—'}</td>; })}</tr>)}</tbody>
+  </table></div>
+  <ul>
+    <li><strong>Paper 1</strong> English Legal System (AS, 75 marks, 1 hour 30 minutes): five short questions, then two two-part essays from three.</li>
+    <li><strong>Paper 2</strong> Criminal Law (AS, 60 marks, 1 hour 30 minutes): a three-part source-based sentencing question, then one two-part question from two.</li>
+    <li><strong>Paper 3</strong> Law of Contract and <strong>Paper 4</strong> Law of Tort (A Level, 75 marks each, 1 hour 30 minutes): one problem scenario from two, then two essays from three.</li>
+  </ul>
+  <h2>Specimen papers</h2>
+  <p>{specimens.map((p, i) => <>{i ? ' · ' : ''}<a href={`/past-papers/${p.slug}/`}>{p.paper}: {p.name}</a></>)}</p>
+  <h2>Gaps and reprints</h2>
+  <ul class="muted">
+    <li>Some variants are word-for-word reprints of another (in November, variant 3 has repeated variant 1, and in June 2025 variant 3 repeated variant 1), so they are listed once: {reprinted.length} papers carry a note on their page.</li>
+    <li>Examiners' reports for November 2024, June 2025 and November 2025 are not public, and Cambridge does not report on variant 3, so those questions have the mark scheme only.</li>
+    <li>The June 2026 papers will be added when clean copies are public.</li>
+  </ul>
+</Base>

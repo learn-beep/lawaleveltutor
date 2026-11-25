@@ -1,0 +1,47 @@
+{
+ "topic": "formation-of-contract",
+ "name": "Formation of contract",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Offer",
+   "definition": "A statement of the terms on which the offeror is willing to be bound, made with the intention that it becomes binding as soon as it is accepted.",
+   "examiner": "Carlill v Carbolic Smoke Ball Co: an offer can be made to the whole world (a unilateral offer)."
+  },
+  {
+   "term": "Invitation to treat",
+   "definition": "An invitation to others to make an offer or to negotiate; it cannot be accepted to form a contract.",
+   "examiner": "Goods in a shop window (Fisher v Bell), goods on shelves (Pharmaceutical Society v Boots), advertisements (Partridge v Crittenden)."
+  },
+  {
+   "term": "Acceptance",
+   "definition": "A final and unqualified agreement to all the terms of the offer.",
+   "examiner": "A counter-offer ends the original offer (Hyde v Wrench); a request for information does not (Stevenson v McLean). Acceptance must be communicated (Felthouse v Bindley)."
+  },
+  {
+   "term": "Postal rule",
+   "definition": "Where post is a reasonable means of acceptance, acceptance is complete when the letter is posted, not when it arrives.",
+   "examiner": "Adams v Lindsell. It does not apply if the offer requires actual notice (Holwell Securities v Hughes). Instantaneous communication takes effect when received (Entores v Miles Far East)."
+  },
+  {
+   "term": "Revocation",
+   "definition": "Withdrawal of an offer. An offer can be revoked at any time before acceptance, but the revocation must be communicated to the offeree.",
+   "examiner": "Byrne v Van Tienhoven; communication can be by a reliable third party (Dickinson v Dodds). A unilateral offer cannot be revoked once performance has begun (Errington v Errington and Woods)."
+  },
+  {
+   "term": "Intention to create legal relations",
+   "definition": "The parties must intend their agreement to be legally binding. Social and domestic agreements are presumed not to be; commercial agreements are presumed to be.",
+   "examiner": "Balfour v Balfour, rebutted in Merritt v Merritt; Edwards v Skyways, rebutted by an honour clause in Jones v Vernon's Pools. State the presumption, then say whether the facts rebut it."
+  },
+  {
+   "term": "Consideration",
+   "definition": "What each party gives or promises in exchange for the other's promise.",
+   "examiner": "It must be sufficient but need not be adequate (Chappell v Nestlé, Thomas v Thomas); past consideration is not good consideration (Re McArdle; contrast Lampleigh v Braithwait); performing an existing duty is not enough (Stilk v Myrick) unless there is a practical benefit (Williams v Roffey)."
+  },
+  {
+   "term": "Capacity (minors)",
+   "definition": "The legal ability of a person under 18 to make a binding contract: generally limited, but contracts for necessaries and beneficial contracts of service bind a minor.",
+   "examiner": "Nash v Inman on necessaries; Doyle v White City Stadium and De Francesco v Barnum on contracts of service. Section 3 Sale of Goods Act 1979: a reasonable price for necessaries."
+  }
+ ]
+}

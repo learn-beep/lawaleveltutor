@@ -1,0 +1,1940 @@
+[
+{
+"slug": "english-legal-system-in-context",
+"name": "The English legal system in context: legal systems and the rule of law",
+"code": "1.1.1",
+"codes": [
+"1.1.1"
+],
+"group": "Paper 1: Sources of law and law making",
+"strand": "Paper 1: Sources of law and law making",
+"paper": "Paper 1: Sources of law and law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.1.1(a)",
+"1.1.1(b)",
+"1.1.1(c)",
+"1.1.1(d)",
+"1.1.1(e)",
+"1.1.1(f)",
+"1.1.1(g)",
+"1.1.1(h)"
+],
+"statementText": {
+"1.1.1(a)": "Legal systems around the world – civil law (codified), common law, customary law, religious law, mixed legal systems",
+"1.1.1(b)": "Adversarial and inquisitorial systems",
+"1.1.1(c)": "The rule of law and its application to law making, the legal system and substantive law",
+"1.1.1(d)": "The difference between civil and criminal law",
+"1.1.1(e)": "The relationship between law and morality",
+"1.1.1(f)": "Law and justice",
+"1.1.1(g)": "The role of law in society",
+"1.1.1(h)": "The importance of fault in civil and criminal law"
+},
+"statementShort": {
+"1.1.1(a)": "",
+"1.1.1(b)": "",
+"1.1.1(c)": "",
+"1.1.1(d)": "",
+"1.1.1(e)": "",
+"1.1.1(f)": "",
+"1.1.1(g)": "",
+"1.1.1(h)": ""
+},
+"asStatements": [],
+"levels": {
+"1.1.1(a)": null,
+"1.1.1(b)": null,
+"1.1.1(c)": null,
+"1.1.1(d)": null,
+"1.1.1(e)": null,
+"1.1.1(f)": null,
+"1.1.1(g)": null,
+"1.1.1(h)": null
+},
+"parts": 13,
+"marks": 74,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "1.1.1 English legal system and its context",
+"syllabusTopic": "Principles and sources of English law"
+},
+{
+"slug": "parliamentary-law-making",
+"name": "Parliamentary law making",
+"code": "1.1.2",
+"codes": [
+"1.1.2"
+],
+"group": "Paper 1: Sources of law and law making",
+"strand": "Paper 1: Sources of law and law making",
+"paper": "Paper 1: Sources of law and law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.1.2(a)",
+"1.1.2(b)",
+"1.1.2(c)",
+"1.1.2(d)"
+],
+"statementText": {
+"1.1.2(a)": "The legislative process from green paper to Royal Assent, role of the House of Commons and the House of Lords in the process, different types of bill",
+"1.1.2(b)": "Parliamentary supremacy",
+"1.1.2(c)": "Influences on parliament – political pressure, public opinion, pressure groups, media",
+"1.1.2(d)": "The role and composition of the Law Commission"
+},
+"statementShort": {
+"1.1.2(a)": "",
+"1.1.2(b)": "",
+"1.1.2(c)": "",
+"1.1.2(d)": ""
+},
+"asStatements": [],
+"levels": {
+"1.1.2(a)": null,
+"1.1.2(b)": null,
+"1.1.2(c)": null,
+"1.1.2(d)": null
+},
+"parts": 18,
+"marks": 189,
+"essays": 8,
+"mcq": 0,
+"sectionTitle": "1.1.2 Parliamentary law making",
+"syllabusTopic": "Principles and sources of English law"
+},
+{
+"slug": "delegated-legislation",
+"name": "Delegated legislation",
+"code": "1.1.3",
+"codes": [
+"1.1.3"
+],
+"group": "Paper 1: Sources of law and law making",
+"strand": "Paper 1: Sources of law and law making",
+"paper": "Paper 1: Sources of law and law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.1.3(a)",
+"1.1.3(b)",
+"1.1.3(c)",
+"1.1.3(d)"
+],
+"statementText": {
+"1.1.3(a)": "Types of delegated legislation – Orders in Council, statutory instruments and bylaws",
+"1.1.3(b)": "The Legislative and Regulatory Reform Act 2006",
+"1.1.3(c)": "Parliamentary controls on delegated legislation – pre-drafting consultation, scrutiny committees, affirmative and negative resolution",
+"1.1.3(d)": "Court controls on delegated legislation – judicial review, locus standi, procedural ultra vires, substantive ultra vires, and unreasonableness"
+},
+"statementShort": {
+"1.1.3(a)": "",
+"1.1.3(b)": "",
+"1.1.3(c)": "",
+"1.1.3(d)": ""
+},
+"asStatements": [],
+"levels": {
+"1.1.3(a)": null,
+"1.1.3(b)": null,
+"1.1.3(c)": null,
+"1.1.3(d)": null
+},
+"parts": 9,
+"marks": 89,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "1.1.3 Delegated legislation",
+"syllabusTopic": "Principles and sources of English law"
+},
+{
+"slug": "statutory-interpretation",
+"name": "Statutory interpretation",
+"code": "1.1.4",
+"codes": [
+"1.1.4"
+],
+"group": "Paper 1: Sources of law and law making",
+"strand": "Paper 1: Sources of law and law making",
+"paper": "Paper 1: Sources of law and law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.1.4(a)",
+"1.1.4(b)",
+"1.1.4(c)",
+"1.1.4(d)",
+"1.1.4(e)"
+],
+"statementText": {
+"1.1.4(a)": "The common law rules of interpretation – literal, golden, mischief, and purposive approach",
+"1.1.4(b)": "Rules of language – ejusdem generis, expressio unius exclusio alterius, noscitur a sociis",
+"1.1.4(c)": "Intrinsic aids to interpretation – preamble, long and short titles, headings, schedules, marginal notes, interpretation sections",
+"1.1.4(d)": "Extrinsic aids to interpretation – previous Acts on the same topic, earlier case law, the historical setting, dictionaries of the time, Hansard, reports of law reform bodies, international treaties",
+"1.1.4(e)": "The impact of European Union law and of the Human Rights Act 1998 on statutory interpretation"
+},
+"statementShort": {
+"1.1.4(a)": "",
+"1.1.4(b)": "",
+"1.1.4(c)": "",
+"1.1.4(d)": "",
+"1.1.4(e)": ""
+},
+"asStatements": [],
+"levels": {
+"1.1.4(a)": null,
+"1.1.4(b)": null,
+"1.1.4(c)": null,
+"1.1.4(d)": null,
+"1.1.4(e)": null
+},
+"parts": 12,
+"marks": 107,
+"essays": 4,
+"mcq": 0,
+"sectionTitle": "1.1.4 Statutory interpretation",
+"syllabusTopic": "Principles and sources of English law"
+},
+{
+"slug": "judicial-precedent",
+"name": "Judicial precedent",
+"code": "1.1.5",
+"codes": [
+"1.1.5"
+],
+"group": "Paper 1: Sources of law and law making",
+"strand": "Paper 1: Sources of law and law making",
+"paper": "Paper 1: Sources of law and law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.1.5(a)",
+"1.1.5(b)",
+"1.1.5(c)",
+"1.1.5(d)",
+"1.1.5(e)",
+"1.1.5(f)",
+"1.1.5(g)"
+],
+"statementText": {
+"1.1.5(a)": "The doctrine of judicial precedent",
+"1.1.5(b)": "Ratio decidendi, obiter dicta and law reporting",
+"1.1.5(c)": "Binding, original and persuasive precedents",
+"1.1.5(d)": "The hierarchy of the courts",
+"1.1.5(e)": "The Supreme Court and use of the Practice Statement",
+"1.1.5(f)": "The Court of Appeal and the exceptions in Young v Bristol Aeroplane Co (1944)",
+"1.1.5(g)": "Avoidance techniques – overruling, reversing and distinguishing"
+},
+"statementShort": {
+"1.1.5(a)": "",
+"1.1.5(b)": "",
+"1.1.5(c)": "",
+"1.1.5(d)": "",
+"1.1.5(e)": "",
+"1.1.5(f)": "",
+"1.1.5(g)": ""
+},
+"asStatements": [],
+"levels": {
+"1.1.5(a)": null,
+"1.1.5(b)": null,
+"1.1.5(c)": null,
+"1.1.5(d)": null,
+"1.1.5(e)": null,
+"1.1.5(f)": null,
+"1.1.5(g)": null
+},
+"parts": 16,
+"marks": 151,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "1.1.5 Judicial precedent",
+"syllabusTopic": "Principles and sources of English law"
+},
+{
+"slug": "civil-courts",
+"name": "Civil courts and civil process",
+"code": "1.2.1",
+"codes": [
+"1.2.1"
+],
+"group": "Paper 1: Machinery of justice",
+"strand": "Paper 1: Machinery of justice",
+"paper": "Paper 1: Machinery of justice",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.2.1(a)",
+"1.2.1(b)",
+"1.2.1(c)",
+"1.2.1(d)",
+"1.2.1(e)"
+],
+"statementText": {
+"1.2.1(a)": "Role and jurisdiction of Magistrates’ Court, County Court, High Court, Court of Appeal, Supreme Court",
+"1.2.1(b)": "The Woolf reforms",
+"1.2.1(c)": "Pre-trial procedures",
+"1.2.1(d)": "Allocation of cases – small claims, fast and multi-track",
+"1.2.1(e)": "Appeals"
+},
+"statementShort": {
+"1.2.1(a)": "",
+"1.2.1(b)": "",
+"1.2.1(c)": "",
+"1.2.1(d)": "",
+"1.2.1(e)": ""
+},
+"asStatements": [],
+"levels": {
+"1.2.1(a)": null,
+"1.2.1(b)": null,
+"1.2.1(c)": null,
+"1.2.1(d)": null,
+"1.2.1(e)": null
+},
+"parts": 13,
+"marks": 96,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "1.2.1 Civil courts and civil process",
+"syllabusTopic": "Machinery of justice"
+},
+{
+"slug": "alternative-dispute-resolution",
+"name": "Alternative methods of dispute resolution",
+"code": "1.2.2",
+"codes": [
+"1.2.2"
+],
+"group": "Paper 1: Machinery of justice",
+"strand": "Paper 1: Machinery of justice",
+"paper": "Paper 1: Machinery of justice",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.2.2(a)",
+"1.2.2(b)"
+],
+"statementText": {
+"1.2.2(a)": "Negotiation, conciliation and mediation",
+"1.2.2(b)": "Arbitration, Arbitration Act 1996, Scott v Avery clauses"
+},
+"statementShort": {
+"1.2.2(a)": "",
+"1.2.2(b)": ""
+},
+"asStatements": [],
+"levels": {
+"1.2.2(a)": null,
+"1.2.2(b)": null
+},
+"parts": 9,
+"marks": 97,
+"essays": 5,
+"mcq": 0,
+"sectionTitle": "1.2.2 Alternative methods of dispute resolution",
+"syllabusTopic": "Machinery of justice"
+},
+{
+"slug": "criminal-courts",
+"name": "Criminal courts and criminal process",
+"code": "1.2.3",
+"codes": [
+"1.2.3"
+],
+"group": "Paper 1: Machinery of justice",
+"strand": "Paper 1: Machinery of justice",
+"paper": "Paper 1: Machinery of justice",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.2.3(a)",
+"1.2.3(b)",
+"1.2.3(c)",
+"1.2.3(d)",
+"1.2.3(e)",
+"1.2.3(f)",
+"1.2.3(g)"
+],
+"statementText": {
+"1.2.3(a)": "Role and jurisdiction of Magistrates’ Court and Crown Court",
+"1.2.3(b)": "Classification of criminal offences – summary, triable either way and indictable",
+"1.2.3(c)": "Pre-trial process for summary, triable either way and indictable offences",
+"1.2.3(d)": "Appeals",
+"1.2.3(e)": "Police bail – Police and Criminal Evidence Act 1984 (PACE), Criminal Justice and Public Order Act 1994",
+"1.2.3(f)": "Bail from the court – Bail Act 1976",
+"1.2.3(g)": "Factors and conditions for bail"
+},
+"statementShort": {
+"1.2.3(a)": "",
+"1.2.3(b)": "",
+"1.2.3(c)": "",
+"1.2.3(d)": "",
+"1.2.3(e)": "",
+"1.2.3(f)": "",
+"1.2.3(g)": ""
+},
+"asStatements": [],
+"levels": {
+"1.2.3(a)": null,
+"1.2.3(b)": null,
+"1.2.3(c)": null,
+"1.2.3(d)": null,
+"1.2.3(e)": null,
+"1.2.3(f)": null,
+"1.2.3(g)": null
+},
+"parts": 21,
+"marks": 182,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "1.2.3 Criminal courts and criminal process",
+"syllabusTopic": "Machinery of justice"
+},
+{
+"slug": "police-powers",
+"name": "Police powers",
+"code": "1.2.4",
+"codes": [
+"1.2.4"
+],
+"group": "Paper 1: Machinery of justice",
+"strand": "Paper 1: Machinery of justice",
+"paper": "Paper 1: Machinery of justice",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.2.4(a)",
+"1.2.4(b)",
+"1.2.4(c)",
+"1.2.4(d)",
+"1.2.4(e)"
+],
+"statementText": {
+"1.2.4(a)": "Stop and search – ss1–7 Police and Criminal Evidence Act 1984 (PACE); PACE Code A; Misuse of Drugs Act 1971; Terrorism Act 2000",
+"1.2.4(b)": "Arrest – s24 PACE, as amended by Serious Organised Crime and Police Act 2005; PACE Code G",
+"1.2.4(c)": "Detention of suspects at police stations – time limits (ss34–46 PACE; PACE Code C); rights of the detained person (s56 PACE; PACE Code C); appropriate adult (PACE Code C); interviews (s60 and s60A PACE; PACE Codes E and F)",
+"1.2.4(d)": "Treatment of suspects at police stations – searches (s54 and s55 PACE; PACE Code C); fingerprints (s61 PACE); samples (s62 and s63 PACE); physical conditions of interview room (PACE Code C); role of the custody officer (PACE Code C)",
+"1.2.4(e)": "Impact of the breach of these rules – statements obtained through oppression (s76 PACE); exclusion of evidence (s78 PACE)"
+},
+"statementShort": {
+"1.2.4(a)": "",
+"1.2.4(b)": "",
+"1.2.4(c)": "",
+"1.2.4(d)": "",
+"1.2.4(e)": ""
+},
+"asStatements": [],
+"levels": {
+"1.2.4(a)": null,
+"1.2.4(b)": null,
+"1.2.4(c)": null,
+"1.2.4(d)": null,
+"1.2.4(e)": null
+},
+"parts": 10,
+"marks": 93,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "1.2.4 Police powers",
+"syllabusTopic": "Machinery of justice"
+},
+{
+"slug": "the-judiciary",
+"name": "The judiciary: superior and inferior judges",
+"code": "1.3.1",
+"codes": [
+"1.3.1"
+],
+"group": "Paper 1: Legal personnel",
+"strand": "Paper 1: Legal personnel",
+"paper": "Paper 1: Legal personnel",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.3.1(a)",
+"1.3.1(b)",
+"1.3.1(c)",
+"1.3.1(d)",
+"1.3.1(e)",
+"1.3.1(f)"
+],
+"statementText": {
+"1.3.1(a)": "Qualifications",
+"1.3.1(b)": "Selection and appointment",
+"1.3.1(c)": "Role",
+"1.3.1(d)": "Training",
+"1.3.1(e)": "Retirement and removal",
+"1.3.1(f)": "Independence"
+},
+"statementShort": {
+"1.3.1(a)": "",
+"1.3.1(b)": "",
+"1.3.1(c)": "",
+"1.3.1(d)": "",
+"1.3.1(e)": "",
+"1.3.1(f)": ""
+},
+"asStatements": [],
+"levels": {
+"1.3.1(a)": null,
+"1.3.1(b)": null,
+"1.3.1(c)": null,
+"1.3.1(d)": null,
+"1.3.1(e)": null,
+"1.3.1(f)": null
+},
+"parts": 10,
+"marks": 92,
+"essays": 4,
+"mcq": 0,
+"sectionTitle": "1.3.1 The judiciary – superior and inferior judges",
+"syllabusTopic": "Legal personnel"
+},
+{
+"slug": "legal-professionals",
+"name": "Legal professionals: barristers and solicitors",
+"code": "1.3.2",
+"codes": [
+"1.3.2"
+],
+"group": "Paper 1: Legal personnel",
+"strand": "Paper 1: Legal personnel",
+"paper": "Paper 1: Legal personnel",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.3.2(a)",
+"1.3.2(b)",
+"1.3.2(c)",
+"1.3.2(d)",
+"1.3.2(e)"
+],
+"statementText": {
+"1.3.2(a)": "Barristers, solicitors and legal executives",
+"1.3.2(b)": "Qualifications",
+"1.3.2(c)": "Training",
+"1.3.2(d)": "Role",
+"1.3.2(e)": "Regulation – The Bar Council, Bar Standards Board, The Law Society, Solicitors Regulation Authority, Legal Ombudsman"
+},
+"statementShort": {
+"1.3.2(a)": "",
+"1.3.2(b)": "",
+"1.3.2(c)": "",
+"1.3.2(d)": "",
+"1.3.2(e)": ""
+},
+"asStatements": [],
+"levels": {
+"1.3.2(a)": null,
+"1.3.2(b)": null,
+"1.3.2(c)": null,
+"1.3.2(d)": null,
+"1.3.2(e)": null
+},
+"parts": 11,
+"marks": 62,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "1.3.2 Legal professionals",
+"syllabusTopic": "Legal personnel"
+},
+{
+"slug": "lay-personnel",
+"name": "Lay personnel: magistrates and juries",
+"code": "1.3.3",
+"codes": [
+"1.3.3"
+],
+"group": "Paper 1: Legal personnel",
+"strand": "Paper 1: Legal personnel",
+"paper": "Paper 1: Legal personnel",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"1.3.3(a)",
+"1.3.3(b)",
+"1.3.3(c)",
+"1.3.3(d)",
+"1.3.3(e)",
+"1.3.3(f)",
+"1.3.3(g)",
+"1.3.3(h)"
+],
+"statementText": {
+"1.3.3(a)": "Role of lay magistrates in civil and criminal cases",
+"1.3.3(b)": "Qualifications",
+"1.3.3(c)": "Selection and appointment",
+"1.3.3(d)": "Training",
+"1.3.3(e)": "Jury role in criminal courts",
+"1.3.3(f)": "Qualifications for jury service",
+"1.3.3(g)": "Vetting and challenges",
+"1.3.3(h)": "Alternatives to the use of the jury"
+},
+"statementShort": {
+"1.3.3(a)": "",
+"1.3.3(b)": "",
+"1.3.3(c)": "",
+"1.3.3(d)": "",
+"1.3.3(e)": "",
+"1.3.3(f)": "",
+"1.3.3(g)": "",
+"1.3.3(h)": ""
+},
+"asStatements": [],
+"levels": {
+"1.3.3(a)": null,
+"1.3.3(b)": null,
+"1.3.3(c)": null,
+"1.3.3(d)": null,
+"1.3.3(e)": null,
+"1.3.3(f)": null,
+"1.3.3(g)": null,
+"1.3.3(h)": null
+},
+"parts": 25,
+"marks": 272,
+"essays": 14,
+"mcq": 0,
+"sectionTitle": "1.3.3 Lay personnel",
+"syllabusTopic": "Legal personnel"
+},
+{
+"slug": "actus-reus-and-mens-rea",
+"name": "Actus reus and mens rea",
+"code": "2.1.1, 2.1.2",
+"codes": [
+"2.1.1",
+"2.1.2"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.1.1(a)",
+"2.1.1(b)",
+"2.1.1(c)",
+"2.1.2(a)",
+"2.1.2(b)",
+"2.1.2(c)"
+],
+"statementText": {
+"2.1.1(a)": "Actus reus as the conduct element of a crime",
+"2.1.1(b)": "Actus reus by omission",
+"2.1.1(c)": "Causation",
+"2.1.2(a)": "Mens rea as the mental element of a crime",
+"2.1.2(b)": "Intention – direct and indirect/oblique",
+"2.1.2(c)": "Recklessness"
+},
+"statementShort": {
+"2.1.1(a)": "",
+"2.1.1(b)": "",
+"2.1.1(c)": "",
+"2.1.2(a)": "",
+"2.1.2(b)": "",
+"2.1.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"2.1.1(a)": null,
+"2.1.1(b)": null,
+"2.1.1(c)": null,
+"2.1.2(a)": null,
+"2.1.2(b)": null,
+"2.1.2(c)": null
+},
+"parts": 10,
+"marks": 150,
+"essays": 5,
+"mcq": 0,
+"sectionTitle": "2.1.1 Actus reus / 2.1.2 Mens rea",
+"syllabusTopic": "Elements of a crime"
+},
+{
+"slug": "theft",
+"name": "Theft (s1 Theft Act 1968)",
+"code": "2.2.1",
+"codes": [
+"2.2.1"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.1(a)",
+"2.2.1(b)",
+"2.2.1(c)",
+"2.2.1(d)",
+"2.2.1(e)",
+"2.2.1(f)"
+],
+"statementText": {
+"2.2.1(a)": "s2 – dishonesty",
+"2.2.1(b)": "s3 – appropriation",
+"2.2.1(c)": "s4 – property",
+"2.2.1(d)": "s5 – belonging to another",
+"2.2.1(e)": "s6 – intention to permanently deprive",
+"2.2.1(f)": "s7 – sentencing"
+},
+"statementShort": {
+"2.2.1(a)": "",
+"2.2.1(b)": "",
+"2.2.1(c)": "",
+"2.2.1(d)": "",
+"2.2.1(e)": "",
+"2.2.1(f)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.1(a)": null,
+"2.2.1(b)": null,
+"2.2.1(c)": null,
+"2.2.1(d)": null,
+"2.2.1(e)": null,
+"2.2.1(f)": null
+},
+"parts": 12,
+"marks": 170,
+"essays": 4,
+"mcq": 0,
+"sectionTitle": "2.2.1 Theft as defined in s1 Theft Act 1968",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "robbery",
+"name": "Robbery (s8 Theft Act 1968)",
+"code": "2.2.2",
+"codes": [
+"2.2.2"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.2(a)",
+"2.2.2(b)",
+"2.2.2(c)"
+],
+"statementText": {
+"2.2.2(a)": "Actus reus",
+"2.2.2(b)": "Mens rea",
+"2.2.2(c)": "Sentencing"
+},
+"statementShort": {
+"2.2.2(a)": "",
+"2.2.2(b)": "",
+"2.2.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.2(a)": null,
+"2.2.2(b)": null,
+"2.2.2(c)": null
+},
+"parts": 7,
+"marks": 110,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "2.2.2 Robbery as defined in s8 Theft Act 1968",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "burglary",
+"name": "Burglary (s9 Theft Act 1968)",
+"code": "2.2.3",
+"codes": [
+"2.2.3"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.3(a)",
+"2.2.3(b)",
+"2.2.3(c)",
+"2.2.3(d)",
+"2.2.3(e)"
+],
+"statementText": {
+"2.2.3(a)": "s9(1)(a) and (2) – actus reus and mens rea",
+"2.2.3(b)": "s9(1)(b) – actus reus and mens rea",
+"2.2.3(c)": "s9(3) – sentencing",
+"2.2.3(d)": "s9(4) – a building",
+"2.2.3(e)": "Aggravated burglary as defined in s10 Theft Act 1968"
+},
+"statementShort": {
+"2.2.3(a)": "",
+"2.2.3(b)": "",
+"2.2.3(c)": "",
+"2.2.3(d)": "",
+"2.2.3(e)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.3(a)": null,
+"2.2.3(b)": null,
+"2.2.3(c)": null,
+"2.2.3(d)": null,
+"2.2.3(e)": null
+},
+"parts": 13,
+"marks": 150,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "2.2.3 Burglary as defined in s9 Theft Act 1968",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "blackmail",
+"name": "Blackmail (s21 Theft Act 1968)",
+"code": "2.2.4",
+"codes": [
+"2.2.4"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.4(a)",
+"2.2.4(b)",
+"2.2.4(c)"
+],
+"statementText": {
+"2.2.4(a)": "Actus reus",
+"2.2.4(b)": "Mens rea",
+"2.2.4(c)": "Sentencing"
+},
+"statementShort": {
+"2.2.4(a)": "",
+"2.2.4(b)": "",
+"2.2.4(c)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.4(a)": null,
+"2.2.4(b)": null,
+"2.2.4(c)": null
+},
+"parts": 9,
+"marks": 115,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "2.2.4 Blackmail as defined in s21 Theft Act 1968",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "handling-stolen-goods",
+"name": "Handling stolen goods (s22 Theft Act 1968)",
+"code": "2.2.5",
+"codes": [
+"2.2.5"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.5(a)",
+"2.2.5(b)",
+"2.2.5(c)"
+],
+"statementText": {
+"2.2.5(a)": "Actus reus",
+"2.2.5(b)": "Mens rea",
+"2.2.5(c)": "Sentencing"
+},
+"statementShort": {
+"2.2.5(a)": "",
+"2.2.5(b)": "",
+"2.2.5(c)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.5(a)": null,
+"2.2.5(b)": null,
+"2.2.5(c)": null
+},
+"parts": 7,
+"marks": 70,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "2.2.5 Handling stolen goods as defined in s22 Theft Act 1968",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "making-off-without-payment",
+"name": "Making off without payment (s3 Theft Act 1978)",
+"code": "2.2.6",
+"codes": [
+"2.2.6"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.6(a)",
+"2.2.6(b)",
+"2.2.6(c)"
+],
+"statementText": {
+"2.2.6(a)": "Actus reus",
+"2.2.6(b)": "Mens rea",
+"2.2.6(c)": "s4 – sentencing"
+},
+"statementShort": {
+"2.2.6(a)": "",
+"2.2.6(b)": "",
+"2.2.6(c)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.6(a)": null,
+"2.2.6(b)": null,
+"2.2.6(c)": null
+},
+"parts": 8,
+"marks": 95,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "2.2.6 Making off without payment as defined in s3 Theft Act 1978",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "criminal-damage",
+"name": "Criminal damage (Criminal Damage Act 1971)",
+"code": "2.2.7",
+"codes": [
+"2.2.7"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.7(a)",
+"2.2.7(b)",
+"2.2.7(c)",
+"2.2.7(d)",
+"2.2.7(e)"
+],
+"statementText": {
+"2.2.7(a)": "s1 – destroying or damaging property – actus reus and mens rea",
+"2.2.7(b)": "s2 – threats to destroy or damage property – actus reus and mens rea",
+"2.2.7(c)": "s3 – possessing anything with intent to destroy or damage property – actus reus and mens rea",
+"2.2.7(d)": "s4 – sentencing",
+"2.2.7(e)": "s5 – ‘without lawful excuse’"
+},
+"statementShort": {
+"2.2.7(a)": "",
+"2.2.7(b)": "",
+"2.2.7(c)": "",
+"2.2.7(d)": "",
+"2.2.7(e)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.7(a)": null,
+"2.2.7(b)": null,
+"2.2.7(c)": null,
+"2.2.7(d)": null,
+"2.2.7(e)": null
+},
+"parts": 9,
+"marks": 115,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "2.2.7 Criminal damage as defined in Criminal Damage Act 1971",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "fraud",
+"name": "Fraud (Fraud Act 2006)",
+"code": "2.2.8",
+"codes": [
+"2.2.8"
+],
+"group": "Paper 2: Criminal law",
+"strand": "Paper 2: Criminal law",
+"paper": "Paper 2: Criminal law",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.2.8(a)",
+"2.2.8(b)",
+"2.2.8(c)",
+"2.2.8(d)"
+],
+"statementText": {
+"2.2.8(a)": "s2 – fraud by false representation – actus reus and mens rea",
+"2.2.8(b)": "s3 – fraud by failing to disclose information – actus reus and mens rea",
+"2.2.8(c)": "s4 – fraud by abuse of position – actus reus and mens rea",
+"2.2.8(d)": "s11 – obtaining services dishonestly – actus reus and mens rea"
+},
+"statementShort": {
+"2.2.8(a)": "",
+"2.2.8(b)": "",
+"2.2.8(c)": "",
+"2.2.8(d)": ""
+},
+"asStatements": [],
+"levels": {
+"2.2.8(a)": null,
+"2.2.8(b)": null,
+"2.2.8(c)": null,
+"2.2.8(d)": null
+},
+"parts": 11,
+"marks": 105,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "2.2.8 Fraud as defined in the Fraud Act 2006",
+"syllabusTopic": "Offences against property"
+},
+{
+"slug": "sentencing-adult-offenders",
+"name": "Sentencing adult offenders",
+"code": "2.3.1",
+"codes": [
+"2.3.1"
+],
+"group": "Paper 2: Sentencing",
+"strand": "Paper 2: Sentencing",
+"paper": "Paper 2: Sentencing",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.3.1(a)",
+"2.3.1(b)"
+],
+"statementText": {
+"2.3.1(a)": "Types of sentence – custodial, community, fines and discharges",
+"2.3.1(b)": "Factors in sentencing"
+},
+"statementShort": {
+"2.3.1(a)": "",
+"2.3.1(b)": ""
+},
+"asStatements": [],
+"levels": {
+"2.3.1(a)": null,
+"2.3.1(b)": null
+},
+"parts": 12,
+"marks": 110,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "2.3.1 Adult offenders",
+"syllabusTopic": "Sentencing in England and Wales"
+},
+{
+"slug": "sentencing-young-offenders",
+"name": "Sentencing young offenders",
+"code": "2.3.2",
+"codes": [
+"2.3.2"
+],
+"group": "Paper 2: Sentencing",
+"strand": "Paper 2: Sentencing",
+"paper": "Paper 2: Sentencing",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.3.2(a)",
+"2.3.2(b)"
+],
+"statementText": {
+"2.3.2(a)": "Types of sentence – custodial and community, parental responsibility",
+"2.3.2(b)": "Factors in sentencing"
+},
+"statementShort": {
+"2.3.2(a)": "",
+"2.3.2(b)": ""
+},
+"asStatements": [],
+"levels": {
+"2.3.2(a)": null,
+"2.3.2(b)": null
+},
+"parts": 4,
+"marks": 40,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "2.3.2 Young offenders",
+"syllabusTopic": "Sentencing in England and Wales"
+},
+{
+"slug": "aims-of-sentencing",
+"name": "Aims of sentencing",
+"code": "2.3.3",
+"codes": [
+"2.3.3"
+],
+"group": "Paper 2: Sentencing",
+"strand": "Paper 2: Sentencing",
+"paper": "Paper 2: Sentencing",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "AS and A Level",
+"statements": [
+"2.3.3(a)",
+"2.3.3(b)"
+],
+"statementText": {
+"2.3.3(a)": "Adult offenders",
+"2.3.3(b)": "Young offenders"
+},
+"statementShort": {
+"2.3.3(a)": "",
+"2.3.3(b)": ""
+},
+"asStatements": [],
+"levels": {
+"2.3.3(a)": null,
+"2.3.3(b)": null
+},
+"parts": 7,
+"marks": 175,
+"essays": 7,
+"mcq": 0,
+"sectionTitle": "2.3.3 Aims of sentencing – what sentences are trying to achieve",
+"syllabusTopic": "Sentencing in England and Wales"
+},
+{
+"slug": "formation-of-contract",
+"name": "Formation of contract: offer, acceptance, intention, consideration and capacity",
+"code": "3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.1.5",
+"codes": [
+"3.1.1",
+"3.1.2",
+"3.1.3",
+"3.1.4",
+"3.1.5"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.1.1(a)",
+"3.1.2(a)",
+"3.1.3(a)",
+"3.1.4(a)",
+"3.1.5(a)",
+"3.1.5(b)",
+"3.1.5(c)"
+],
+"statementText": {
+"3.1.1(a)": "Agreement; unilateral; bilateral; collateral",
+"3.1.2(a)": "Principles and evidence – offers; invitation to treat; counter offers; requests for information; termination; acceptance; application of the rules to standard form contracts, auction sales, contracts by tender",
+"3.1.3(a)": "Reason for requirement; presumption and rebuttal in commercial and social/domestic agreements",
+"3.1.4(a)": "Nature and function; sufficiency/adequacy; past; performance of existing duties; part payment of debt; promissory estoppel",
+"3.1.5(a)": "Reason for limitation and possible reform",
+"3.1.5(b)": "Categories of contracts – necessaries; beneficial contracts of service (education, training and employment); voidable (continuing obligations)",
+"3.1.5(c)": "Remedies against minors – in equity; the Minors’ Contracts Act 1987, s2 and s3; limits"
+},
+"statementShort": {
+"3.1.1(a)": "",
+"3.1.2(a)": "",
+"3.1.3(a)": "",
+"3.1.4(a)": "",
+"3.1.5(a)": "",
+"3.1.5(b)": "",
+"3.1.5(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.1(a)": null,
+"3.1.2(a)": null,
+"3.1.3(a)": null,
+"3.1.4(a)": null,
+"3.1.5(a)": null,
+"3.1.5(b)": null,
+"3.1.5(c)": null
+},
+"parts": 28,
+"marks": 700,
+"essays": 16,
+"mcq": 0,
+"sectionTitle": "3.1.1 Nature of a contract / 3.1.2 Offer and acceptance / 3.1.3 Intention to create legal relations / 3.1.4 Consideration / 3.1.5 Capacity (minors only)",
+"syllabusTopic": "Formation of a valid contract"
+},
+{
+"slug": "contract-terms",
+"name": "Contract terms: express, implied and the status of terms",
+"code": "3.2.1, 3.2.2, 3.2.3",
+"codes": [
+"3.2.1",
+"3.2.2",
+"3.2.3"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.2.1(a)",
+"3.2.1(b)",
+"3.2.2(a)",
+"3.2.2(b)",
+"3.2.3(a)"
+],
+"statementText": {
+"3.2.1(a)": "The distinction between representations and terms, and importance",
+"3.2.1(b)": "Written terms – incorporation by signature; the parol evidence rule",
+"3.2.2(a)": "To supply goods – s9 goods to be of satisfactory quality; s10 goods to be fit for a particular purpose; s11 goods to be as described and consumer rights for breach provided by: s20 right to reject; s22 time limit for short-term right to reject; s23 right to repair or replacement; s24 right to price reduction or a final right to reject",
+"3.2.2(b)": "To supply a service – s49 service to be performed with reasonable care and skill; s52 service to be performed within a reasonable time and consumer rights for breach provided by: s55 right to repeat performance; s56 right to a price reduction",
+"3.2.3(a)": "Conditions, warranties, innominate terms – nature; effects of breach"
+},
+"statementShort": {
+"3.2.1(a)": "",
+"3.2.1(b)": "",
+"3.2.2(a)": "",
+"3.2.2(b)": "",
+"3.2.3(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.1(a)": null,
+"3.2.1(b)": null,
+"3.2.2(a)": null,
+"3.2.2(b)": null,
+"3.2.3(a)": null
+},
+"parts": 9,
+"marks": 225,
+"essays": 7,
+"mcq": 0,
+"sectionTitle": "3.2.1 Express terms / 3.2.2 Terms implied into a consumer contract by the Consumer Rights Act 2015 / 3.2.3 Status of terms",
+"syllabusTopic": "Contents of a contract"
+},
+{
+"slug": "exemption-clauses",
+"name": "Exemption clauses",
+"code": "3.2.4",
+"codes": [
+"3.2.4"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.2.4(a)",
+"3.2.4(b)",
+"3.2.4(c)"
+],
+"statementText": {
+"3.2.4(a)": "Common law – rules of incorporation; the contra proferentem rule",
+"3.2.4(b)": "Statutory: Unfair Contract Terms Act 1977 (business to business contracts only) – s1(3) definition; s2 negligence liability; s3 liability arising in contract; s11 reasonableness test",
+"3.2.4(c)": "Statutory: Consumer Rights Act 2015 (trader and consumer contracts s61) – s2 definition; s31 exclusion of liability goods contracts; s57 exclusion of liability service contracts; s62 requirement for contract terms to be fair; s65 negligence liability; s68 requirement for transparency"
+},
+"statementShort": {
+"3.2.4(a)": "",
+"3.2.4(b)": "",
+"3.2.4(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.4(a)": null,
+"3.2.4(b)": null,
+"3.2.4(c)": null
+},
+"parts": 5,
+"marks": 125,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "3.2.4 Control of exemption clauses",
+"syllabusTopic": "Contents of a contract"
+},
+{
+"slug": "performance-and-breach",
+"name": "Discharge by performance and breach",
+"code": "3.3.1, 3.3.2",
+"codes": [
+"3.3.1",
+"3.3.2"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.3.1(a)",
+"3.3.1(b)",
+"3.3.2(a)"
+],
+"statementText": {
+"3.3.1(a)": "The entire or strict performance rule",
+"3.3.1(b)": "Exceptions to the entire or strict performance rule – substantial performance; voluntary acceptance of partial performance; divisible contracts; prevention of performance; tender of performance; time of performance; vicarious performance",
+"3.3.2(a)": "Actual breach and anticipatory breach"
+},
+"statementShort": {
+"3.3.1(a)": "",
+"3.3.1(b)": "",
+"3.3.2(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.1(a)": null,
+"3.3.1(b)": null,
+"3.3.2(a)": null
+},
+"parts": 6,
+"marks": 150,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "3.3.1 Performance / 3.3.2 Breach",
+"syllabusTopic": "Discharge of a contract"
+},
+{
+"slug": "frustration",
+"name": "Discharge by frustration",
+"code": "3.3.3",
+"codes": [
+"3.3.3"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.3.3(a)",
+"3.3.3(b)",
+"3.3.3(c)",
+"3.3.3(d)"
+],
+"statementText": {
+"3.3.3(a)": "Types of frustrating event – impossibility of performance; supervening illegality; change of circumstance making performance pointless",
+"3.3.3(b)": "Limitations on the doctrine of frustration – contractual provision; inconvenience or additional expense; foreseen or reasonably foreseeable event; self-induced",
+"3.3.3(c)": "The effect of frustration at common law",
+"3.3.3(d)": "The effect of frustration under the Law Reform (Frustrated Contracts) Act 1943, s1(2) and s1(3)"
+},
+"statementShort": {
+"3.3.3(a)": "",
+"3.3.3(b)": "",
+"3.3.3(c)": "",
+"3.3.3(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.3(a)": null,
+"3.3.3(b)": null,
+"3.3.3(c)": null,
+"3.3.3(d)": null
+},
+"parts": 6,
+"marks": 150,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "3.3.3 Frustration",
+"syllabusTopic": "Discharge of a contract"
+},
+{
+"slug": "contract-remedies",
+"name": "Remedies for breach of contract: damages and equitable remedies",
+"code": "3.4.1, 3.4.2",
+"codes": [
+"3.4.1",
+"3.4.2"
+],
+"group": "Paper 3: Law of contract",
+"strand": "Paper 3: Law of contract",
+"paper": "Paper 3: Law of contract",
+"papers": [
+"Paper 3"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"3.4.1(a)",
+"3.4.1(b)",
+"3.4.1(c)",
+"3.4.1(d)",
+"3.4.2(a)",
+"3.4.2(b)",
+"3.4.2(c)",
+"3.4.2(d)"
+],
+"statementText": {
+"3.4.1(a)": "Purpose and nature of damages",
+"3.4.1(b)": "The measure or calculation of damages – the categories of expectation loss, reliance loss, non-pecuniary loss",
+"3.4.1(c)": "Limitations on recovery – causation; remoteness; mitigation",
+"3.4.1(d)": "Evaluation of the use of the remedy of damages",
+"3.4.2(a)": "Purpose of equitable remedies",
+"3.4.2(b)": "Nature of specific performance; specific restitution; rescission; injunction",
+"3.4.2(c)": "Limitations on their award in contract law",
+"3.4.2(d)": "Evaluation of the use of equitable remedies"
+},
+"statementShort": {
+"3.4.1(a)": "",
+"3.4.1(b)": "",
+"3.4.1(c)": "",
+"3.4.1(d)": "",
+"3.4.2(a)": "",
+"3.4.2(b)": "",
+"3.4.2(c)": "",
+"3.4.2(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.1(a)": null,
+"3.4.1(b)": null,
+"3.4.1(c)": null,
+"3.4.1(d)": null,
+"3.4.2(a)": null,
+"3.4.2(b)": null,
+"3.4.2(c)": null,
+"3.4.2(d)": null
+},
+"parts": 8,
+"marks": 200,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "3.4.1 Common law / 3.4.2 Equitable",
+"syllabusTopic": "Remedies for breach of a contract"
+},
+{
+"slug": "negligence",
+"name": "Negligence: duty of care, breach, causation and remoteness",
+"code": "4.1.1, 4.1.2, 4.1.3, 4.1.4",
+"codes": [
+"4.1.1",
+"4.1.2",
+"4.1.3",
+"4.1.4"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.1.1(a)",
+"4.1.2(a)",
+"4.1.2(b)",
+"4.1.3(a)",
+"4.1.3(b)",
+"4.1.4(a)",
+"4.1.4(b)"
+],
+"statementText": {
+"4.1.1(a)": "Personal liability, vicarious liability (in outline only) and joint liability",
+"4.1.2(a)": "The neighbour principle and the modern three-part test (Caparo test)",
+"4.1.2(b)": "The importance of policy considerations",
+"4.1.3(a)": "The standard of care and the objective test",
+"4.1.3(b)": "The standard of care and different classes of defendant – children, experts and professionals",
+"4.1.4(a)": "Factual and legal causation, multiple causes and intervening acts",
+"4.1.4(b)": "The test for remoteness of damage"
+},
+"statementShort": {
+"4.1.1(a)": "",
+"4.1.2(a)": "",
+"4.1.2(b)": "",
+"4.1.3(a)": "",
+"4.1.3(b)": "",
+"4.1.4(a)": "",
+"4.1.4(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.1.1(a)": null,
+"4.1.2(a)": null,
+"4.1.2(b)": null,
+"4.1.3(a)": null,
+"4.1.3(b)": null,
+"4.1.4(a)": null,
+"4.1.4(b)": null
+},
+"parts": 13,
+"marks": 325,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "4.1.1 Nature of liability in negligence / 4.1.2 Duty of care / 4.1.3 Breach of duty / 4.1.4 Causation and remoteness of damage",
+"syllabusTopic": "The tort of negligence"
+},
+{
+"slug": "novel-duty-situations",
+"name": "Novel duty situations: psychiatric injury and economic loss",
+"code": "4.1.5",
+"codes": [
+"4.1.5"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.1.5(a)",
+"4.1.5(b)"
+],
+"statementText": {
+"4.1.5(a)": "Pure economic loss and liability for negligent misstatement",
+"4.1.5(b)": "Liability for nervous shock; restrictions on the scope of the duty and policy considerations; possible reforms"
+},
+"statementShort": {
+"4.1.5(a)": "",
+"4.1.5(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.1.5(a)": null,
+"4.1.5(b)": null
+},
+"parts": 12,
+"marks": 300,
+"essays": 5,
+"mcq": 0,
+"sectionTitle": "4.1.5 Novel duty situations",
+"syllabusTopic": "The tort of negligence"
+},
+{
+"slug": "occupiers-liability",
+"name": "Occupiers' liability",
+"code": "4.2.1",
+"codes": [
+"4.2.1"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.2.1(a)",
+"4.2.1(b)"
+],
+"statementText": {
+"4.2.1(a)": "Lawful visitors and the Occupiers’ Liability Act 1957 – special duty owed to children; persons carrying out a trade or calling; liability for torts of independent contractors; exclusion of liability and defences",
+"4.2.1(b)": "Unlawful visitors and the Occupiers’ Liability Act 1984 – scope of the duty, exclusion of liability and defences"
+},
+"statementShort": {
+"4.2.1(a)": "",
+"4.2.1(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.2.1(a)": null,
+"4.2.1(b)": null
+},
+"parts": 8,
+"marks": 200,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "4.2.1 Occupiers’ liability",
+"syllabusTopic": "Torts affecting land"
+},
+{
+"slug": "private-nuisance",
+"name": "Private nuisance",
+"code": "4.2.2",
+"codes": [
+"4.2.2"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.2.2(a)",
+"4.2.2(b)",
+"4.2.2(c)"
+],
+"statementText": {
+"4.2.2(a)": "Nature of liability; parties to the case",
+"4.2.2(b)": "Meaning of unreasonable interference and factors considered by the courts such as locality, duration, sensitivity and malice",
+"4.2.2(c)": "Defences – prescription; statutory authority"
+},
+"statementShort": {
+"4.2.2(a)": "",
+"4.2.2(b)": "",
+"4.2.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"4.2.2(a)": null,
+"4.2.2(b)": null,
+"4.2.2(c)": null
+},
+"parts": 8,
+"marks": 200,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "4.2.2 Private nuisance",
+"syllabusTopic": "Torts affecting land"
+},
+{
+"slug": "rylands-v-fletcher",
+"name": "Rylands v Fletcher",
+"code": "4.2.3",
+"codes": [
+"4.2.3"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.2.3(a)",
+"4.2.3(b)"
+],
+"statementText": {
+"4.2.3(a)": "Nature of strict liability; relationship between Rylands and other torts relating to land",
+"4.2.3(b)": "Definition and conditions of liability"
+},
+"statementShort": {
+"4.2.3(a)": "",
+"4.2.3(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.2.3(a)": null,
+"4.2.3(b)": null
+},
+"parts": 7,
+"marks": 175,
+"essays": 5,
+"mcq": 0,
+"sectionTitle": "4.2.3 Rylands v Fletcher",
+"syllabusTopic": "Torts affecting land"
+},
+{
+"slug": "trespass-to-land",
+"name": "Trespass to land",
+"code": "4.2.4",
+"codes": [
+"4.2.4"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.2.4(a)"
+],
+"statementText": {
+"4.2.4(a)": "Nature of trespass – unlawful entry; intentional and direct interference; continuing trespass"
+},
+"statementShort": {
+"4.2.4(a)": ""
+},
+"asStatements": [],
+"levels": {
+"4.2.4(a)": null
+},
+"parts": 6,
+"marks": 150,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "4.2.4 Trespass to land",
+"syllabusTopic": "Torts affecting land"
+},
+{
+"slug": "trespass-to-the-person",
+"name": "Trespass to the person: assault, battery and false imprisonment",
+"code": "4.3.1, 4.3.2, 4.3.3",
+"codes": [
+"4.3.1",
+"4.3.2",
+"4.3.3"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.3.1(a)",
+"4.3.1(b)",
+"4.3.2(a)",
+"4.3.2(b)",
+"4.3.2(c)",
+"4.3.3(a)",
+"4.3.3(b)"
+],
+"statementText": {
+"4.3.1(a)": "Definition and elements required to establish liability, actionable per se",
+"4.3.1(b)": "Actions which may amount to assault; words and silence",
+"4.3.2(a)": "Definition and elements required to establish liability, actionable per se",
+"4.3.2(b)": "Meaning of force and relevance of hostility",
+"4.3.2(c)": "Defences of consent, self-defence and necessity",
+"4.3.3(a)": "Definition and elements required to establish liability",
+"4.3.3(b)": "Requirements of total restraint and knowledge of restraint; lawful restraint"
+},
+"statementShort": {
+"4.3.1(a)": "",
+"4.3.1(b)": "",
+"4.3.2(a)": "",
+"4.3.2(b)": "",
+"4.3.2(c)": "",
+"4.3.3(a)": "",
+"4.3.3(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.3.1(a)": null,
+"4.3.1(b)": null,
+"4.3.2(a)": null,
+"4.3.2(b)": null,
+"4.3.2(c)": null,
+"4.3.3(a)": null,
+"4.3.3(b)": null
+},
+"parts": 9,
+"marks": 225,
+"essays": 3,
+"mcq": 0,
+"sectionTitle": "4.3.1 Assault / 4.3.2 Battery / 4.3.3 False imprisonment",
+"syllabusTopic": "Torts affecting the person"
+},
+{
+"slug": "tort-defences",
+"name": "General defences in tort",
+"code": "4.4.1",
+"codes": [
+"4.4.1"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.4.1(a)",
+"4.4.1(b)",
+"4.4.1(c)"
+],
+"statementText": {
+"4.4.1(a)": "Volenti non fit injuria – meaning of consent and importance of knowledge and understanding; application in cases of employment, medical treatment and sport",
+"4.4.1(b)": "Contributory negligence – nature of a partial defence, apportionment of blame and reduction of damages",
+"4.4.1(c)": "Inevitable accident, Act of God, Statutory authority, illegality and necessity"
+},
+"statementShort": {
+"4.4.1(a)": "",
+"4.4.1(b)": "",
+"4.4.1(c)": ""
+},
+"asStatements": [],
+"levels": {
+"4.4.1(a)": null,
+"4.4.1(b)": null,
+"4.4.1(c)": null
+},
+"parts": 8,
+"marks": 200,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "4.4.1 Defences",
+"syllabusTopic": "General defences and remedies"
+},
+{
+"slug": "tort-remedies",
+"name": "Remedies in tort",
+"code": "4.4.2",
+"codes": [
+"4.4.2"
+],
+"group": "Paper 4: Law of tort",
+"strand": "Paper 4: Law of tort",
+"paper": "Paper 4: Law of tort",
+"papers": [
+"Paper 4"
+],
+"option": null,
+"aLevelOnly": true,
+"asOrA": "A Level only",
+"statements": [
+"4.4.2(a)",
+"4.4.2(b)"
+],
+"statementText": {
+"4.4.2(a)": "Damages – purpose of damages in tort; calculation of damages; special and general damages; non- compensatory damages; damages for personal injuries, issues relating to future losses and death; policy issues and possible reforms",
+"4.4.2(b)": "Equitable remedies in tort; the use of injunctions; mandatory, prohibitory and interlocutory injunctions; damages in lieu of an injunction; evaluation of the use of the injunction in tort"
+},
+"statementShort": {
+"4.4.2(a)": "",
+"4.4.2(b)": ""
+},
+"asStatements": [],
+"levels": {
+"4.4.2(a)": null,
+"4.4.2(b)": null
+},
+"parts": 5,
+"marks": 125,
+"essays": 5,
+"mcq": 0,
+"sectionTitle": "4.4.2 Remedies",
+"syllabusTopic": "General defences and remedies"
+}
+]

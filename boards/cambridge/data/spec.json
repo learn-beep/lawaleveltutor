@@ -1,0 +1,2215 @@
+[
+{
+"code": "1",
+"title": "English Legal System (AS)",
+"level": 1,
+"paper": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "2",
+"title": "Criminal Law (AS)",
+"level": 1,
+"paper": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3",
+"title": "Law of Contract",
+"level": 1,
+"paper": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "4",
+"title": "Law of Tort",
+"level": 1,
+"paper": 4,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "1.1",
+"title": "Principles and sources of English law",
+"level": 2,
+"paper": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "1.2",
+"title": "Machinery of justice",
+"level": 2,
+"paper": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "1.3",
+"title": "Legal personnel",
+"level": 2,
+"paper": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "2.1",
+"title": "Elements of a crime",
+"level": 2,
+"paper": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "2.2",
+"title": "Offences against property",
+"level": 2,
+"paper": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "2.3",
+"title": "Sentencing in England and Wales",
+"level": 2,
+"paper": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1",
+"title": "Formation of a valid contract",
+"level": 2,
+"paper": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.2",
+"title": "Contents of a contract",
+"level": 2,
+"paper": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3",
+"title": "Discharge of a contract",
+"level": 2,
+"paper": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.4",
+"title": "Remedies for breach of a contract",
+"level": 2,
+"paper": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "4.1",
+"title": "The tort of negligence",
+"level": 2,
+"paper": 4,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "4.2",
+"title": "Torts affecting land",
+"level": 2,
+"paper": 4,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "4.3",
+"title": "Torts affecting the person",
+"level": 2,
+"paper": 4,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "4.4",
+"title": "General defences and remedies",
+"level": 2,
+"paper": 4,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "1.1.1",
+"title": "English legal system and its context",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "english-legal-system-in-context",
+"statements": [
+{
+"id": "1.1.1(a)",
+"text": "Legal systems around the world – civil law (codified), common law, customary law, religious law, mixed legal systems",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(b)",
+"text": "Adversarial and inquisitorial systems",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(c)",
+"text": "The rule of law and its application to law making, the legal system and substantive law",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(d)",
+"text": "The difference between civil and criminal law",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(e)",
+"text": "The relationship between law and morality",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(f)",
+"text": "Law and justice",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(g)",
+"text": "The role of law in society",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+},
+{
+"id": "1.1.1(h)",
+"text": "The importance of fault in civil and criminal law",
+"guidance": "",
+"as": true,
+"topics": [
+"english-legal-system-in-context"
+]
+}
+]
+},
+{
+"code": "1.1.2",
+"title": "Parliamentary law making",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "parliamentary-law-making",
+"statements": [
+{
+"id": "1.1.2(a)",
+"text": "The legislative process from green paper to Royal Assent, role of the House of Commons and the House of Lords in the process, different types of bill",
+"guidance": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+},
+{
+"id": "1.1.2(b)",
+"text": "Parliamentary supremacy",
+"guidance": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+},
+{
+"id": "1.1.2(c)",
+"text": "Influences on parliament – political pressure, public opinion, pressure groups, media",
+"guidance": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+},
+{
+"id": "1.1.2(d)",
+"text": "The role and composition of the Law Commission",
+"guidance": "",
+"as": true,
+"topics": [
+"parliamentary-law-making"
+]
+}
+]
+},
+{
+"code": "1.1.3",
+"title": "Delegated legislation",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "delegated-legislation",
+"statements": [
+{
+"id": "1.1.3(a)",
+"text": "Types of delegated legislation – Orders in Council, statutory instruments and bylaws",
+"guidance": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "1.1.3(b)",
+"text": "The Legislative and Regulatory Reform Act 2006",
+"guidance": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "1.1.3(c)",
+"text": "Parliamentary controls on delegated legislation – pre-drafting consultation, scrutiny committees, affirmative and negative resolution",
+"guidance": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+},
+{
+"id": "1.1.3(d)",
+"text": "Court controls on delegated legislation – judicial review, locus standi, procedural ultra vires, substantive ultra vires, and unreasonableness",
+"guidance": "",
+"as": true,
+"topics": [
+"delegated-legislation"
+]
+}
+]
+},
+{
+"code": "1.1.4",
+"title": "Statutory interpretation",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "statutory-interpretation",
+"statements": [
+{
+"id": "1.1.4(a)",
+"text": "The common law rules of interpretation – literal, golden, mischief, and purposive approach",
+"guidance": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "1.1.4(b)",
+"text": "Rules of language – ejusdem generis, expressio unius exclusio alterius, noscitur a sociis",
+"guidance": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "1.1.4(c)",
+"text": "Intrinsic aids to interpretation – preamble, long and short titles, headings, schedules, marginal notes, interpretation sections",
+"guidance": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "1.1.4(d)",
+"text": "Extrinsic aids to interpretation – previous Acts on the same topic, earlier case law, the historical setting, dictionaries of the time, Hansard, reports of law reform bodies, international treaties",
+"guidance": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+},
+{
+"id": "1.1.4(e)",
+"text": "The impact of European Union law and of the Human Rights Act 1998 on statutory interpretation",
+"guidance": "",
+"as": true,
+"topics": [
+"statutory-interpretation"
+]
+}
+]
+},
+{
+"code": "1.1.5",
+"title": "Judicial precedent",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "judicial-precedent",
+"statements": [
+{
+"id": "1.1.5(a)",
+"text": "The doctrine of judicial precedent",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(b)",
+"text": "Ratio decidendi, obiter dicta and law reporting",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(c)",
+"text": "Binding, original and persuasive precedents",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(d)",
+"text": "The hierarchy of the courts",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(e)",
+"text": "The Supreme Court and use of the Practice Statement",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(f)",
+"text": "The Court of Appeal and the exceptions in Young v Bristol Aeroplane Co (1944)",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+},
+{
+"id": "1.1.5(g)",
+"text": "Avoidance techniques – overruling, reversing and distinguishing",
+"guidance": "",
+"as": true,
+"topics": [
+"judicial-precedent"
+]
+}
+]
+},
+{
+"code": "1.2.1",
+"title": "Civil courts and civil process",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "civil-courts",
+"statements": [
+{
+"id": "1.2.1(a)",
+"text": "Role and jurisdiction of Magistrates’ Court, County Court, High Court, Court of Appeal, Supreme Court",
+"guidance": "",
+"as": true,
+"topics": [
+"civil-courts"
+]
+},
+{
+"id": "1.2.1(b)",
+"text": "The Woolf reforms",
+"guidance": "",
+"as": true,
+"topics": [
+"civil-courts"
+]
+},
+{
+"id": "1.2.1(c)",
+"text": "Pre-trial procedures",
+"guidance": "",
+"as": true,
+"topics": [
+"civil-courts"
+]
+},
+{
+"id": "1.2.1(d)",
+"text": "Allocation of cases – small claims, fast and multi-track",
+"guidance": "",
+"as": true,
+"topics": [
+"civil-courts"
+]
+},
+{
+"id": "1.2.1(e)",
+"text": "Appeals",
+"guidance": "",
+"as": true,
+"topics": [
+"civil-courts"
+]
+}
+]
+},
+{
+"code": "1.2.2",
+"title": "Alternative methods of dispute resolution",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "alternative-dispute-resolution",
+"statements": [
+{
+"id": "1.2.2(a)",
+"text": "Negotiation, conciliation and mediation",
+"guidance": "",
+"as": true,
+"topics": [
+"alternative-dispute-resolution"
+]
+},
+{
+"id": "1.2.2(b)",
+"text": "Arbitration, Arbitration Act 1996, Scott v Avery clauses",
+"guidance": "",
+"as": true,
+"topics": [
+"alternative-dispute-resolution"
+]
+}
+]
+},
+{
+"code": "1.2.3",
+"title": "Criminal courts and criminal process",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "criminal-courts",
+"statements": [
+{
+"id": "1.2.3(a)",
+"text": "Role and jurisdiction of Magistrates’ Court and Crown Court",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(b)",
+"text": "Classification of criminal offences – summary, triable either way and indictable",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(c)",
+"text": "Pre-trial process for summary, triable either way and indictable offences",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(d)",
+"text": "Appeals",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(e)",
+"text": "Police bail – Police and Criminal Evidence Act 1984 (PACE), Criminal Justice and Public Order Act 1994",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(f)",
+"text": "Bail from the court – Bail Act 1976",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+},
+{
+"id": "1.2.3(g)",
+"text": "Factors and conditions for bail",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-courts"
+]
+}
+]
+},
+{
+"code": "1.2.4",
+"title": "Police powers",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "police-powers",
+"statements": [
+{
+"id": "1.2.4(a)",
+"text": "Stop and search – ss1–7 Police and Criminal Evidence Act 1984 (PACE); PACE Code A; Misuse of Drugs Act 1971; Terrorism Act 2000",
+"guidance": "",
+"as": true,
+"topics": [
+"police-powers"
+]
+},
+{
+"id": "1.2.4(b)",
+"text": "Arrest – s24 PACE, as amended by Serious Organised Crime and Police Act 2005; PACE Code G",
+"guidance": "",
+"as": true,
+"topics": [
+"police-powers"
+]
+},
+{
+"id": "1.2.4(c)",
+"text": "Detention of suspects at police stations – time limits (ss34–46 PACE; PACE Code C); rights of the detained person (s56 PACE; PACE Code C); appropriate adult (PACE Code C); interviews (s60 and s60A PACE; PACE Codes E and F)",
+"guidance": "",
+"as": true,
+"topics": [
+"police-powers"
+]
+},
+{
+"id": "1.2.4(d)",
+"text": "Treatment of suspects at police stations – searches (s54 and s55 PACE; PACE Code C); fingerprints (s61 PACE); samples (s62 and s63 PACE); physical conditions of interview room (PACE Code C); role of the custody officer (PACE Code C)",
+"guidance": "",
+"as": true,
+"topics": [
+"police-powers"
+]
+},
+{
+"id": "1.2.4(e)",
+"text": "Impact of the breach of these rules – statements obtained through oppression (s76 PACE); exclusion of evidence (s78 PACE)",
+"guidance": "",
+"as": true,
+"topics": [
+"police-powers"
+]
+}
+]
+},
+{
+"code": "1.3.1",
+"title": "The judiciary – superior and inferior judges",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "the-judiciary",
+"statements": [
+{
+"id": "1.3.1(a)",
+"text": "Qualifications",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+},
+{
+"id": "1.3.1(b)",
+"text": "Selection and appointment",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+},
+{
+"id": "1.3.1(c)",
+"text": "Role",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+},
+{
+"id": "1.3.1(d)",
+"text": "Training",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+},
+{
+"id": "1.3.1(e)",
+"text": "Retirement and removal",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+},
+{
+"id": "1.3.1(f)",
+"text": "Independence",
+"guidance": "",
+"as": true,
+"topics": [
+"the-judiciary"
+]
+}
+]
+},
+{
+"code": "1.3.2",
+"title": "Legal professionals",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "legal-professionals",
+"statements": [
+{
+"id": "1.3.2(a)",
+"text": "Barristers, solicitors and legal executives",
+"guidance": "",
+"as": true,
+"topics": [
+"legal-professionals"
+]
+},
+{
+"id": "1.3.2(b)",
+"text": "Qualifications",
+"guidance": "",
+"as": true,
+"topics": [
+"legal-professionals"
+]
+},
+{
+"id": "1.3.2(c)",
+"text": "Training",
+"guidance": "",
+"as": true,
+"topics": [
+"legal-professionals"
+]
+},
+{
+"id": "1.3.2(d)",
+"text": "Role",
+"guidance": "",
+"as": true,
+"topics": [
+"legal-professionals"
+]
+},
+{
+"id": "1.3.2(e)",
+"text": "Regulation – The Bar Council, Bar Standards Board, The Law Society, Solicitors Regulation Authority, Legal Ombudsman",
+"guidance": "",
+"as": true,
+"topics": [
+"legal-professionals"
+]
+}
+]
+},
+{
+"code": "1.3.3",
+"title": "Lay personnel",
+"level": 3,
+"paper": 1,
+"aLevelOnly": false,
+"topic": "lay-personnel",
+"statements": [
+{
+"id": "1.3.3(a)",
+"text": "Role of lay magistrates in civil and criminal cases",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(b)",
+"text": "Qualifications",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(c)",
+"text": "Selection and appointment",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(d)",
+"text": "Training",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(e)",
+"text": "Jury role in criminal courts",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(f)",
+"text": "Qualifications for jury service",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(g)",
+"text": "Vetting and challenges",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+},
+{
+"id": "1.3.3(h)",
+"text": "Alternatives to the use of the jury",
+"guidance": "",
+"as": true,
+"topics": [
+"lay-personnel"
+]
+}
+]
+},
+{
+"code": "2.1.1",
+"title": "Actus reus",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "actus-reus-and-mens-rea",
+"statements": [
+{
+"id": "2.1.1(a)",
+"text": "Actus reus as the conduct element of a crime",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+},
+{
+"id": "2.1.1(b)",
+"text": "Actus reus by omission",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+},
+{
+"id": "2.1.1(c)",
+"text": "Causation",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+}
+]
+},
+{
+"code": "2.1.2",
+"title": "Mens rea",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "actus-reus-and-mens-rea",
+"statements": [
+{
+"id": "2.1.2(a)",
+"text": "Mens rea as the mental element of a crime",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+},
+{
+"id": "2.1.2(b)",
+"text": "Intention – direct and indirect/oblique",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+},
+{
+"id": "2.1.2(c)",
+"text": "Recklessness",
+"guidance": "",
+"as": true,
+"topics": [
+"actus-reus-and-mens-rea"
+]
+}
+]
+},
+{
+"code": "2.2.1",
+"title": "Theft as defined in s1 Theft Act 1968",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "theft",
+"statements": [
+{
+"id": "2.2.1(a)",
+"text": "s2 – dishonesty",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+},
+{
+"id": "2.2.1(b)",
+"text": "s3 – appropriation",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+},
+{
+"id": "2.2.1(c)",
+"text": "s4 – property",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+},
+{
+"id": "2.2.1(d)",
+"text": "s5 – belonging to another",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+},
+{
+"id": "2.2.1(e)",
+"text": "s6 – intention to permanently deprive",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+},
+{
+"id": "2.2.1(f)",
+"text": "s7 – sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"theft"
+]
+}
+]
+},
+{
+"code": "2.2.2",
+"title": "Robbery as defined in s8 Theft Act 1968",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "robbery",
+"statements": [
+{
+"id": "2.2.2(a)",
+"text": "Actus reus",
+"guidance": "",
+"as": true,
+"topics": [
+"robbery"
+]
+},
+{
+"id": "2.2.2(b)",
+"text": "Mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"robbery"
+]
+},
+{
+"id": "2.2.2(c)",
+"text": "Sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"robbery"
+]
+}
+]
+},
+{
+"code": "2.2.3",
+"title": "Burglary as defined in s9 Theft Act 1968",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "burglary",
+"statements": [
+{
+"id": "2.2.3(a)",
+"text": "s9(1)(a) and (2) – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"burglary"
+]
+},
+{
+"id": "2.2.3(b)",
+"text": "s9(1)(b) – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"burglary"
+]
+},
+{
+"id": "2.2.3(c)",
+"text": "s9(3) – sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"burglary"
+]
+},
+{
+"id": "2.2.3(d)",
+"text": "s9(4) – a building",
+"guidance": "",
+"as": true,
+"topics": [
+"burglary"
+]
+},
+{
+"id": "2.2.3(e)",
+"text": "Aggravated burglary as defined in s10 Theft Act 1968",
+"guidance": "",
+"as": true,
+"topics": [
+"burglary"
+]
+}
+]
+},
+{
+"code": "2.2.4",
+"title": "Blackmail as defined in s21 Theft Act 1968",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "blackmail",
+"statements": [
+{
+"id": "2.2.4(a)",
+"text": "Actus reus",
+"guidance": "",
+"as": true,
+"topics": [
+"blackmail"
+]
+},
+{
+"id": "2.2.4(b)",
+"text": "Mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"blackmail"
+]
+},
+{
+"id": "2.2.4(c)",
+"text": "Sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"blackmail"
+]
+}
+]
+},
+{
+"code": "2.2.5",
+"title": "Handling stolen goods as defined in s22 Theft Act 1968",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "handling-stolen-goods",
+"statements": [
+{
+"id": "2.2.5(a)",
+"text": "Actus reus",
+"guidance": "",
+"as": true,
+"topics": [
+"handling-stolen-goods"
+]
+},
+{
+"id": "2.2.5(b)",
+"text": "Mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"handling-stolen-goods"
+]
+},
+{
+"id": "2.2.5(c)",
+"text": "Sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"handling-stolen-goods"
+]
+}
+]
+},
+{
+"code": "2.2.6",
+"title": "Making off without payment as defined in s3 Theft Act 1978",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "making-off-without-payment",
+"statements": [
+{
+"id": "2.2.6(a)",
+"text": "Actus reus",
+"guidance": "",
+"as": true,
+"topics": [
+"making-off-without-payment"
+]
+},
+{
+"id": "2.2.6(b)",
+"text": "Mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"making-off-without-payment"
+]
+},
+{
+"id": "2.2.6(c)",
+"text": "s4 – sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"making-off-without-payment"
+]
+}
+]
+},
+{
+"code": "2.2.7",
+"title": "Criminal damage as defined in Criminal Damage Act 1971",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "criminal-damage",
+"statements": [
+{
+"id": "2.2.7(a)",
+"text": "s1 – destroying or damaging property – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-damage"
+]
+},
+{
+"id": "2.2.7(b)",
+"text": "s2 – threats to destroy or damage property – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-damage"
+]
+},
+{
+"id": "2.2.7(c)",
+"text": "s3 – possessing anything with intent to destroy or damage property – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-damage"
+]
+},
+{
+"id": "2.2.7(d)",
+"text": "s4 – sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-damage"
+]
+},
+{
+"id": "2.2.7(e)",
+"text": "s5 – ‘without lawful excuse’",
+"guidance": "",
+"as": true,
+"topics": [
+"criminal-damage"
+]
+}
+]
+},
+{
+"code": "2.2.8",
+"title": "Fraud as defined in the Fraud Act 2006",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "fraud",
+"statements": [
+{
+"id": "2.2.8(a)",
+"text": "s2 – fraud by false representation – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"fraud"
+]
+},
+{
+"id": "2.2.8(b)",
+"text": "s3 – fraud by failing to disclose information – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"fraud"
+]
+},
+{
+"id": "2.2.8(c)",
+"text": "s4 – fraud by abuse of position – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"fraud"
+]
+},
+{
+"id": "2.2.8(d)",
+"text": "s11 – obtaining services dishonestly – actus reus and mens rea",
+"guidance": "",
+"as": true,
+"topics": [
+"fraud"
+]
+}
+]
+},
+{
+"code": "2.3.1",
+"title": "Adult offenders",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "sentencing-adult-offenders",
+"statements": [
+{
+"id": "2.3.1(a)",
+"text": "Types of sentence – custodial, community, fines and discharges",
+"guidance": "",
+"as": true,
+"topics": [
+"sentencing-adult-offenders"
+]
+},
+{
+"id": "2.3.1(b)",
+"text": "Factors in sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"sentencing-adult-offenders"
+]
+}
+]
+},
+{
+"code": "2.3.2",
+"title": "Young offenders",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "sentencing-young-offenders",
+"statements": [
+{
+"id": "2.3.2(a)",
+"text": "Types of sentence – custodial and community, parental responsibility",
+"guidance": "",
+"as": true,
+"topics": [
+"sentencing-young-offenders"
+]
+},
+{
+"id": "2.3.2(b)",
+"text": "Factors in sentencing",
+"guidance": "",
+"as": true,
+"topics": [
+"sentencing-young-offenders"
+]
+}
+]
+},
+{
+"code": "2.3.3",
+"title": "Aims of sentencing – what sentences are trying to achieve",
+"level": 3,
+"paper": 2,
+"aLevelOnly": false,
+"topic": "aims-of-sentencing",
+"statements": [
+{
+"id": "2.3.3(a)",
+"text": "Adult offenders",
+"guidance": "",
+"as": true,
+"topics": [
+"aims-of-sentencing"
+]
+},
+{
+"id": "2.3.3(b)",
+"text": "Young offenders",
+"guidance": "",
+"as": true,
+"topics": [
+"aims-of-sentencing"
+]
+}
+]
+},
+{
+"code": "3.1.1",
+"title": "Nature of a contract",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "3.1.1(a)",
+"text": "Agreement; unilateral; bilateral; collateral",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "3.1.2",
+"title": "Offer and acceptance",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "3.1.2(a)",
+"text": "Principles and evidence – offers; invitation to treat; counter offers; requests for information; termination; acceptance; application of the rules to standard form contracts, auction sales, contracts by tender",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "3.1.3",
+"title": "Intention to create legal relations",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "3.1.3(a)",
+"text": "Reason for requirement; presumption and rebuttal in commercial and social/domestic agreements",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "3.1.4",
+"title": "Consideration",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "3.1.4(a)",
+"text": "Nature and function; sufficiency/adequacy; past; performance of existing duties; part payment of debt; promissory estoppel",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "3.1.5",
+"title": "Capacity (minors only)",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "formation-of-contract",
+"statements": [
+{
+"id": "3.1.5(a)",
+"text": "Reason for limitation and possible reform",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+},
+{
+"id": "3.1.5(b)",
+"text": "Categories of contracts – necessaries; beneficial contracts of service (education, training and employment); voidable (continuing obligations)",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+},
+{
+"id": "3.1.5(c)",
+"text": "Remedies against minors – in equity; the Minors’ Contracts Act 1987, s2 and s3; limits",
+"guidance": "",
+"as": false,
+"topics": [
+"formation-of-contract"
+]
+}
+]
+},
+{
+"code": "3.2.1",
+"title": "Express terms",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "contract-terms",
+"statements": [
+{
+"id": "3.2.1(a)",
+"text": "The distinction between representations and terms, and importance",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+},
+{
+"id": "3.2.1(b)",
+"text": "Written terms – incorporation by signature; the parol evidence rule",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+}
+]
+},
+{
+"code": "3.2.2",
+"title": "Terms implied into a consumer contract by the Consumer Rights Act 2015",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "contract-terms",
+"statements": [
+{
+"id": "3.2.2(a)",
+"text": "To supply goods – s9 goods to be of satisfactory quality; s10 goods to be fit for a particular purpose; s11 goods to be as described and consumer rights for breach provided by: s20 right to reject; s22 time limit for short-term right to reject; s23 right to repair or replacement; s24 right to price reduction or a final right to reject",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+},
+{
+"id": "3.2.2(b)",
+"text": "To supply a service – s49 service to be performed with reasonable care and skill; s52 service to be performed within a reasonable time and consumer rights for breach provided by: s55 right to repeat performance; s56 right to a price reduction",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+}
+]
+},
+{
+"code": "3.2.3",
+"title": "Status of terms",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "contract-terms",
+"statements": [
+{
+"id": "3.2.3(a)",
+"text": "Conditions, warranties, innominate terms – nature; effects of breach",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-terms"
+]
+}
+]
+},
+{
+"code": "3.2.4",
+"title": "Control of exemption clauses",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "exemption-clauses",
+"statements": [
+{
+"id": "3.2.4(a)",
+"text": "Common law – rules of incorporation; the contra proferentem rule",
+"guidance": "",
+"as": false,
+"topics": [
+"exemption-clauses"
+]
+},
+{
+"id": "3.2.4(b)",
+"text": "Statutory: Unfair Contract Terms Act 1977 (business to business contracts only) – s1(3) definition; s2 negligence liability; s3 liability arising in contract; s11 reasonableness test",
+"guidance": "",
+"as": false,
+"topics": [
+"exemption-clauses"
+]
+},
+{
+"id": "3.2.4(c)",
+"text": "Statutory: Consumer Rights Act 2015 (trader and consumer contracts s61) – s2 definition; s31 exclusion of liability goods contracts; s57 exclusion of liability service contracts; s62 requirement for contract terms to be fair; s65 negligence liability; s68 requirement for transparency",
+"guidance": "",
+"as": false,
+"topics": [
+"exemption-clauses"
+]
+}
+]
+},
+{
+"code": "3.3.1",
+"title": "Performance",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "performance-and-breach",
+"statements": [
+{
+"id": "3.3.1(a)",
+"text": "The entire or strict performance rule",
+"guidance": "",
+"as": false,
+"topics": [
+"performance-and-breach"
+]
+},
+{
+"id": "3.3.1(b)",
+"text": "Exceptions to the entire or strict performance rule – substantial performance; voluntary acceptance of partial performance; divisible contracts; prevention of performance; tender of performance; time of performance; vicarious performance",
+"guidance": "",
+"as": false,
+"topics": [
+"performance-and-breach"
+]
+}
+]
+},
+{
+"code": "3.3.2",
+"title": "Breach",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "performance-and-breach",
+"statements": [
+{
+"id": "3.3.2(a)",
+"text": "Actual breach and anticipatory breach",
+"guidance": "",
+"as": false,
+"topics": [
+"performance-and-breach"
+]
+}
+]
+},
+{
+"code": "3.3.3",
+"title": "Frustration",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "frustration",
+"statements": [
+{
+"id": "3.3.3(a)",
+"text": "Types of frustrating event – impossibility of performance; supervening illegality; change of circumstance making performance pointless",
+"guidance": "",
+"as": false,
+"topics": [
+"frustration"
+]
+},
+{
+"id": "3.3.3(b)",
+"text": "Limitations on the doctrine of frustration – contractual provision; inconvenience or additional expense; foreseen or reasonably foreseeable event; self-induced",
+"guidance": "",
+"as": false,
+"topics": [
+"frustration"
+]
+},
+{
+"id": "3.3.3(c)",
+"text": "The effect of frustration at common law",
+"guidance": "",
+"as": false,
+"topics": [
+"frustration"
+]
+},
+{
+"id": "3.3.3(d)",
+"text": "The effect of frustration under the Law Reform (Frustrated Contracts) Act 1943, s1(2) and s1(3)",
+"guidance": "",
+"as": false,
+"topics": [
+"frustration"
+]
+}
+]
+},
+{
+"code": "3.4.1",
+"title": "Common law",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "contract-remedies",
+"statements": [
+{
+"id": "3.4.1(a)",
+"text": "Purpose and nature of damages",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.1(b)",
+"text": "The measure or calculation of damages – the categories of expectation loss, reliance loss, non-pecuniary loss",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.1(c)",
+"text": "Limitations on recovery – causation; remoteness; mitigation",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.1(d)",
+"text": "Evaluation of the use of the remedy of damages",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+}
+]
+},
+{
+"code": "3.4.2",
+"title": "Equitable",
+"level": 3,
+"paper": 3,
+"aLevelOnly": true,
+"topic": "contract-remedies",
+"statements": [
+{
+"id": "3.4.2(a)",
+"text": "Purpose of equitable remedies",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.2(b)",
+"text": "Nature of specific performance; specific restitution; rescission; injunction",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.2(c)",
+"text": "Limitations on their award in contract law",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+},
+{
+"id": "3.4.2(d)",
+"text": "Evaluation of the use of equitable remedies",
+"guidance": "",
+"as": false,
+"topics": [
+"contract-remedies"
+]
+}
+]
+},
+{
+"code": "4.1.1",
+"title": "Nature of liability in negligence",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "negligence",
+"statements": [
+{
+"id": "4.1.1(a)",
+"text": "Personal liability, vicarious liability (in outline only) and joint liability",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+}
+]
+},
+{
+"code": "4.1.2",
+"title": "Duty of care",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "negligence",
+"statements": [
+{
+"id": "4.1.2(a)",
+"text": "The neighbour principle and the modern three-part test (Caparo test)",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.1.2(b)",
+"text": "The importance of policy considerations",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+}
+]
+},
+{
+"code": "4.1.3",
+"title": "Breach of duty",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "negligence",
+"statements": [
+{
+"id": "4.1.3(a)",
+"text": "The standard of care and the objective test",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.1.3(b)",
+"text": "The standard of care and different classes of defendant – children, experts and professionals",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+}
+]
+},
+{
+"code": "4.1.4",
+"title": "Causation and remoteness of damage",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "negligence",
+"statements": [
+{
+"id": "4.1.4(a)",
+"text": "Factual and legal causation, multiple causes and intervening acts",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+},
+{
+"id": "4.1.4(b)",
+"text": "The test for remoteness of damage",
+"guidance": "",
+"as": false,
+"topics": [
+"negligence"
+]
+}
+]
+},
+{
+"code": "4.1.5",
+"title": "Novel duty situations",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "novel-duty-situations",
+"statements": [
+{
+"id": "4.1.5(a)",
+"text": "Pure economic loss and liability for negligent misstatement",
+"guidance": "",
+"as": false,
+"topics": [
+"novel-duty-situations"
+]
+},
+{
+"id": "4.1.5(b)",
+"text": "Liability for nervous shock; restrictions on the scope of the duty and policy considerations; possible reforms",
+"guidance": "",
+"as": false,
+"topics": [
+"novel-duty-situations"
+]
+}
+]
+},
+{
+"code": "4.2.1",
+"title": "Occupiers’ liability",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "occupiers-liability",
+"statements": [
+{
+"id": "4.2.1(a)",
+"text": "Lawful visitors and the Occupiers’ Liability Act 1957 – special duty owed to children; persons carrying out a trade or calling; liability for torts of independent contractors; exclusion of liability and defences",
+"guidance": "",
+"as": false,
+"topics": [
+"occupiers-liability"
+]
+},
+{
+"id": "4.2.1(b)",
+"text": "Unlawful visitors and the Occupiers’ Liability Act 1984 – scope of the duty, exclusion of liability and defences",
+"guidance": "",
+"as": false,
+"topics": [
+"occupiers-liability"
+]
+}
+]
+},
+{
+"code": "4.2.2",
+"title": "Private nuisance",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "private-nuisance",
+"statements": [
+{
+"id": "4.2.2(a)",
+"text": "Nature of liability; parties to the case",
+"guidance": "",
+"as": false,
+"topics": [
+"private-nuisance"
+]
+},
+{
+"id": "4.2.2(b)",
+"text": "Meaning of unreasonable interference and factors considered by the courts such as locality, duration, sensitivity and malice",
+"guidance": "",
+"as": false,
+"topics": [
+"private-nuisance"
+]
+},
+{
+"id": "4.2.2(c)",
+"text": "Defences – prescription; statutory authority",
+"guidance": "",
+"as": false,
+"topics": [
+"private-nuisance"
+]
+}
+]
+},
+{
+"code": "4.2.3",
+"title": "Rylands v Fletcher",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "rylands-v-fletcher",
+"statements": [
+{
+"id": "4.2.3(a)",
+"text": "Nature of strict liability; relationship between Rylands and other torts relating to land",
+"guidance": "",
+"as": false,
+"topics": [
+"rylands-v-fletcher"
+]
+},
+{
+"id": "4.2.3(b)",
+"text": "Definition and conditions of liability",
+"guidance": "",
+"as": false,
+"topics": [
+"rylands-v-fletcher"
+]
+}
+]
+},
+{
+"code": "4.2.4",
+"title": "Trespass to land",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "trespass-to-land",
+"statements": [
+{
+"id": "4.2.4(a)",
+"text": "Nature of trespass – unlawful entry; intentional and direct interference; continuing trespass",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-land"
+]
+}
+]
+},
+{
+"code": "4.3.1",
+"title": "Assault",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "trespass-to-the-person",
+"statements": [
+{
+"id": "4.3.1(a)",
+"text": "Definition and elements required to establish liability, actionable per se",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+},
+{
+"id": "4.3.1(b)",
+"text": "Actions which may amount to assault; words and silence",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+}
+]
+},
+{
+"code": "4.3.2",
+"title": "Battery",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "trespass-to-the-person",
+"statements": [
+{
+"id": "4.3.2(a)",
+"text": "Definition and elements required to establish liability, actionable per se",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+},
+{
+"id": "4.3.2(b)",
+"text": "Meaning of force and relevance of hostility",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+},
+{
+"id": "4.3.2(c)",
+"text": "Defences of consent, self-defence and necessity",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+}
+]
+},
+{
+"code": "4.3.3",
+"title": "False imprisonment",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "trespass-to-the-person",
+"statements": [
+{
+"id": "4.3.3(a)",
+"text": "Definition and elements required to establish liability",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+},
+{
+"id": "4.3.3(b)",
+"text": "Requirements of total restraint and knowledge of restraint; lawful restraint",
+"guidance": "",
+"as": false,
+"topics": [
+"trespass-to-the-person"
+]
+}
+]
+},
+{
+"code": "4.4.1",
+"title": "Defences",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "tort-defences",
+"statements": [
+{
+"id": "4.4.1(a)",
+"text": "Volenti non fit injuria – meaning of consent and importance of knowledge and understanding; application in cases of employment, medical treatment and sport",
+"guidance": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+},
+{
+"id": "4.4.1(b)",
+"text": "Contributory negligence – nature of a partial defence, apportionment of blame and reduction of damages",
+"guidance": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+},
+{
+"id": "4.4.1(c)",
+"text": "Inevitable accident, Act of God, Statutory authority, illegality and necessity",
+"guidance": "",
+"as": false,
+"topics": [
+"tort-defences"
+]
+}
+]
+},
+{
+"code": "4.4.2",
+"title": "Remedies",
+"level": 3,
+"paper": 4,
+"aLevelOnly": true,
+"topic": "tort-remedies",
+"statements": [
+{
+"id": "4.4.2(a)",
+"text": "Damages – purpose of damages in tort; calculation of damages; special and general damages; non- compensatory damages; damages for personal injuries, issues relating to future losses and death; policy issues and possible reforms",
+"guidance": "",
+"as": false,
+"topics": [
+"tort-remedies"
+]
+},
+{
+"id": "4.4.2(b)",
+"text": "Equitable remedies in tort; the use of injunctions; mandatory, prohibitory and interlocutory injunctions; damages in lieu of an injunction; evaluation of the use of the injunction in tort",
+"guidance": "",
+"as": false,
+"topics": [
+"tort-remedies"
+]
+}
+]
+}
+]

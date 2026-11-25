@@ -1,0 +1,37 @@
+{
+ "topic": "theft",
+ "name": "Theft",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Theft (s1 Theft Act 1968)",
+   "definition": "Dishonestly appropriating property belonging to another with the intention of permanently depriving the other of it.",
+   "examiner": "Five elements, two of them mens rea. Take each element in turn in a problem answer, with a case for each."
+  },
+  {
+   "term": "Appropriation (s3)",
+   "definition": "Any assumption of the rights of an owner, including later keeping or dealing with property as owner.",
+   "examiner": "R v Morris (one right is enough); Gomez and Hinks: consent does not stop an act being appropriation."
+  },
+  {
+   "term": "Property (s4)",
+   "definition": "Money and all other property, real or personal, including things in action and other intangible property.",
+   "examiner": "Exceptions: land (mostly), wild plants and creatures. Oxford v Moss: confidential information is not property."
+  },
+  {
+   "term": "Belonging to another (s5)",
+   "definition": "Property belongs to anyone who has possession, control or a proprietary interest in it.",
+   "examiner": "R v Turner (No 2): an owner can steal his own car from someone in possession. s5(3) and s5(4) cover property received for a purpose or by mistake."
+  },
+  {
+   "term": "Dishonesty",
+   "definition": "Judged by the Ivey v Genting test, confirmed for criminal law in R v Barton and Booth: what was the defendant's actual belief about the facts, and was the conduct dishonest by the standards of ordinary decent people?",
+   "examiner": "Mention s2 first: a belief in a legal right, that the owner would consent, or that the owner cannot be found is not dishonest. The old Ghosh test no longer applies."
+  },
+  {
+   "term": "Intention to permanently deprive (s6)",
+   "definition": "Treating the thing as one's own to dispose of regardless of the owner's rights, including borrowing that is equivalent to an outright taking.",
+   "examiner": "R v Lloyd: borrowing counts only if the thing's goodness or value is gone. R v Velumyl: replacing money with equivalent notes is still theft."
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "topic": "statutory-interpretation",
+ "name": "Statutory interpretation",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Literal rule",
+   "definition": "The words of the Act are given their plain, ordinary meaning, even if the result is absurd.",
+   "examiner": "Whiteley v Chappell, LNER v Berriman, Fisher v Bell. It respects parliamentary sovereignty but can produce unjust results: have one case for each side."
+  },
+  {
+   "term": "Golden rule",
+   "definition": "A modification of the literal rule: where the literal meaning would give an absurd result, the court may avoid it.",
+   "examiner": "Narrow approach: choose between possible meanings of a word (Allen, Adler v George). Wider approach: modify the words to avoid a repugnant result (Re Sigsworth)."
+  },
+  {
+   "term": "Mischief rule",
+   "definition": "The court looks at the gap or \"mischief\" in the law that the Act was passed to remedy, and interprets the Act so as to remedy it.",
+   "examiner": "Heydon's Case (1584) sets out the four questions. Smith v Hughes and Royal College of Nursing v DHSS are the usual examples."
+  },
+  {
+   "term": "Purposive approach",
+   "definition": "The court looks for the purpose of Parliament in passing the Act and interprets the words to give effect to that purpose.",
+   "examiner": "R v Registrar-General ex parte Smith; R (Quintavalle) v Secretary of State for Health. It goes further than the mischief rule: the court is not limited to the gap in the old law."
+  },
+  {
+   "term": "Intrinsic aids",
+   "definition": "Matters within the Act itself that help to make its meaning clear.",
+   "examiner": "The long and short title, the preamble, headings, interpretation sections and schedules."
+  },
+  {
+   "term": "Extrinsic aids",
+   "definition": "Matters outside the Act that the court may use to help interpret it.",
+   "examiner": "Dictionaries of the time, the Interpretation Act 1978, Law Commission reports, explanatory notes, and Hansard under the conditions in Pepper v Hart (1993)."
+  },
+  {
+   "term": "Section 3 Human Rights Act 1998",
+   "definition": "So far as it is possible to do so, legislation must be read and given effect in a way that is compatible with Convention rights.",
+   "examiner": "Ghaidan v Godin-Mendoza is the standard example of the courts reading words into a statute to make it compatible."
+  }
+ ]
+}

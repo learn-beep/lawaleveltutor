@@ -1,0 +1,37 @@
+{
+ "topic": "aims-of-sentencing",
+ "name": "Aims of sentencing",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Punishment (retribution)",
+   "definition": "The idea that offenders should be punished because they deserve it, in proportion to the seriousness of the offence.",
+   "examiner": "Linked to tariff sentences and the Sentencing Council guidelines on harm and culpability."
+  },
+  {
+   "term": "Deterrence",
+   "definition": "Discouraging the offender (individual deterrence) and others (general deterrence) from committing offences.",
+   "examiner": "Evaluate with reoffending rates: harsh sentences do not always deter."
+  },
+  {
+   "term": "Reform (rehabilitation)",
+   "definition": "Changing the offender's behaviour so that they do not reoffend.",
+   "examiner": "Community orders with requirements such as unpaid work, drug rehabilitation or programmes; especially stressed for young offenders."
+  },
+  {
+   "term": "Protection of the public",
+   "definition": "Preventing the offender from committing further offences, for example by imprisonment or curfews.",
+   "examiner": "Extended and life sentences for dangerous offenders are the clearest examples."
+  },
+  {
+   "term": "Reparation",
+   "definition": "Making amends to the victim or the community.",
+   "examiner": "Compensation orders, unpaid work and restorative justice."
+  },
+  {
+   "term": "Section 57 Sentencing Act 2020",
+   "definition": "The statutory list of purposes a court must have regard to when sentencing an adult offender.",
+   "examiner": "Name the act; the purposes are punishment, crime reduction (including deterrence), reform and rehabilitation, protection of the public and reparation."
+  }
+ ]
+}

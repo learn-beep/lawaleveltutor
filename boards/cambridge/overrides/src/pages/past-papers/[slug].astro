@@ -1,0 +1,36 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allPapers, byId, topicByslug, OCR_MATERIALS } from '../../lib/data';
+export function getStaticPaths() {
+  return allPapers.map((p) => ({ params: { slug: p.slug }, props: { paper: p } }));
+}
+const { paper } = Astro.props;
+const qs = paper.questions.map((id) => byId.get(id)).filter(Boolean);
+const sam = paper.kind !== 'exam';
+const title = `${paper.series} ${paper.paper} (${paper.spec}/${paper.comp})`;
+const rubric = {
+  '1': 'Section A: answer all five questions (25 marks). Section B: answer two of the three questions, each in two parts: (a) explain or describe, 10 marks; (b) discuss, 15 marks. 75 marks, 1 hour 30 minutes.',
+  '2': 'Section A: answer Question 1, three source-based parts of 10 marks applying the sentencing guideline printed as source material. Section B: answer one of the two questions, each a 5-mark part and a 25-mark essay. 60 marks, 1 hour 30 minutes.',
+  '3': 'Section A: answer one of the two problem scenarios (25 marks). Section B: answer two of the three essays (25 marks each). 75 marks, 1 hour 30 minutes.',
+  '4': 'Section A: answer one of the two problem scenarios (25 marks). Section B: answer two of the three essays (25 marks each). 75 marks, 1 hour 30 minutes.',
+}[paper.paperNo];
+---
+<Base title={`Cambridge Law ${title}: questions, mark scheme and examiners' report`} description={`Every question in Cambridge International Law ${title}, ${paper.name}, with its topic, marks and AO split, the mark scheme and the examiners' report.`} context={`paper:${paper.slug}`} leadLine="Want a paper marked and gone through with you? Message us.">
+  <h1>{paper.series}: {paper.paper} {paper.name} ({paper.spec}/{paper.comp})</h1>
+  <p class="muted">{paper.qual === 'AS' ? 'AS Level' : 'A Level'} · {paper.total} marks · {qs.length} questions · <a href={OCR_MATERIALS} rel="noopener">Cambridge's 9084 page</a>{paper.reprints?.length ? ` · ${paper.reprints.join(', ')} in this series was a word-for-word reprint of this paper` : ''}{sam ? ' · Specimen paper for first exams in 2023; no examiners\' report' : ''}</p>
+  <p>{rubric}</p>
+  <h2>Question by question</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Q</th><th>Section</th><th>Topic</th><th>Marks</th><th>AO</th><th>Type</th></tr></thead>
+    <tbody>{qs.map((q) => <tr>
+      <td><a href={`#${q.id}`}>{q.question}</a></td>
+      <td>{q.section.split(':')[0].replace('Section ', '')}</td>
+      <td>{q.topics.map((t, i) => <>{i ? ', ' : ''}<a href={`/questions/${t}/`}>{topicByslug.get(t)?.name.split(':')[0] ?? t}</a></>)}</td>
+      <td>{q.marks}</td><td>{(q.aoText || '').replace(/=/g, ' ').replace(/,/g, ', ')}</td><td>{q.format}</td>
+    </tr>)}</tbody>
+  </table></div>
+  <h2>The questions</h2>
+  <div class="jump">{qs.map((q) => <a href={`#${q.id}`}>{q.question}</a>)}</div>
+  {qs.map((q) => <QuestionCard q={q} showTopics={true} />)}
+</Base>

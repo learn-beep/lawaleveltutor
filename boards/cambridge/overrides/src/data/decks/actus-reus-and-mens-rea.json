@@ -1,0 +1,57 @@
+{
+ "topic": "actus-reus-and-mens-rea",
+ "name": "Actus reus and mens rea",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Actus reus",
+   "definition": "The physical element of a crime: the conduct (an act or an omission), in the required circumstances, and for a result crime the prohibited consequence.",
+   "examiner": "The conduct must be voluntary (Hill v Baxter). In a scenario, deal with the actus reus before the mens rea."
+  },
+  {
+   "term": "Omission",
+   "definition": "A failure to act. There is no liability for an omission unless the defendant was under a legal duty to act.",
+   "examiner": "Know the duty situations with a case each: contract (Pittwood), relationship (Gibbins and Proctor), voluntary assumption of care (Stone and Dobinson), creating a dangerous situation (Miller), public office (Dytham)."
+  },
+  {
+   "term": "Factual causation",
+   "definition": "The \"but for\" test: the consequence would not have happened but for the defendant's conduct.",
+   "examiner": "White (1910) is the case where the test was not met; Pagett is one where it was. Apply the test to the facts in one sentence, then move to legal causation."
+  },
+  {
+   "term": "Legal causation",
+   "definition": "The defendant's conduct must be an operating and substantial cause of the consequence, meaning more than a minimal contribution.",
+   "examiner": "Smith (1959) for \"operating and substantial\"; Kimsey for more than a slight or trifling link. It need not be the only cause."
+  },
+  {
+   "term": "Novus actus interveniens",
+   "definition": "A new intervening act that breaks the chain of causation: the act of a third party, the victim's own act, or a natural and unforeseeable event.",
+   "examiner": "Medical treatment rarely breaks the chain (Smith, Cheshire; contrast Jordan). A victim's escape breaks it only if it was so \"daft\" as to be unforeseeable (Roberts, Williams)."
+  },
+  {
+   "term": "Thin skull rule",
+   "definition": "The defendant must take the victim as they find them, so is liable for the full harm even if a characteristic of the victim made it worse.",
+   "examiner": "Blaue: the victim's refusal of a blood transfusion on religious grounds did not break the chain."
+  },
+  {
+   "term": "Direct intention",
+   "definition": "The consequence is the defendant's aim or purpose.",
+   "examiner": "Mohan (1975): a decision to bring about the consequence. Do not discuss oblique intention when the facts show a clear aim."
+  },
+  {
+   "term": "Oblique intention",
+   "definition": "The consequence was not the defendant's aim, but it was a virtual certainty as a result of their actions and they appreciated that.",
+   "examiner": "Woollin (1998). Matthews and Alleyne: foresight of virtual certainty is evidence from which the jury may find intention, not intention itself."
+  },
+  {
+   "term": "Subjective recklessness",
+   "definition": "The defendant foresaw a risk of the consequence and went on to take it unreasonably.",
+   "examiner": "Cunningham (1957), confirmed in R v G (2003). It is enough for assault, battery, s47 and s20; it is not enough for s18 or murder."
+  },
+  {
+   "term": "Transferred malice",
+   "definition": "Mens rea aimed at one victim is transferred to the unintended victim of the same type of offence.",
+   "examiner": "Latimer. It does not transfer between different types of offence: Pembliton (person to property)."
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "topic": "negligence",
+ "name": "Negligence",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Duty of care",
+   "definition": "A legal obligation to take reasonable care not to cause foreseeable harm to another person.",
+   "examiner": "Start with the neighbour principle in Donoghue v Stevenson. Since Robinson v Chief Constable of West Yorkshire (2018) the courts look first to existing precedent or analogy, and use the Caparo approach only for novel situations."
+  },
+  {
+   "term": "The Caparo test",
+   "definition": "Three stages for a novel duty situation: harm was reasonably foreseeable, there was proximity between the parties, and it is fair, just and reasonable to impose a duty.",
+   "examiner": "Caparo v Dickman, with a case for each stage: Kent v Griffiths (foreseeability), Bourhill v Young (proximity), Hill v Chief Constable of West Yorkshire (fair, just and reasonable)."
+  },
+  {
+   "term": "Breach of duty",
+   "definition": "Falling below the standard of care of the reasonable person.",
+   "examiner": "Blyth v Birmingham Waterworks. The test is objective: the defendant's own inexperience is no excuse (Nettleship v Weston)."
+  },
+  {
+   "term": "Standard of care: professionals, learners and children",
+   "definition": "A professional is judged by the standard of a competent member of that profession, a learner by the standard of the competent and experienced person, and a child by the standard of a reasonable child of the same age.",
+   "examiner": "Bolam (with Bolitho: the professional opinion must be logical), Nettleship v Weston, Mullin v Richards."
+  },
+  {
+   "term": "Risk factors",
+   "definition": "Matters that raise or lower the standard of care expected: the size of the risk, any special characteristics of the claimant, the cost and practicality of precautions, whether the risk was known, and any public benefit.",
+   "examiner": "A case for each: Bolton v Stone, Paris v Stepney, Latimer v AEC, Roe v Minister of Health, Watt v Hertfordshire County Council. Apply only the factors the scenario raises."
+  },
+  {
+   "term": "Factual causation in negligence",
+   "definition": "The \"but for\" test: the damage would not have happened but for the defendant's breach.",
+   "examiner": "Barnett v Chelsea and Kensington Hospital: the patient would have died anyway, so the breach did not cause the death."
+  },
+  {
+   "term": "Remoteness of damage",
+   "definition": "The damage must be of a type that was reasonably foreseeable at the time of the breach.",
+   "examiner": "The Wagon Mound (No 1). The type must be foreseeable, not the exact way it happened or its extent (Hughes v Lord Advocate, Bradford v Robinson Rentals)."
+  },
+  {
+   "term": "Thin skull rule in tort",
+   "definition": "The defendant must take the claimant as they find them, and is liable for the full extent of the harm if the type of harm was foreseeable.",
+   "examiner": "Smith v Leech Brain: a burn triggered a cancer and the defendant was liable for the death."
+  }
+ ]
+}

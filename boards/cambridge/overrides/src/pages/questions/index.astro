@@ -1,0 +1,20 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allTopics, groupInfo, GROUPS, FIRST_SERIES } from '../../lib/data';
+const groups = GROUPS.map((g) => [g[0], g[4], g[0]]);
+---
+<Base title={`Cambridge International A Level Law (9084) questions by topic, every paper since ${FIRST_SERIES.split(' ')[1]}`} description={`Every Cambridge International AS and A Level Law (9084) past-paper question since ${FIRST_SERIES.split(' ')[1]} sorted into ${allTopics.length} syllabus topics, each with its mark schemes, examiners' report and every essay and scenario set.`} context="questions-index">
+  <h1>Questions by topic</h1>
+  <p>Every Cambridge International AS and A Level Law (9084) past-paper question since the current syllabus was first examined in {FIRST_SERIES}, in every time-zone variant, plus Cambridge's specimen papers, sorted into topics by the syllabus content each question assesses. Each topic page shows every question with the mark scheme (this part's rows marked in orange, the levels tables attached), the examiners' report on the question, and filters by paper, year and question type.</p>
+  {groups.map(([h, where, key]) => (
+    <>
+      <h2 class="strand-head">{h}</h2>
+      <p class="muted">{where}</p>
+      <ul class="topic-list">
+        {allTopics.filter((t) => t.group === key).map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.name}</span><span class="strand"><span class={`badge badge-${groupInfo(t.group).badge}`}>{t.codes.length > 1 ? `${t.codes[0]}–${t.codes[t.codes.length - 1].split(".").pop()}` : t.code}</span> {t.parts} question{t.parts === 1 ? '' : 's'}</span></a></li>)}
+      </ul>
+    </>
+  ))}
+  <h2>By question type</h2>
+  <p>Or work on a kind of question across every topic: <a href="/questions/type/short-answer/">short-answer questions (1–6 marks)</a>, <a href="/questions/type/describe-explain/">10-mark explain and describe questions</a>, <a href="/questions/type/source-based/">source-based sentencing questions</a>, <a href="/questions/type/scenarios/">problem scenarios</a>, <a href="/questions/type/essays/">discussion questions and essays</a>.</p>
+</Base>

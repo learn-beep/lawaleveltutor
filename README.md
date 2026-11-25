@@ -39,3 +39,14 @@ Set `CROPS=off` in Netlify's environment to replace every OCR crop with a link t
 ## Known gaps
 - June 2023 AS Paper 2 has no examiners' report (OCR's link serves the Paper 1 report).
 - June 2026 papers: add when OCR releases them.
+
+## Cambridge International 9084 section (`/cambridge/`, added 25 Nov 2026)
+- `npm run build` runs `node scripts/build.mjs` (the method used on the Economics and Sociology sites): the OCR site is built at the root as before, then a copy of `src/` is built with the Cambridge data and moved under `dist/cambridge/` with its internal links prefixed. Shared pages (tutors, about, privacy, terms, report, thank-you, 404) come from the OCR build only. One sitemap covers both.
+- Board files are in `boards/cambridge/`:
+  - `data/`, written by `python3 boards/cambridge/export_cie.py --bank "<Law\CIE\Question Bank>" [--images]` (lossless WebP crops to `public/img/cie/<paper>/`).
+  - `exams.json` (June 2027, Cambridge final timetable, zone 3), `boundaries.json` (every A Level and AS option from Cambridge's threshold documents, June 2023 to November 2025; A Level out of 300 after weighting, Paper 2 × 1.25), `site.config.json`.
+  - `replace.json` from `python3 boards/cambridge/make_replace.py` (not applied to overrides), and `overrides/src/` (home, topic and type pages, past papers, essays, mock, practice, syllabus checklist, thresholds, dates, analysis, what came up, `lib/data.ts`, `scripts/player.js`, 12 decks).
+- 39 topics from the 53 syllabus sub-sections (small contract and tort sub-sections merged; `TOPIC_LIST` in the export script), in seven groups.
+- Question types: Short answer, Explain or describe (10), Source-based application (Paper 2, 10), Scenario (25), Essay (10, 15, 25).
+- Storage keys `malt-cie-…`; header strings are split so the replacements leave the OCR | Cambridge switch alone.
+- For a tutor to check: the 12 Cambridge decks (`checked: false`; five adapted from the OCR decks, seven new), the level summaries on `/cambridge/essays/` and the question-type notes.

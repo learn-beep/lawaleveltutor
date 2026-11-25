@@ -6,3 +6,4 @@ dist/
 /past-papers/
 *.zip
 extract-all.bat
+/.build/

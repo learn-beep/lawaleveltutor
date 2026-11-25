@@ -1,0 +1,55 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import { allQuestions, allTopics, essayTitle, paperLabel, FIRST_SERIES, seriesRank } from '../../lib/data';
+const essays = allQuestions.filter((q) => q.format === 'Essay' && !q.notCurrentSpec).sort((a, b) => seriesRank(b.series) - seriesRank(a.series));
+const title = (q) => essayTitle(q).slice(0, 320);
+const byTopic = allTopics.map((t) => [t, essays.filter((q) => q.topics.includes(t.slug))]).filter(([, qs]) => qs.length);
+const n25 = essays.filter((q) => q.marks === 25).length, n15 = essays.filter((q) => q.marks === 15).length, n10 = essays.filter((q) => q.marks === 10).length;
+const since = FIRST_SERIES.split(' ')[1];
+---
+<Base title={`Every Cambridge A Level Law 9084 essay question since ${since}, by topic, with a timed essay tool`} description={`All the 25-mark essays and the 10- and 15-mark discussion questions set on Cambridge International AS and A Level Law (9084) since ${since}, grouped by topic, with a timed-essay tool that reveals the mark scheme and levels.`} context="essays" leadLine="Want your essays marked against Cambridge's levels? Message us.">
+  <h1>Every essay question, and a timed practice tool</h1>
+  <p>{n25} twenty-five-mark essays (Paper 2 Section B and Papers 3 and 4 Section B), {n15} fifteen-mark discussion questions (part (b) of the Paper 1 essays) and {n10} ten-mark discussion questions (Paper 1 Question 5), grouped by topic with the series and paper each appeared in. Pick one to write under timed conditions (1 hour 30 minutes for 75 marks is 1.2 minutes a mark: 30 minutes for a 25-marker, 18 for a 15-marker), then open the mark scheme with its levels of response and indicative content and award yourself a level.</p>
+  <p class="muted">The 25-mark essays on Papers 3 and 4 are marked on three grids: knowledge and understanding (AO1, 12 marks), analysis and application (AO2, 5) and evaluation (AO3, 8). The Paper 1 discussion questions are analysis and evaluation only. Looking for problem questions? See the <a href="/questions/type/scenarios/">scenarios</a>.</p>
+  <h2>Timed essay</h2>
+  <div class="panel">
+    <div class="chips" id="topic-chips">{byTopic.map(([t]) => <button class="chip" type="button" data-topic={t.slug} aria-pressed="false">{t.name.split(':')[0]}</button>)}</div>
+    <div class="chips" data-group="marks"><button class="chip" type="button" data-v="" aria-pressed="true">Any</button><button class="chip" type="button" data-v="25">25-mark</button><button class="chip" type="button" data-v="15">15-mark (Paper 1)</button><button class="chip" type="button" data-v="10">10-mark (Paper 1)</button></div>
+    <div><button class="btn btn-accent" type="button" id="draw">Give me a title</button> <span class="muted">(random from the selected topics, or from all)</span></div>
+  </div>
+  <div id="play" hidden>
+    <div class="playbar"><span id="which"></span><span class="timer" id="timer">30:00</span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start the clock</button></div>
+    <div id="card"></div>
+    <div class="panel"><h3>Award yourself a level</h3><div class="markrow" id="levels"><span>Level:</span>{[1, 2, 3, 4].map((l) => <button class="chip" type="button" data-level={l}>{l}</button>)}</div><p class="muted" id="levelnote"></p></div>
+  </div>
+  <h2>All titles by topic</h2>
+  {byTopic.map(([t, qs]) => <><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({qs.length})</span></h3>
+    <div class="table-wrap"><table><thead><tr><th>Series</th><th>Paper</th><th>Marks</th><th>Title</th></tr></thead>
+    <tbody>{qs.map((q) => <tr><td>{q.series}</td><td>{paperLabel(q)} Q{q.question}</td><td>{q.marks}</td><td><a href={`/questions/${t.slug}/#${q.id}`}>{title(q)}</a></td></tr>)}</tbody></table></div></>)}
+  <script>
+    import { loadBank, card, saveScore, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = new Set(); let marks = '', bank = null, timer = null, secs = 1800, current = null;
+    document.querySelectorAll('[data-topic]').forEach((b) => b.addEventListener('click', () => { const on = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', String(on)); on ? sel.add(b.dataset.topic) : sel.delete(b.dataset.topic); }));
+    document.querySelectorAll('[data-group="marks"] .chip').forEach((b) => b.addEventListener('click', () => { document.querySelectorAll('[data-group="marks"] .chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); marks = b.dataset.v; }));
+    loadBank().then((b) => { bank = b; });
+    $('#draw').addEventListener('click', () => {
+      if (!bank) return;
+      const pool = bank.q.filter((q) => q.f === 'Essay' && !q.old && q.c && (!marks || q.m === Number(marks)) && (!sel.size || q.t.some((t) => sel.has(t))));
+      if (!pool.length) return;
+      current = shuffle(pool)[0];
+      secs = Math.round(current.m * 72);
+      $('#play').hidden = false; $('#which').textContent = `${current.s} ${current.p}${current.cp ? ` (9084/${current.cp})` : ''} Q${current.q} (${current.m} marks)`; $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      $('#levelnote').innerHTML = current.m === 25 ? 'Cambridge marks a 25-mark essay on separate grids. On Papers 3 and 4, Level 4 is 10–12 for AO1 (accurate and detailed knowledge with key cases and statutes), 4–5 for AO2 (focused, reasoned analysis) and 6–8 for AO3 (focused, reasoned evaluation reaching a coherent argument). Judge each grid in the mark scheme; the level you tap is your overall judgement. <em>Levels summarised by the site, to be checked by our tutor.</em>' : 'Paper 1 discussion questions are marked on analysis (AO2) and evaluation (AO3) only: the top level needs clearly reasoned analysis with relevant examples and evaluation developed with evidence. Description of the law alone stays in the lower levels. <em>Levels summarised by the site, to be checked by our tutor.</em>';
+      const holder = $('#card'); holder.innerHTML = ''; holder.appendChild(card(current));
+      document.querySelectorAll('[data-level]').forEach((x) => x.setAttribute('aria-pressed', 'false'));
+      window.scrollTo({ top: $('#play').offsetTop - 80, behavior: 'smooth' });
+    });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+    document.querySelectorAll('[data-level]').forEach((b) => b.addEventListener('click', () => {
+      document.querySelectorAll('[data-level]').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true');
+      if (current) { const table = { 25: [0, 5, 11, 17, 23], 15: [0, 3, 7, 11, 14], 10: [0, 2, 5, 8, 10] }[current.m] || [0, 5, 11, 17, 23]; saveScore(current.t, table[Number(b.dataset.level)], current.m, current.id); }
+    }));
+  </script>
+</Base>

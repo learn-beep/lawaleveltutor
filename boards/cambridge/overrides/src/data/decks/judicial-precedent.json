@@ -1,0 +1,47 @@
+{
+ "topic": "judicial-precedent",
+ "name": "Judicial precedent",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Stare decisis",
+   "definition": "\"Stand by what has been decided\": courts follow the decisions of earlier cases on similar facts, and lower courts are bound by higher courts.",
+   "examiner": "It is what gives precedent its certainty and fairness; link it to the court hierarchy when a question asks how precedent operates."
+  },
+  {
+   "term": "Ratio decidendi",
+   "definition": "The reason for the decision: the legal principle on which the judgment is based. It is the part of the judgment that binds later courts.",
+   "examiner": "Distinguish it from the facts and from obiter dicta. A judgment can have more than one ratio."
+  },
+  {
+   "term": "Obiter dicta",
+   "definition": "\"Other things said\": the rest of the judgment, including hypothetical situations. It does not bind but can be persuasive.",
+   "examiner": "Howe: the obiter statement that duress is no defence to attempted murder was followed in Gotts."
+  },
+  {
+   "term": "Binding precedent",
+   "definition": "A decision of a higher court (or sometimes the same court) that a later court must follow where the material facts are sufficiently similar.",
+   "examiner": "Use the hierarchy: the Supreme Court binds all courts below it; the Court of Appeal is bound by the Supreme Court and generally by itself."
+  },
+  {
+   "term": "Persuasive precedent",
+   "definition": "A precedent that a court is not bound to follow but may choose to.",
+   "examiner": "Sources: lower courts (R v R), the Privy Council (The Wagon Mound), obiter dicta (Howe), dissenting judgments, and courts of other countries."
+  },
+  {
+   "term": "Practice Statement 1966",
+   "definition": "The statement allowing the House of Lords, now the Supreme Court, to depart from its own previous decisions when it appears right to do so.",
+   "examiner": "Herrington v British Railways Board (departing from Addie v Dumbreck) in civil law; Shivpuri (overruling Anderton v Ryan) in criminal law. It is used sparingly."
+  },
+  {
+   "term": "Young v Bristol Aeroplane exceptions",
+   "definition": "The Court of Appeal is bound by its own decisions except where two of its decisions conflict, where a later Supreme Court or House of Lords decision has impliedly overruled its decision, or where the decision was made per incuriam.",
+   "examiner": "The Criminal Division has extra flexibility where the liberty of the subject is at stake (Taylor, Gould)."
+  },
+  {
+   "term": "Overruling, reversing and distinguishing",
+   "definition": "Overruling: a court in a later case states that the legal rule in an earlier case is wrong. Reversing: a higher court overturns the decision of a lower court in the same case on appeal. Distinguishing: a judge avoids a precedent because the material facts are different.",
+   "examiner": "Distinguishing: Balfour v Balfour and Merritt v Merritt. These are the tools that give precedent its flexibility."
+  }
+ ]
+}

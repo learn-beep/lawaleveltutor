@@ -1,0 +1,75 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+---
+<Base title="Cambridge A Level Law 9084 mini-mock builder: timed papers from real questions" description="Build a timed mock from real Cambridge International Law (9084) past-paper questions in the shape of Paper 1, 2, 3 or 4. Play it on screen or print it with the mark schemes." context="mock" leadLine="Want a mock marked properly and gone through? Message us.">
+  <h1>Mini-mock builder</h1>
+  <p>Builds a paper in the shape of the Cambridge exam from real questions, each question drawn from a different paper where possible, with the parts of a question kept together. Paper 1: five short questions (25 marks), then two two-part essays (50). Paper 2: the three-part sentencing question (30), then one two-part question (30). Papers 3 and 4: one problem scenario (25), then two essays (50). Timed at 1.2 minutes a mark, the pace of the real papers (1 hour 30 minutes each).</p>
+  <div class="panel" id="setup">
+    <h3>Paper</h3>
+    <div class="chips" data-group="paper"><button class="chip" type="button" data-v="Paper 1" aria-pressed="true">Paper 1 (AS)</button><button class="chip" type="button" data-v="Paper 2">Paper 2 (AS)</button><button class="chip" type="button" data-v="Paper 3">Paper 3 Contract</button><button class="chip" type="button" data-v="Paper 4">Paper 4 Tort</button></div>
+    <h3>Length</h3>
+    <div class="chips" data-group="part"><button class="chip" type="button" data-v="A" aria-pressed="true" id="partA">Section A</button><button class="chip" type="button" data-v="B" id="partB">Section B</button><button class="chip" type="button" data-v="full">Full paper</button></div>
+    <p class="muted" id="shape"></p>
+    <div><button class="btn btn-accent" type="button" id="build">Build my mock</button></div>
+  </div>
+  <div id="paper" hidden>
+    <div class="playbar"><span id="title"></span><span class="timer" id="timer"></span><span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start timer</button> <button class="btn" type="button" id="print"><Icon name="printer" />Print</button> <button class="btn" type="button" id="share"><Icon name="link" />Copy link</button></span></div>
+    <div id="cards"></div>
+    <div class="btn-row"><button class="btn btn-accent" type="button" id="rebuild">Build another</button></div>
+  </div>
+  <script>
+    import { loadBank, card, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = { paper: 'Paper 1', part: 'A' };
+    let bank = null, timer = null, secs = 0;
+    const TEXT = {
+      'Paper 1': { A: 'Section A: Questions 1 to 5 (25 marks, 30 minutes).', B: 'Section B: two essays, each (a) 10 marks and (b) 15 marks (50 marks, 1 hour).', full: 'The whole paper (75 marks, 1 hour 30 minutes).' },
+      'Paper 2': { A: 'Section A: the source-based sentencing question, three parts of 10 marks (30 marks, 45 minutes).', B: 'Section B: one question, a 5-mark part and a 25-mark essay (30 marks, 45 minutes).', full: 'The whole paper (60 marks, 1 hour 30 minutes).' },
+      'Paper 3': { A: 'Section A: one problem scenario (25 marks, 30 minutes).', B: 'Section B: two essays (50 marks, 1 hour).', full: 'The whole paper (75 marks, 1 hour 30 minutes).' },
+      'Paper 4': { A: 'Section A: one problem scenario (25 marks, 30 minutes).', B: 'Section B: two essays (50 marks, 1 hour).', full: 'The whole paper (75 marks, 1 hour 30 minutes).' },
+    };
+    function shape() { $('#shape').textContent = TEXT[sel.paper][sel.part]; }
+    document.querySelectorAll('[data-group="paper"], [data-group="part"]').forEach((g) => g.querySelectorAll('.chip').forEach((b) => b.addEventListener('click', () => { g.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); sel[g.dataset.group] = b.dataset.v; shape(); })));
+    shape();
+    loadBank().then((b) => { bank = b; });
+    const gid = (q) => q.pid + '#' + q.n;
+    function pickGroup(pool, test, used) {
+      const groups = {}; pool.filter(test).forEach((q) => { (groups[gid(q)] = groups[gid(q)] || []).push(q); });
+      const keys = shuffle(Object.keys(groups)); const k = keys.find((x) => !used.has(x.split('#')[0])) || keys[0];
+      if (!k) return []; used.add(k.split('#')[0]); delete groups[k];
+      return pool.filter((q) => gid(q) === k).sort((a, b) => a.q.localeCompare(b.q, undefined, { numeric: true }));
+    }
+    $('#build').addEventListener('click', () => {
+      if (!bank) return;
+      const pool = bank.q.filter((q) => !q.old && q.c && q.p === sel.paper);
+      const used = new Set(); let picked = [];
+      const slot = (test) => { picked = picked.concat(pickGroup(pool, test, used)); };
+      const A = sel.part !== 'B', B = sel.part !== 'A';
+      if (sel.paper === 'Paper 1') {
+        if (A) [1, 2, 3, 4, 5].forEach((n) => slot((q) => q.n === n));
+        if (B) { slot((q) => q.n >= 6); slot((q) => q.n >= 6 && !picked.some((x) => gid(x) === gid(q))); }
+      } else if (sel.paper === 'Paper 2') {
+        if (A) slot((q) => q.n === 1);
+        if (B) slot((q) => q.n >= 2);
+      } else {
+        if (A) slot((q) => q.f === 'Scenario');
+        if (B) { slot((q) => q.f === 'Essay'); slot((q) => q.f === 'Essay' && !picked.some((x) => x.q === q.q && x.pid === q.pid)); }
+      }
+      if (!picked.length) { $('#shape').textContent = 'Nothing matched; try another combination.'; return; }
+      const total = picked.reduce((a, q) => a + q.m, 0);
+      $('#setup').hidden = true; $('#paper').hidden = false;
+      $('#title').textContent = `${sel.paper}: ${picked.length} question parts, ${total} marks`;
+      secs = Math.round(total * 72); $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      renderPicked(picked);
+      location.hash = 'set=' + picked.map((q) => q.id).join(',');
+      window.scrollTo({ top: 0 });
+    });
+    function renderPicked(picked) { const holder = $('#cards'); holder.innerHTML = ''; picked.forEach((q, n) => { const c = card(q); c.querySelector('.meta strong').textContent = `Part ${n + 1} (from ${q.s} ${q.p}${q.cp ? ` (9084/${q.cp})` : ''} Q${q.q})`; holder.appendChild(c); }); }
+    $('#share').addEventListener('click', async () => { const url = location.href.split('#')[0] + location.hash; try { await navigator.clipboard.writeText(url); window.maltToast && window.maltToast('Link copied'); } catch { prompt('Copy this link', url); } });
+    loadBank().then(() => { const m = location.hash.match(/set=([^&]+)/); if (!m || !bank) return; const ids = m[1].split(','); const picked = ids.map((id) => bank.q.find((q) => q.id === id)).filter(Boolean); if (!picked.length) return; const total = picked.reduce((a, q) => a + q.m, 0); $('#setup').hidden = true; $('#paper').hidden = false; $('#title').textContent = `Shared mock: ${picked.length} questions, ${total} marks`; secs = Math.round(total * 72); $("#timer").textContent = fmtTime(secs); renderPicked(picked); });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+    $('#print').addEventListener('click', () => { document.querySelectorAll('#cards img[data-src]').forEach((img) => { img.src = img.dataset.src; img.removeAttribute('data-src'); }); setTimeout(() => window.print(), 300); });
+    $('#rebuild').addEventListener('click', () => { if (timer) clearInterval(timer); $('#paper').hidden = true; $('#setup').hidden = false; window.scrollTo({ top: 0 }); });
+  </script>
+</Base>

@@ -1,0 +1,37 @@
+{
+ "topic": "burglary",
+ "name": "Burglary",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Burglary s9(1)(a)",
+   "definition": "Entering a building or part of a building as a trespasser with intent to steal, inflict grievous bodily harm or do unlawful damage.",
+   "examiner": "The intent must exist at the moment of entry. State which subsection applies before applying it."
+  },
+  {
+   "term": "Burglary s9(1)(b)",
+   "definition": "Having entered a building or part of a building as a trespasser, stealing or attempting to steal, or inflicting or attempting to inflict grievous bodily harm.",
+   "examiner": "No intent is needed on entry; what matters is the offence committed inside."
+  },
+  {
+   "term": "Entry",
+   "definition": "Entry need only be effective, and it can be partial.",
+   "examiner": "R v Collins (substantial and effective), R v Brown (effective), R v Ryan (partial entry, head and arm through a window, was enough)."
+  },
+  {
+   "term": "Trespasser",
+   "definition": "A person who enters without permission, or who goes beyond the permission given, knowing it or being reckless about it.",
+   "examiner": "R v Jones and Smith: going beyond the purpose of permission makes the entrant a trespasser. R v Walkington: part of a building, such as behind a counter."
+  },
+  {
+   "term": "Building",
+   "definition": "A structure with some permanence; s9(4) includes inhabited vehicles and vessels.",
+   "examiner": "B and S v Leathley (a freezer container) and Norfolk Constabulary v Seekings (lorry trailers used for storage) show where the line falls."
+  },
+  {
+   "term": "Aggravated burglary (s10)",
+   "definition": "Burglary committed while carrying a firearm, imitation firearm, weapon of offence or explosive.",
+   "examiner": "The weapon must be with the defendant at the time of the burglary (R v O'Leary); the maximum sentence is life imprisonment."
+  }
+ ]
+}

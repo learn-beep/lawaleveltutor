@@ -1,0 +1,1720 @@
+[
+{
+"id": "9084-11-W25",
+"bundle": "w25_11",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-W25-1",
+"9084-11-W25-2",
+"9084-11-W25-3",
+"9084-11-W25-4",
+"9084-11-W25-5",
+"9084-11-W25-6a",
+"9084-11-W25-6b",
+"9084-11-W25-7a",
+"9084-11-W25-7b",
+"9084-11-W25-8a",
+"9084-11-W25-8b"
+],
+"reprints": [
+"9084/13"
+],
+"slug": "november-2025-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_11.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_11.pdf",
+"er": null
+}
+},
+{
+"id": "9084-12-W25",
+"bundle": "w25_12",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-W25-1",
+"9084-12-W25-2",
+"9084-12-W25-3",
+"9084-12-W25-4",
+"9084-12-W25-5",
+"9084-12-W25-6a",
+"9084-12-W25-6b",
+"9084-12-W25-7a",
+"9084-12-W25-7b",
+"9084-12-W25-8a",
+"9084-12-W25-8b"
+],
+"reprints": [],
+"slug": "november-2025-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_12.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_12.pdf",
+"er": null
+}
+},
+{
+"id": "9084-21-W25",
+"bundle": "w25_21",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-W25-1a",
+"9084-21-W25-1b",
+"9084-21-W25-1c",
+"9084-21-W25-2a",
+"9084-21-W25-2b",
+"9084-21-W25-3a",
+"9084-21-W25-3b"
+],
+"reprints": [
+"9084/23"
+],
+"slug": "november-2025-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_21.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_21.pdf",
+"er": null
+}
+},
+{
+"id": "9084-22-W25",
+"bundle": "w25_22",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-W25-1a",
+"9084-22-W25-1b",
+"9084-22-W25-1c",
+"9084-22-W25-2a",
+"9084-22-W25-2b",
+"9084-22-W25-3a",
+"9084-22-W25-3b"
+],
+"reprints": [],
+"slug": "november-2025-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_22.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_22.pdf",
+"er": null
+}
+},
+{
+"id": "9084-31-W25",
+"bundle": "w25_31",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-W25-1",
+"9084-31-W25-2",
+"9084-31-W25-3",
+"9084-31-W25-4",
+"9084-31-W25-5"
+],
+"reprints": [
+"9084/32"
+],
+"slug": "november-2025-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_31.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_31.pdf",
+"er": null
+}
+},
+{
+"id": "9084-41-W25",
+"bundle": "w25_41",
+"kind": "exam",
+"series": "November 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-W25-1",
+"9084-41-W25-2",
+"9084-41-W25-3",
+"9084-41-W25-4",
+"9084-41-W25-5"
+],
+"reprints": [
+"9084/42"
+],
+"slug": "november-2025-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 November/9084_w25_qp_41.pdf",
+"ms": "9084 (2023+)/2025 November/9084_w25_ms_41.pdf",
+"er": null
+}
+},
+{
+"id": "9084-11-S25",
+"bundle": "s25_11",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-S25-1",
+"9084-11-S25-2",
+"9084-11-S25-3",
+"9084-11-S25-4",
+"9084-11-S25-5",
+"9084-11-S25-6a",
+"9084-11-S25-6b",
+"9084-11-S25-7a",
+"9084-11-S25-7b",
+"9084-11-S25-8a",
+"9084-11-S25-8b"
+],
+"reprints": [
+"9084/13"
+],
+"slug": "june-2025-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_11.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_11.pdf",
+"er": null
+}
+},
+{
+"id": "9084-12-S25",
+"bundle": "s25_12",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-S25-1",
+"9084-12-S25-2",
+"9084-12-S25-3",
+"9084-12-S25-4",
+"9084-12-S25-5",
+"9084-12-S25-6a",
+"9084-12-S25-6b",
+"9084-12-S25-7a",
+"9084-12-S25-7b",
+"9084-12-S25-8a",
+"9084-12-S25-8b"
+],
+"reprints": [],
+"slug": "june-2025-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_12.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_12.pdf",
+"er": null
+}
+},
+{
+"id": "9084-21-S25",
+"bundle": "s25_21",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-S25-1a",
+"9084-21-S25-1b",
+"9084-21-S25-1c",
+"9084-21-S25-2a",
+"9084-21-S25-2b",
+"9084-21-S25-3a",
+"9084-21-S25-3b"
+],
+"reprints": [
+"9084/23"
+],
+"slug": "june-2025-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_21.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_21.pdf",
+"er": null
+}
+},
+{
+"id": "9084-22-S25",
+"bundle": "s25_22",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-S25-1a",
+"9084-22-S25-1b",
+"9084-22-S25-1c",
+"9084-22-S25-2a",
+"9084-22-S25-2b",
+"9084-22-S25-3a",
+"9084-22-S25-3b"
+],
+"reprints": [],
+"slug": "june-2025-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_22.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_22.pdf",
+"er": null
+}
+},
+{
+"id": "9084-31-S25",
+"bundle": "s25_31",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-S25-1",
+"9084-31-S25-2",
+"9084-31-S25-3",
+"9084-31-S25-4",
+"9084-31-S25-5"
+],
+"reprints": [
+"9084/33"
+],
+"slug": "june-2025-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_31.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_31.pdf",
+"er": null
+}
+},
+{
+"id": "9084-32-S25",
+"bundle": "s25_32",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "32",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-32-S25-1",
+"9084-32-S25-2",
+"9084-32-S25-3",
+"9084-32-S25-4",
+"9084-32-S25-5"
+],
+"reprints": [],
+"slug": "june-2025-9084-32",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_32.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_32.pdf",
+"er": null
+}
+},
+{
+"id": "9084-41-S25",
+"bundle": "s25_41",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-S25-1",
+"9084-41-S25-2",
+"9084-41-S25-3",
+"9084-41-S25-4",
+"9084-41-S25-5"
+],
+"reprints": [
+"9084/43"
+],
+"slug": "june-2025-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_41.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_41.pdf",
+"er": null
+}
+},
+{
+"id": "9084-42-S25",
+"bundle": "s25_42",
+"kind": "exam",
+"series": "June 2025",
+"year": 2025,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "42",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-42-S25-1",
+"9084-42-S25-2",
+"9084-42-S25-3",
+"9084-42-S25-4",
+"9084-42-S25-5"
+],
+"reprints": [],
+"slug": "june-2025-9084-42",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2025 June/9084_s25_qp_42.pdf",
+"ms": "9084 (2023+)/2025 June/9084_s25_ms_42.pdf",
+"er": null
+}
+},
+{
+"id": "9084-11-W24",
+"bundle": "w24_11",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-W24-1",
+"9084-11-W24-2",
+"9084-11-W24-3",
+"9084-11-W24-4",
+"9084-11-W24-5",
+"9084-11-W24-6a",
+"9084-11-W24-6b",
+"9084-11-W24-7a",
+"9084-11-W24-7b",
+"9084-11-W24-8a",
+"9084-11-W24-8b"
+],
+"reprints": [
+"9084/13"
+],
+"slug": "november-2024-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_11.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_11.pdf",
+"er": null
+}
+},
+{
+"id": "9084-12-W24",
+"bundle": "w24_12",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-W24-1",
+"9084-12-W24-2",
+"9084-12-W24-3",
+"9084-12-W24-4",
+"9084-12-W24-5",
+"9084-12-W24-6a",
+"9084-12-W24-6b",
+"9084-12-W24-7a",
+"9084-12-W24-7b",
+"9084-12-W24-8a",
+"9084-12-W24-8b"
+],
+"reprints": [],
+"slug": "november-2024-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_12.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_12.pdf",
+"er": null
+}
+},
+{
+"id": "9084-21-W24",
+"bundle": "w24_21",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-W24-1a",
+"9084-21-W24-1b",
+"9084-21-W24-1c",
+"9084-21-W24-2a",
+"9084-21-W24-2b",
+"9084-21-W24-3a",
+"9084-21-W24-3b"
+],
+"reprints": [
+"9084/23"
+],
+"slug": "november-2024-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_21.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_21.pdf",
+"er": null
+}
+},
+{
+"id": "9084-22-W24",
+"bundle": "w24_22",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-W24-1a",
+"9084-22-W24-1b",
+"9084-22-W24-1c",
+"9084-22-W24-2a",
+"9084-22-W24-2b",
+"9084-22-W24-3a",
+"9084-22-W24-3b"
+],
+"reprints": [],
+"slug": "november-2024-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_22.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_22.pdf",
+"er": null
+}
+},
+{
+"id": "9084-31-W24",
+"bundle": "w24_31",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-W24-1",
+"9084-31-W24-2",
+"9084-31-W24-3",
+"9084-31-W24-4",
+"9084-31-W24-5"
+],
+"reprints": [
+"9084/32"
+],
+"slug": "november-2024-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_31.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_31.pdf",
+"er": null
+}
+},
+{
+"id": "9084-41-W24",
+"bundle": "w24_41",
+"kind": "exam",
+"series": "November 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-W24-1",
+"9084-41-W24-2",
+"9084-41-W24-3",
+"9084-41-W24-4",
+"9084-41-W24-5"
+],
+"reprints": [
+"9084/42"
+],
+"slug": "november-2024-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 November/9084_w24_qp_41.pdf",
+"ms": "9084 (2023+)/2024 November/9084_w24_ms_41.pdf",
+"er": null
+}
+},
+{
+"id": "9084-11-S24",
+"bundle": "s24_11",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-S24-1",
+"9084-11-S24-2",
+"9084-11-S24-3",
+"9084-11-S24-4",
+"9084-11-S24-5",
+"9084-11-S24-6a",
+"9084-11-S24-6b",
+"9084-11-S24-7a",
+"9084-11-S24-7b",
+"9084-11-S24-8a",
+"9084-11-S24-8b"
+],
+"reprints": [],
+"slug": "june-2024-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_11.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_11.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-12-S24",
+"bundle": "s24_12",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-S24-1",
+"9084-12-S24-2",
+"9084-12-S24-3",
+"9084-12-S24-4",
+"9084-12-S24-5",
+"9084-12-S24-6a",
+"9084-12-S24-6b",
+"9084-12-S24-7a",
+"9084-12-S24-7b",
+"9084-12-S24-8a",
+"9084-12-S24-8b"
+],
+"reprints": [],
+"slug": "june-2024-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_12.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_12.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-13-S24",
+"bundle": "s24_13",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "13",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-13-S24-1",
+"9084-13-S24-2",
+"9084-13-S24-3",
+"9084-13-S24-4",
+"9084-13-S24-5",
+"9084-13-S24-6a",
+"9084-13-S24-6b",
+"9084-13-S24-7a",
+"9084-13-S24-7b",
+"9084-13-S24-8a",
+"9084-13-S24-8b"
+],
+"reprints": [],
+"slug": "june-2024-9084-13",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_13.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_13.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-21-S24",
+"bundle": "s24_21",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-S24-1a",
+"9084-21-S24-1b",
+"9084-21-S24-1c",
+"9084-21-S24-2a",
+"9084-21-S24-2b",
+"9084-21-S24-3a",
+"9084-21-S24-3b"
+],
+"reprints": [],
+"slug": "june-2024-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_21.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_21.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-22-S24",
+"bundle": "s24_22",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-S24-1a",
+"9084-22-S24-1b",
+"9084-22-S24-1c",
+"9084-22-S24-2a",
+"9084-22-S24-2b",
+"9084-22-S24-3a",
+"9084-22-S24-3b"
+],
+"reprints": [],
+"slug": "june-2024-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_22.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_22.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-23-S24",
+"bundle": "s24_23",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "23",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-23-S24-1a",
+"9084-23-S24-1b",
+"9084-23-S24-1c",
+"9084-23-S24-2a",
+"9084-23-S24-2b",
+"9084-23-S24-3a",
+"9084-23-S24-3b"
+],
+"reprints": [],
+"slug": "june-2024-9084-23",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_23.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_23.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-31-S24",
+"bundle": "s24_31",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-S24-1",
+"9084-31-S24-2",
+"9084-31-S24-3",
+"9084-31-S24-4",
+"9084-31-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_31.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_31.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-32-S24",
+"bundle": "s24_32",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "32",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-32-S24-1",
+"9084-32-S24-2",
+"9084-32-S24-3",
+"9084-32-S24-4",
+"9084-32-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-32",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_32.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_32.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-33-S24",
+"bundle": "s24_33",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "33",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-33-S24-1",
+"9084-33-S24-2",
+"9084-33-S24-3",
+"9084-33-S24-4",
+"9084-33-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-33",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_33.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_33.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-41-S24",
+"bundle": "s24_41",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-S24-1",
+"9084-41-S24-2",
+"9084-41-S24-3",
+"9084-41-S24-4",
+"9084-41-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_41.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_41.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-42-S24",
+"bundle": "s24_42",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "42",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-42-S24-1",
+"9084-42-S24-2",
+"9084-42-S24-3",
+"9084-42-S24-4",
+"9084-42-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-42",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_42.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_42.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-43-S24",
+"bundle": "s24_43",
+"kind": "exam",
+"series": "June 2024",
+"year": 2024,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "43",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-43-S24-1",
+"9084-43-S24-2",
+"9084-43-S24-3",
+"9084-43-S24-4",
+"9084-43-S24-5"
+],
+"reprints": [],
+"slug": "june-2024-9084-43",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2024 June/9084_s24_qp_43.pdf",
+"ms": "9084 (2023+)/2024 June/9084_s24_ms_43.pdf",
+"er": "9084 (2023+)/2024 June/9084_s24_er.pdf"
+}
+},
+{
+"id": "9084-11-W23",
+"bundle": "w23_11",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-W23-1",
+"9084-11-W23-2",
+"9084-11-W23-3",
+"9084-11-W23-4",
+"9084-11-W23-5",
+"9084-11-W23-6a",
+"9084-11-W23-6b",
+"9084-11-W23-7a",
+"9084-11-W23-7b",
+"9084-11-W23-8a",
+"9084-11-W23-8b"
+],
+"reprints": [
+"9084/13"
+],
+"slug": "november-2023-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_11.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_11.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-12-W23",
+"bundle": "w23_12",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-W23-1",
+"9084-12-W23-2",
+"9084-12-W23-3",
+"9084-12-W23-4",
+"9084-12-W23-5",
+"9084-12-W23-6a",
+"9084-12-W23-6b",
+"9084-12-W23-7a",
+"9084-12-W23-7b",
+"9084-12-W23-8a",
+"9084-12-W23-8b"
+],
+"reprints": [],
+"slug": "november-2023-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_12.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_12.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-21-W23",
+"bundle": "w23_21",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-W23-1a",
+"9084-21-W23-1b",
+"9084-21-W23-1c",
+"9084-21-W23-2a",
+"9084-21-W23-2b",
+"9084-21-W23-3a",
+"9084-21-W23-3b"
+],
+"reprints": [
+"9084/23"
+],
+"slug": "november-2023-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_21.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_21.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-22-W23",
+"bundle": "w23_22",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-W23-1a",
+"9084-22-W23-1b",
+"9084-22-W23-1c",
+"9084-22-W23-2a",
+"9084-22-W23-2b",
+"9084-22-W23-3a",
+"9084-22-W23-3b"
+],
+"reprints": [],
+"slug": "november-2023-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_22.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_22.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-31-W23",
+"bundle": "w23_31",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-W23-1",
+"9084-31-W23-2",
+"9084-31-W23-3",
+"9084-31-W23-4",
+"9084-31-W23-5"
+],
+"reprints": [
+"9084/32"
+],
+"slug": "november-2023-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_31.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_31.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-41-W23",
+"bundle": "w23_41",
+"kind": "exam",
+"series": "November 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-W23-1",
+"9084-41-W23-2",
+"9084-41-W23-3",
+"9084-41-W23-4",
+"9084-41-W23-5"
+],
+"reprints": [
+"9084/42"
+],
+"slug": "november-2023-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 November/9084_w23_qp_41.pdf",
+"ms": "9084 (2023+)/2023 November/9084_w23_ms_41.pdf",
+"er": "9084 (2023+)/2023 November/9084_w23_er.pdf"
+}
+},
+{
+"id": "9084-11-S23",
+"bundle": "s23_11",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "11",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-11-S23-1",
+"9084-11-S23-2",
+"9084-11-S23-3",
+"9084-11-S23-4",
+"9084-11-S23-5",
+"9084-11-S23-6a",
+"9084-11-S23-6b",
+"9084-11-S23-7a",
+"9084-11-S23-7b",
+"9084-11-S23-8a",
+"9084-11-S23-8b"
+],
+"reprints": [],
+"slug": "june-2023-9084-11",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_11.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_11.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-12-S23",
+"bundle": "s23_12",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "12",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-12-S23-1",
+"9084-12-S23-2",
+"9084-12-S23-3",
+"9084-12-S23-4",
+"9084-12-S23-5",
+"9084-12-S23-6a",
+"9084-12-S23-6b",
+"9084-12-S23-7a",
+"9084-12-S23-7b",
+"9084-12-S23-8a",
+"9084-12-S23-8b"
+],
+"reprints": [],
+"slug": "june-2023-9084-12",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_12.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_12.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-13-S23",
+"bundle": "s23_13",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "13",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-13-S23-1",
+"9084-13-S23-2",
+"9084-13-S23-3",
+"9084-13-S23-4",
+"9084-13-S23-5",
+"9084-13-S23-6a",
+"9084-13-S23-6b",
+"9084-13-S23-7a",
+"9084-13-S23-7b",
+"9084-13-S23-8a",
+"9084-13-S23-8b"
+],
+"reprints": [],
+"slug": "june-2023-9084-13",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_13.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_13.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-21-S23",
+"bundle": "s23_21",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "21",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-21-S23-1a",
+"9084-21-S23-1b",
+"9084-21-S23-1c",
+"9084-21-S23-2a",
+"9084-21-S23-2b",
+"9084-21-S23-3a",
+"9084-21-S23-3b"
+],
+"reprints": [],
+"slug": "june-2023-9084-21",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_21.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_21.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-22-S23",
+"bundle": "s23_22",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "22",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-22-S23-1a",
+"9084-22-S23-1b",
+"9084-22-S23-1c",
+"9084-22-S23-2a",
+"9084-22-S23-2b",
+"9084-22-S23-3a",
+"9084-22-S23-3b"
+],
+"reprints": [],
+"slug": "june-2023-9084-22",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_22.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_22.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-23-S23",
+"bundle": "s23_23",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "23",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-23-S23-1a",
+"9084-23-S23-1b",
+"9084-23-S23-1c",
+"9084-23-S23-2a",
+"9084-23-S23-2b",
+"9084-23-S23-3a",
+"9084-23-S23-3b"
+],
+"reprints": [],
+"slug": "june-2023-9084-23",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_23.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_23.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-31-S23",
+"bundle": "s23_31",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "31",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-31-S23-1",
+"9084-31-S23-2",
+"9084-31-S23-3",
+"9084-31-S23-4",
+"9084-31-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-31",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_31.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_31.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-32-S23",
+"bundle": "s23_32",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "32",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-32-S23-1",
+"9084-32-S23-2",
+"9084-32-S23-3",
+"9084-32-S23-4",
+"9084-32-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-32",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_32.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_32.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-33-S23",
+"bundle": "s23_33",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "33",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-33-S23-1",
+"9084-33-S23-2",
+"9084-33-S23-3",
+"9084-33-S23-4",
+"9084-33-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-33",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_33.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_33.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-41-S23",
+"bundle": "s23_41",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "41",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-41-S23-1",
+"9084-41-S23-2",
+"9084-41-S23-3",
+"9084-41-S23-4",
+"9084-41-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-41",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_41.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_41.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-42-S23",
+"bundle": "s23_42",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "42",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-42-S23-1",
+"9084-42-S23-2",
+"9084-42-S23-3",
+"9084-42-S23-4",
+"9084-42-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-42",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_42.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_42.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-43-S23",
+"bundle": "s23_43",
+"kind": "exam",
+"series": "June 2023",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "43",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-43-S23-1",
+"9084-43-S23-2",
+"9084-43-S23-3",
+"9084-43-S23-4",
+"9084-43-S23-5"
+],
+"reprints": [],
+"slug": "june-2023-9084-43",
+"source": "Cambridge",
+"files": {
+"qp": "9084 (2023+)/2023 June/9084_s23_qp_43.pdf",
+"ms": "9084 (2023+)/2023 June/9084_s23_ms_43.pdf",
+"er": "9084 (2023+)/2023 June/9084_s23_er.pdf"
+}
+},
+{
+"id": "9084-1-SP",
+"bundle": "sp_1",
+"kind": "specimen",
+"series": "Specimen",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 1",
+"paperNo": "1",
+"comp": "1",
+"name": "English Legal System",
+"total": 75,
+"questions": [
+"9084-1-SP-1",
+"9084-1-SP-2",
+"9084-1-SP-3",
+"9084-1-SP-4",
+"9084-1-SP-5",
+"9084-1-SP-6a",
+"9084-1-SP-6b",
+"9084-1-SP-7a",
+"9084-1-SP-7b",
+"9084-1-SP-8a",
+"9084-1-SP-8b"
+],
+"reprints": [],
+"slug": "specimen-9084-1",
+"source": "Cambridge",
+"files": {
+"qp": "Specimen papers (2023)/9084_specimen_qp_1.pdf",
+"ms": "Specimen papers (2023)/9084_specimen_ms_1.pdf",
+"er": null
+}
+},
+{
+"id": "9084-2-SP",
+"bundle": "sp_2",
+"kind": "specimen",
+"series": "Specimen",
+"year": 2023,
+"spec": "9084",
+"qual": "AS",
+"paper": "Paper 2",
+"paperNo": "2",
+"comp": "2",
+"name": "Criminal Law",
+"total": 60,
+"questions": [
+"9084-2-SP-1a",
+"9084-2-SP-1b",
+"9084-2-SP-1c",
+"9084-2-SP-2a",
+"9084-2-SP-2b",
+"9084-2-SP-3a",
+"9084-2-SP-3b"
+],
+"reprints": [],
+"slug": "specimen-9084-2",
+"source": "Cambridge",
+"files": {
+"qp": "Specimen papers (2023)/9084_specimen_qp_2.pdf",
+"ms": "Specimen papers (2023)/9084_specimen_ms_2.pdf",
+"er": null
+}
+},
+{
+"id": "9084-3-SP",
+"bundle": "sp_3",
+"kind": "specimen",
+"series": "Specimen",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 3",
+"paperNo": "3",
+"comp": "3",
+"name": "Law of Contract",
+"total": 75,
+"questions": [
+"9084-3-SP-1",
+"9084-3-SP-2",
+"9084-3-SP-3",
+"9084-3-SP-4",
+"9084-3-SP-5"
+],
+"reprints": [],
+"slug": "specimen-9084-3",
+"source": "Cambridge",
+"files": {
+"qp": "Specimen papers (2023)/9084_specimen_qp_3.pdf",
+"ms": "Specimen papers (2023)/9084_specimen_ms_3.pdf",
+"er": null
+}
+},
+{
+"id": "9084-4-SP",
+"bundle": "sp_4",
+"kind": "specimen",
+"series": "Specimen",
+"year": 2023,
+"spec": "9084",
+"qual": "A level",
+"paper": "Paper 4",
+"paperNo": "4",
+"comp": "4",
+"name": "Law of Tort",
+"total": 75,
+"questions": [
+"9084-4-SP-1",
+"9084-4-SP-2",
+"9084-4-SP-3",
+"9084-4-SP-4",
+"9084-4-SP-5"
+],
+"reprints": [],
+"slug": "specimen-9084-4",
+"source": "Cambridge",
+"files": {
+"qp": "Specimen papers (2023)/9084_specimen_qp_4.pdf",
+"ms": "Specimen papers (2023)/9084_specimen_ms_4.pdf",
+"er": null
+}
+}
+]

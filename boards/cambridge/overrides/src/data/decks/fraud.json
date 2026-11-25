@@ -1,0 +1,37 @@
+{
+ "topic": "fraud",
+ "name": "Fraud",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Fraud by false representation (s2)",
+   "definition": "Dishonestly making a false representation, intending to make a gain or cause a loss.",
+   "examiner": "The offence is complete when the representation is made: no one has to be deceived and nothing has to be gained."
+  },
+  {
+   "term": "Representation",
+   "definition": "Any statement of fact or law, including a statement about a state of mind, made expressly or by conduct, including to a machine.",
+   "examiner": "DPP v Ray and R v Lambie show representation by conduct; s2(5) covers representations to machines."
+  },
+  {
+   "term": "False",
+   "definition": "Untrue or misleading, where the person making it knows that it is, or might be, untrue or misleading.",
+   "examiner": "The knowledge requirement is part of the actus reus test and is often missed."
+  },
+  {
+   "term": "Fraud by failing to disclose information (s3)",
+   "definition": "Dishonestly failing to disclose information that one is under a legal duty to disclose, intending to make a gain or cause a loss.",
+   "examiner": "The duty can come from statute, the type of transaction, a contract or custom."
+  },
+  {
+   "term": "Fraud by abuse of position (s4)",
+   "definition": "Dishonestly abusing a position in which one is expected to safeguard the financial interests of another, intending a gain or loss.",
+   "examiner": "The position can be formal (trustee, employee) or informal; R v Marshall concerned a care worker."
+  },
+  {
+   "term": "Obtaining services dishonestly (s11)",
+   "definition": "Obtaining services by a dishonest act, knowing they are to be paid for and intending not to pay in full.",
+   "examiner": "Unlike ss2–4, this needs a result: the service must actually be obtained."
+  }
+ ]
+}

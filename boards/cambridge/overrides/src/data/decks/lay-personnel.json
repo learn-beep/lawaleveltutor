@@ -1,0 +1,37 @@
+{
+ "topic": "lay-personnel",
+ "name": "Lay personnel: magistrates and juries",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Lay magistrates",
+   "definition": "Unpaid, part-time volunteers without legal qualifications who hear cases in the Magistrates' Court, usually sitting as a bench of three.",
+   "examiner": "Advised on law by a legal adviser (justices' clerk); say what they do in criminal and civil cases."
+  },
+  {
+   "term": "Six key qualities",
+   "definition": "The qualities a candidate for the magistracy must show: good character, understanding and communication, social awareness, maturity and sound temperament, sound judgement, and commitment and reliability.",
+   "examiner": "A precise list earns the marks in a short-answer question on selection."
+  },
+  {
+   "term": "Juries",
+   "definition": "Twelve randomly selected members of the public who decide the facts and the verdict in Crown Court trials.",
+   "examiner": "Juries Act 1974 sets eligibility: aged 18 to 75, on the electoral register, resident in the UK for five years since age 13."
+  },
+  {
+   "term": "Majority verdict",
+   "definition": "A verdict of at least 10–2 (or 10–1, 9–1) allowed after the jury has deliberated for at least two hours.",
+   "examiner": "Section 17 Juries Act 1974; useful in evaluation on the \"rogue juror\" problem."
+  },
+  {
+   "term": "Jury equity",
+   "definition": "A jury's ability to acquit against the evidence because it believes the law or prosecution is unjust.",
+   "examiner": "R v Ponting and R v Kronlid; a strong advantage point, and a criticism."
+  },
+  {
+   "term": "Secrecy of the jury room",
+   "definition": "The rule that jury deliberations cannot be disclosed or investigated.",
+   "examiner": "R v Mirza; the Criminal Justice and Courts Act 2015 made disclosure an offence. Evaluate: protects jurors but hides misconduct."
+  }
+ ]
+}

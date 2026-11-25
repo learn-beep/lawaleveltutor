@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import Heatmap from '../../components/Heatmap.astro';
+import weighting from '../../data/weighting.json';
+import { allPapers, seriesRank } from '../../lib/data';
+const areas = Object.entries(weighting.areas).map(([code, title]) => [code, `${code} ${title}`]);
+// one variant per series (variant 2, papers 12, 22, 32 and 42), so each column is one sitting
+const v2 = allPapers.filter((p) => p.kind === 'exam' && p.comp.endsWith('2'));
+const series = [...new Set(v2.map((p) => p.series))].sort((a, b) => seriesRank(a) - seriesRank(b));
+const marks = (s, area) => v2.filter((p) => p.series === s).reduce((n, p) => n + (weighting.byPaper[p.id]?.[area] || 0), 0);
+---
+<Base title="What comes up in Cambridge A Level Law 9084: marks by syllabus section, 2023–2025" description="Marks set on each section of the 9084 syllabus in every series since 2023, as a heat map, from the variant 2 papers." context="analysis">
+  <h1>What comes up, series by series</h1>
+  <p>Marks set on each section of the syllabus in each series, counted from the main content each question assesses. Each column is the variant 2 papers (9084/12, 22, 32 and 42), and every question printed is counted, including all three Paper 1 essays (students answer two), both Paper 2 Section B questions (students answer one), both scenarios and all three essays on Papers 3 and 4. Darker cells carry more marks; the right-hand column is the total.</p>
+  <Heatmap areas={areas} series={series} value={marks} title="Marks by topic by series" short={(s) => s.replace('June ', 'Jun ').replace('November ', 'Nov ').replace('March ', 'Mar ').replace(' 20', ' ')} />
+  <p class="muted">With six series the pattern is thin: use it to see what has not been asked for a while, not to predict the next paper. The June 2026 papers will be added when clean copies are public.</p>
+  <p><a href="/what-came-up/">What came up in the latest papers</a> · <a href="/timeline/">Every paper as a timeline</a></p>
+</Base>

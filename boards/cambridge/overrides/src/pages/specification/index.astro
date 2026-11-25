@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hint from '../../components/Hint.astro';
+import spec from '../../data/spec.json';
+import { allTopics } from '../../lib/data';
+const papers = spec.filter((s) => s.level === 1);
+const sections = spec.filter((s) => s.level === 2);
+const subs = spec.filter((s) => s.level === 3);
+const total = subs.reduce((n, s) => n + s.statements.length, 0);
+const topicOf = (code) => allTopics.find((t) => t.codes.includes(code));
+---
+<Base title="Cambridge International AS & A Level Law 9084 syllabus checklist, tickable" description="Every content point of the Cambridge International AS and A Level Law (9084) syllabus as a tickable checklist, with links to the past-paper questions for each topic." context="specification" leadLine="Big gaps on the checklist? A tutor can plan the order to close them.">
+  <h1>Syllabus checklist</h1>
+  <p>Every content point in the Cambridge International AS and A Level Law syllabus (9084, for 2026 to 2028; the content is the same as the 2023 to 2025 syllabus), in Cambridge's own words. Tick what you're confident with; ticks are saved in this browser only. Papers 1 and 2 are the AS Level; Papers 3 and 4 complete the A Level. The focus throughout is the law of England and Wales.</p>
+  <Hint id="ticks" text="Ticks are saved in this browser only. The revision planner uses them to pick your weak topics." />
+  <p class="muted"><span id="done">0</span> of {total} ticked · <button class="chip" type="button" id="clear">Clear my ticks</button></p>
+  {papers.map((p) => (
+    <>
+      <h2 class="strand-head">Paper {p.code}: {p.title}</h2>
+      {sections.filter((s) => s.code.split('.')[0] === p.code).map((s) => (
+        <>
+          <h3>{s.code} {s.title}</h3>
+          {subs.filter((x) => x.code.startsWith(s.code + '.')).map((x) => { const t = topicOf(x.code); return (
+            <section>
+              <h4>{x.code} {x.title} {t && <a class="small-text" href={`/questions/${t.slug}/`}>questions</a>}</h4>
+              <ul class="spec-list">
+                {x.statements.map((st) => <li><label><input type="checkbox" data-spec={st.id} /><span><strong>{st.id.replace(/^[\d.]+/, '')}</strong> {st.text}</span></label></li>)}
+              </ul>
+            </section>
+          ); })}
+        </>
+      ))}
+    </>
+  ))}
+  <script>
+    const KEY = 'malt-cie-spec';
+    const boxes = document.querySelectorAll('input[data-spec]');
+    const done = document.getElementById('done');
+    let state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch {}
+    const paint = () => { let n = 0; boxes.forEach((b) => { b.checked = !!state[b.dataset.spec]; if (b.checked) n++; }); done.textContent = String(n); };
+    boxes.forEach((b) => b.addEventListener('change', () => { state[b.dataset.spec] = b.checked; try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} paint(); }));
+    document.getElementById('clear').addEventListener('click', () => { state = {}; try { localStorage.removeItem(KEY); } catch {} paint(); });
+    paint();
+  </script>
+</Base>

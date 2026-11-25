@@ -1,0 +1,39 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuestionCard from '../../../components/QuestionCard.astro';
+import { allQuestions, FIRST_SERIES, seriesRank } from '../../../lib/data';
+export function getStaticPaths() {
+  // [slug, format, title, intro]
+  const T = [
+    ['short-answer', 'Short answer', 'Short-answer questions (1–6 marks)', 'Paper 1 Section A ("identify", "state", "describe", 1 to 6 marks) and the 5-mark first part of each Paper 2 Section B question. All AO1: one mark per accurate point, so precise terms, cases and section numbers earn the marks and no evaluation is needed.'],
+    ['describe-explain', 'Explain or describe', 'Explain and describe questions (10 marks)', 'Part (a) of each Paper 1 Section B essay: 10 marks, all AO1. The top level needs accurate, detailed knowledge with relevant examples, cases or statutes. Save the evaluation for part (b).'],
+    ['source-based', 'Source-based application', 'Source-based sentencing questions (Paper 2, 10 marks each)', 'Paper 2 Section A: a Sentencing Council guideline is printed as source material and three offenders are described. For each (10 marks: AO1 2, AO2 8) identify the relevant parts of the guideline, apply them to the offender (harm, culpability, aggravating and mitigating factors) and reach a reasoned conclusion on the likely sentence.'],
+    ['scenarios', 'Scenario', 'Problem scenarios (Papers 3 and 4, 25 marks)', 'Section A of the contract and tort papers: one scenario from a choice of two, 25 marks (AO1 12, AO2 5, AO3 8). Identify each issue, state the law with authority, apply it to each party and event, and evaluate to a conclusion.'],
+    ['essays', 'Essay', 'Discussion questions and essays (10, 15 and 25 marks)', 'Paper 1 Question 5 (10 marks) and part (b) of the Section B essays (15 marks) are analysis and evaluation only. Paper 2 Section B and Papers 3 and 4 Section B are 25-mark essays marked on all three objectives (AO1 12, AO2 5, AO3 8 on Papers 3 and 4).'],
+  ];
+  return T.map(([slug, matcher, title, intro]) => ({ params: { type: slug }, props: { slug, matcher, title, intro, others: T.filter((t) => t[0] !== slug) } }));
+}
+const { slug, matcher, title, intro, others } = Astro.props;
+const qs = allQuestions.filter((q) => q.format === matcher && !q.notCurrentSpec).sort((a, b) => seriesRank(b.series) - seriesRank(a.series) || a.paper.localeCompare(b.paper) || a.number - b.number);
+const papers = [...new Set(qs.map((q) => q.paper))].sort();
+---
+<Base title={`${title.split(' (')[0]}: Cambridge A Level Law 9084 past-paper questions`} description={`${qs.length} ${title.split(' (')[0].toLowerCase()} from Cambridge International AS and A Level Law (9084) papers since ${FIRST_SERIES.split(' ')[1]}, with mark schemes and examiners' report comments.`} context={`type:${slug}`}>
+  <h1>{title}</h1>
+  <p>{intro} {qs.length} questions.</p>
+  <p class="muted">Other types: {others.map((t, i) => <>{i ? ' · ' : ''}<a href={`/questions/type/${t[0]}/`}>{t[2]}</a></>)}</p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All</button>
+    {papers.map((p) => <button class="chip" type="button" aria-pressed="false" data-filter={`paper:${p}`}>{p}</button>)}
+  </div><div class="count" id="count"></div></div>
+  {qs.map((q) => <div data-wrap data-paper={q.paper}><QuestionCard q={q} showTopics={true} /></div>)}
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const wraps = document.querySelectorAll('[data-wrap]');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false')); c.setAttribute('aria-pressed', 'true');
+      const [key, val] = (c.getAttribute('data-filter') || '').split(':');
+      wraps.forEach((w) => { const card = w.querySelector('.qcard'); const v = key === 'paper' ? w.dataset.paper : card.getAttribute('data-' + key); w.hidden = !!key && v !== val; });
+      document.getElementById('count').textContent = `Showing ${[...wraps].filter((w) => !w.hidden).length} of ${wraps.length}`;
+    }));
+  </script>
+</Base>
