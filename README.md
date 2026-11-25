@@ -27,14 +27,14 @@ Set `CROPS=off` in Netlify's environment to replace every OCR crop with a link t
 - `/essays/` lists every essay; `/questions/type/scenarios/` every problem question. Self-marking uses four OCR levels (`LEVELS` in `src/scripts/player.js`: 8, 12 and 20 marks).
 - Question-type pages: describe-explain, evaluation, scenarios, essays.
 - Flashcards are key-term decks (`src/data/decks/*.json`, picked up by `src/lib/decks.ts`). Six decks, 49 cards, all `"checked": false`.
-- `src/data/tutors.json` holds Sue (fee £100 per hour; no photo, biography facts or reviews yet).
+- `src/data/tutors.json` holds Sue (25 years teaching A-level Law, OCR and AQA experience, qualified solicitor; fee £100 per hour; no photo or reviews yet).
 - `[hidden] { display: none !important; }` is in the stylesheet (the Sociology template lacked it).
 
 ## Content that needs the tutor's check before or soon after launch
 - The six key-term decks in `src/data/decks/`.
 - The level summary on `/essays/` and the question-type introductions in `src/pages/questions/type/[type].astro`.
 - The topic tags (made by the site; only the June 2024 Paper 1 pilot was reviewed).
-- Sue's profile: two generic paragraphs until her background, photo and any reviews are supplied.
+- Sue's photo and any reviews.
 
 ## Known gaps
 - June 2023 AS Paper 2 has no examiners' report (OCR's link serves the Paper 1 report).
