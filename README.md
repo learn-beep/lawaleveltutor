@@ -50,3 +50,17 @@ Set `CROPS=off` in Netlify's environment to replace every OCR crop with a link t
 - Question types: Short answer, Explain or describe (10), Source-based application (Paper 2, 10), Scenario (25), Essay (10, 15, 25).
 - Storage keys `malt-cie-…`; header strings are split so the replacements leave the OCR | Cambridge switch alone.
 - For a tutor to check: the 12 Cambridge decks (`checked: false`; five adapted from the OCR decks, seven new), the level summaries on `/cambridge/essays/` and the question-type notes.
+
+## AQA 7162 section (`/aqa/`, added 28 Nov 2026)
+- Built the same way as the Cambridge section: `scripts/build.mjs` builds OCR at the root, then `cambridge` and `aqa` from `boards/<board>/` and moves each under `dist/<board>/`. The header switch is OCR | AQA | Cambridge.
+- Board files are in `boards/aqa/`:
+  - `data/`, written by `python3 boards/aqa/export_aqa.py --bank "<Law\AQA\Question Bank>" [--images]` (lossless WebP crops to `public/img/aqa/<paper>/`, 792 crops, 36 MB).
+  - `exams.json` (June 2027, from AQA's key dates: 7162/1 20 May pm, 7162/2 27 May am, 7162/3A and 3B 10 June pm), `boundaries.json` (options A and B out of 300, June 2022 to June 2026, from AQA's grade boundary PDFs), `site.config.json`.
+  - `replace.json` from `python3 boards/aqa/make_replace.py` (not applied to overrides), and `overrides/src/` (home, topic and type pages, past papers, essays, mock, practice, checklist, boundaries, dates, analysis, what came up, `lib/data.ts`, `scripts/player.js`, `pages/data/practice.json.ts`, 9 decks).
+- 28 papers (June 2022 to 2025, November 2020 and 2021, specimens), 308 questions as printed. Papers 3A and 3B print the same Questions 3 to 6: the 3B copies carry `dupOf` and are left out of topic pages, practice and counts (290 questions), but stay on the 3B paper pages.
+- 50 topics from the 51 specification topics (`TOPIC_LIST` in the export script: fatal offences and defences are split by statement; a few human rights topics are merged), in seven groups. One topic (human rights before the HRA) has no question yet.
+- Question types: Multiple choice (Q1 to 5, answers from the mark scheme, marked instantly in practice), Explain (Q6), Application (Q7), Scenario (Q8, 10, 11), Essay (Q9). Self-marking uses AQA's bands (`LEVELS` in the AQA `player.js`: 5, 10, 15 and 30 marks).
+- The mock builder draws each of the eleven slots from the same slot of a different past paper; Paper 3B takes Questions 3 to 6 from the shared 3A copies.
+- The bank's tagging notes are not shown; only the percentage choosing the right answer and the substantive / non-substantive split are kept.
+- Storage keys `malt-aqa-…`.
+- For a tutor to check: the 9 AQA decks (six are the OCR decks, three the Cambridge ones, all `checked: false`), the band summary on `/aqa/essays/` and the question-type notes.

@@ -1,0 +1,172 @@
+{
+"areas": {
+"Nature of law": "Nature of law",
+"Law making": "Law making",
+"The legal system": "The legal system",
+"Criminal law": "Criminal law",
+"Tort": "Tort",
+"Law of contract": "Law of contract",
+"Human rights": "Human rights"
+},
+"byPaper": {
+"7162-1-JUN25": {
+"Criminal law": 77,
+"Law making": 1,
+"The legal system": 7,
+"Nature of law": 15
+},
+"7162-2-JUN25": {
+"Tort": 77,
+"Law making": 6,
+"The legal system": 2,
+"Nature of law": 15
+},
+"7162-3A-JUN25": {
+"Law of contract": 77,
+"Law making": 6,
+"The legal system": 1,
+"Nature of law": 16
+},
+"7162-3B-JUN25": {
+"Human rights": 77,
+"Law making": 6,
+"The legal system": 1,
+"Nature of law": 16
+},
+"7162-1-JUN24": {
+"Criminal law": 92,
+"The legal system": 7,
+"Law making": 1
+},
+"7162-2-JUN24": {
+"Tort": 77,
+"The legal system": 2,
+"Law making": 6,
+"Nature of law": 15
+},
+"7162-3A-JUN24": {
+"Law of contract": 77,
+"Law making": 7,
+"Nature of law": 16
+},
+"7162-3B-JUN24": {
+"Human rights": 77,
+"Law making": 7,
+"Nature of law": 16
+},
+"7162-1-JUN23": {
+"Criminal law": 77,
+"The legal system": 8,
+"Nature of law": 15
+},
+"7162-2-JUN23": {
+"Tort": 77,
+"The legal system": 6,
+"Law making": 1,
+"Nature of law": 16
+},
+"7162-3A-JUN23": {
+"Law of contract": 77,
+"Nature of law": 17,
+"Law making": 1,
+"The legal system": 5
+},
+"7162-3B-JUN23": {
+"Human rights": 77,
+"Nature of law": 16,
+"The legal system": 6,
+"Law making": 1
+},
+"7162-1-JUN22": {
+"Criminal law": 77,
+"Law making": 7,
+"The legal system": 1,
+"Nature of law": 15
+},
+"7162-2-JUN22": {
+"Tort": 77,
+"Law making": 2,
+"The legal system": 6,
+"Nature of law": 15
+},
+"7162-3A-JUN22": {
+"Law of contract": 77,
+"Nature of law": 21,
+"The legal system": 1,
+"Law making": 1
+},
+"7162-3B-JUN22": {
+"Human rights": 77,
+"Nature of law": 21,
+"The legal system": 1,
+"Law making": 1
+},
+"7162-1-NOV21": {
+"Criminal law": 92,
+"Law making": 6,
+"The legal system": 2
+},
+"7162-2-NOV21": {
+"Tort": 77,
+"The legal system": 6,
+"Law making": 2,
+"Nature of law": 15
+},
+"7162-3A-NOV21": {
+"Law of contract": 77,
+"Law making": 1,
+"The legal system": 2,
+"Nature of law": 20
+},
+"7162-3B-NOV21": {
+"Human rights": 77,
+"Law making": 1,
+"The legal system": 2,
+"Nature of law": 20
+},
+"7162-1-NOV20": {
+"Criminal law": 77,
+"Law making": 6,
+"The legal system": 2,
+"Nature of law": 15
+},
+"7162-2-NOV20": {
+"Tort": 77,
+"Law making": 6,
+"The legal system": 2,
+"Nature of law": 15
+},
+"7162-3A-NOV20": {
+"Law of contract": 92,
+"The legal system": 2,
+"Law making": 6
+},
+"7162-3B-NOV20": {
+"Human rights": 92,
+"The legal system": 2,
+"Law making": 6
+},
+"7162-1-SAMS": {
+"Criminal law": 77,
+"Law making": 7,
+"The legal system": 1,
+"Nature of law": 15
+},
+"7162-2-SAMS": {
+"Tort": 77,
+"Law making": 2,
+"The legal system": 6,
+"Nature of law": 15
+},
+"7162-3A-SAMS": {
+"Law of contract": 77,
+"Law making": 2,
+"Nature of law": 21
+},
+"7162-3B-SAMS": {
+"Human rights": 77,
+"Law making": 2,
+"Nature of law": 21
+}
+}
+}

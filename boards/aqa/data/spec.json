@@ -1,0 +1,1240 @@
+[
+{
+"code": "3.1",
+"title": "The nature of law and the English legal system",
+"level": 1,
+"group": null,
+"statements": []
+},
+{
+"code": "3.1.1",
+"title": "Nature of law",
+"level": 2,
+"group": "Nature of law",
+"statements": [
+{
+"id": "3.1.1(a)",
+"text": "The distinction between enforceable legal rules and principles and other rules and norms of behaviour",
+"topic": "nature-of-law"
+},
+{
+"id": "3.1.1(b)",
+"text": "The differences between criminal and civil law and between different sources of law including custom, statute law and the common law",
+"topic": "nature-of-law"
+}
+]
+},
+{
+"code": "3.1.2",
+"title": "Nature of law: law and society",
+"level": 2,
+"group": "Nature of law",
+"statements": [
+{
+"id": "3.1.2(a)",
+"text": "The role law plays in society",
+"topic": "law-and-society"
+},
+{
+"id": "3.1.2(b)",
+"text": "The effect of law on enforceable rights and the balance required between competing interests (eg public and private)",
+"topic": "law-and-society"
+},
+{
+"id": "3.1.2(c)",
+"text": "The meaning and importance of fault in civil and/or criminal law",
+"topic": "law-and-society"
+}
+]
+},
+{
+"code": "3.1.3",
+"title": "Nature of law: law and morality",
+"level": 2,
+"group": "Nature of law",
+"statements": [
+{
+"id": "3.1.3(a)",
+"text": "The distinction between law and morality and the diversity of moral views in a pluralist society",
+"topic": "law-and-morality"
+},
+{
+"id": "3.1.3(b)",
+"text": "The relationship between law and morality and its importance",
+"topic": "law-and-morality"
+},
+{
+"id": "3.1.3(c)",
+"text": "The legal enforcement of moral values",
+"topic": "law-and-morality"
+}
+]
+},
+{
+"code": "3.1.4",
+"title": "Nature of law: law and justice",
+"level": 2,
+"group": "Nature of law",
+"statements": [
+{
+"id": "3.1.4(a)",
+"text": "The meaning of justice and theories of justice",
+"topic": "law-and-justice"
+},
+{
+"id": "3.1.4(b)",
+"text": "The extent to which the law (civil and/or criminal) achieves justice",
+"topic": "law-and-justice"
+}
+]
+},
+{
+"code": "3.1.5",
+"title": "The rule of law",
+"level": 2,
+"group": "Nature of law",
+"statements": [
+{
+"id": "3.1.5(a)",
+"text": "Rule of law: no person shall be sanctioned except in accordance with the law",
+"topic": "rule-of-law"
+},
+{
+"id": "3.1.5(b)",
+"text": "Rule of law: equality before the law",
+"topic": "rule-of-law"
+},
+{
+"id": "3.1.5(c)",
+"text": "Rule of law: fairness and clarity (and its application to law making, the legal system and substantive law)",
+"topic": "rule-of-law"
+}
+]
+},
+{
+"code": "3.1.6",
+"title": "Law making: parliamentary law making",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.6(a)",
+"text": "Green and White papers",
+"topic": "parliamentary-law-making"
+},
+{
+"id": "3.1.6(b)",
+"text": "The formal legislative process",
+"topic": "parliamentary-law-making"
+},
+{
+"id": "3.1.6(c)",
+"text": "The influences on parliament",
+"topic": "parliamentary-law-making"
+},
+{
+"id": "3.1.6(d)",
+"text": "The doctrine of parliamentary supremacy and limitations on it",
+"topic": "parliamentary-law-making"
+},
+{
+"id": "3.1.6(e)",
+"text": "The advantages and disadvantages of influences on parliamentary law making",
+"topic": "parliamentary-law-making"
+}
+]
+},
+{
+"code": "3.1.7",
+"title": "Law making: delegated legislation",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.7(a)",
+"text": "Types of delegated legislation: orders in council, statutory instruments, bylaws",
+"topic": "delegated-legislation"
+},
+{
+"id": "3.1.7(b)",
+"text": "Parliamentary and judicial controls on delegated legislation",
+"topic": "delegated-legislation"
+},
+{
+"id": "3.1.7(c)",
+"text": "The reasons for the use of delegated legislation",
+"topic": "delegated-legislation"
+},
+{
+"id": "3.1.7(d)",
+"text": "The advantages and disadvantages of delegated legislation",
+"topic": "delegated-legislation"
+}
+]
+},
+{
+"code": "3.1.8",
+"title": "Law making: statutory interpretation",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.8(a)",
+"text": "The rules of statutory interpretation: literal, golden and mischief rules; the purposive approach",
+"topic": "statutory-interpretation"
+},
+{
+"id": "3.1.8(b)",
+"text": "Internal (intrinsic) and external (extrinsic) aids",
+"topic": "statutory-interpretation"
+},
+{
+"id": "3.1.8(c)",
+"text": "The impact of European Union law and of the Human Rights Act 1998 on statutory interpretation",
+"topic": "statutory-interpretation"
+},
+{
+"id": "3.1.8(d)",
+"text": "The advantages and disadvantages of the different approaches to statutory interpretation",
+"topic": "statutory-interpretation"
+}
+]
+},
+{
+"code": "3.1.9",
+"title": "Law making: judicial precedent",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.9(a)",
+"text": "The doctrine of judicial precedent",
+"topic": "judicial-precedent"
+},
+{
+"id": "3.1.9(b)",
+"text": "The hierarchy of the courts including the Supreme Court",
+"topic": "judicial-precedent"
+},
+{
+"id": "3.1.9(c)",
+"text": "Stare decisis, ratio decidendi and obiter dicta; law reporting in outline and the reasons for it",
+"topic": "judicial-precedent"
+},
+{
+"id": "3.1.9(d)",
+"text": "The operation of judicial precedent: following, overruling and distinguishing",
+"topic": "judicial-precedent"
+},
+{
+"id": "3.1.9(e)",
+"text": "The advantages and disadvantages of the doctrine of judicial precedent and the operation of precedent",
+"topic": "judicial-precedent"
+}
+]
+},
+{
+"code": "3.1.10",
+"title": "Law making: law reform",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.10(a)",
+"text": "The work of the Law Commission: reform, codification, consolidation and repeal",
+"topic": "law-reform"
+},
+{
+"id": "3.1.10(b)",
+"text": "The advantages and disadvantages of reform through the Law Commission",
+"topic": "law-reform"
+}
+]
+},
+{
+"code": "3.1.11",
+"title": "Law making: the European Union",
+"level": 2,
+"group": "Law making",
+"statements": [
+{
+"id": "3.1.11(a)",
+"text": "The institutions of the European Union (Council, Commission, Parliament, Court of Justice) and their functions",
+"topic": "european-union-law"
+},
+{
+"id": "3.1.11(b)",
+"text": "The different sources of European Union law: treaties, regulations and directives",
+"topic": "european-union-law"
+},
+{
+"id": "3.1.11(c)",
+"text": "The impact of European Union law on the law of England and Wales",
+"topic": "european-union-law"
+}
+]
+},
+{
+"code": "3.1.12",
+"title": "The legal system: the civil courts and other forms of dispute resolution",
+"level": 2,
+"group": "The legal system",
+"statements": [
+{
+"id": "3.1.12(a)",
+"text": "Civil courts, including the track system and the appeal system",
+"topic": "civil-courts-and-adr"
+},
+{
+"id": "3.1.12(b)",
+"text": "Other forms of dispute resolution: tribunals; mediation and negotiation",
+"topic": "civil-courts-and-adr"
+}
+]
+},
+{
+"code": "3.1.13",
+"title": "The legal system: the criminal courts and lay people",
+"level": 2,
+"group": "The legal system",
+"statements": [
+{
+"id": "3.1.13(a)",
+"text": "The criminal process including the classification of offences, and the appeal system",
+"topic": "criminal-courts-and-lay-people"
+},
+{
+"id": "3.1.13(b)",
+"text": "Criminal court powers and sentencing of adult offenders",
+"topic": "criminal-courts-and-lay-people"
+},
+{
+"id": "3.1.13(c)",
+"text": "The role and powers of magistrates and the role of juries in criminal courts",
+"topic": "criminal-courts-and-lay-people"
+},
+{
+"id": "3.1.13(d)",
+"text": "The advantages and disadvantages of using juries in criminal courts",
+"topic": "criminal-courts-and-lay-people"
+}
+]
+},
+{
+"code": "3.1.14",
+"title": "The legal system: legal personnel and the judiciary",
+"level": 2,
+"group": "The legal system",
+"statements": [
+{
+"id": "3.1.14(a)",
+"text": "The different roles of barristers, solicitors and legal executives",
+"topic": "legal-personnel-and-the-judiciary"
+},
+{
+"id": "3.1.14(b)",
+"text": "The regulation of legal personnel",
+"topic": "legal-personnel-and-the-judiciary"
+},
+{
+"id": "3.1.14(c)",
+"text": "The judiciary: types of judge",
+"topic": "legal-personnel-and-the-judiciary"
+},
+{
+"id": "3.1.14(d)",
+"text": "The role of judges in civil and criminal courts",
+"topic": "legal-personnel-and-the-judiciary"
+},
+{
+"id": "3.1.14(e)",
+"text": "The independence of the judiciary: security of tenure, immunity from suit, independence from the Executive",
+"topic": "legal-personnel-and-the-judiciary"
+},
+{
+"id": "3.1.14(f)",
+"text": "Reason for and advantages of judicial independence and the methods by which it is achieved",
+"topic": "legal-personnel-and-the-judiciary"
+}
+]
+},
+{
+"code": "3.1.15",
+"title": "The legal system: access to justice and funding",
+"level": 2,
+"group": "The legal system",
+"statements": [
+{
+"id": "3.1.15(a)",
+"text": "Alternative sources of legal advice: help lines, Citizens Advice, law centres and trade unions",
+"topic": "access-to-justice-and-funding"
+},
+{
+"id": "3.1.15(b)",
+"text": "Private funding: own resources, insurance and conditional fee agreements",
+"topic": "access-to-justice-and-funding"
+},
+{
+"id": "3.1.15(c)",
+"text": "Public funding: criminal and civil state funding",
+"topic": "access-to-justice-and-funding"
+}
+]
+},
+{
+"code": "3.2",
+"title": "Criminal law",
+"level": 1,
+"group": null,
+"statements": []
+},
+{
+"code": "3.2.1",
+"title": "Theory in criminal law",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.1(a)",
+"text": "Harm as the basis for criminalising conduct",
+"topic": "theory-in-criminal-law"
+},
+{
+"id": "3.2.1(b)",
+"text": "Autonomy, fault and individual responsibility",
+"topic": "theory-in-criminal-law"
+},
+{
+"id": "3.2.1(c)",
+"text": "Principle: fair labelling",
+"topic": "theory-in-criminal-law"
+},
+{
+"id": "3.2.1(d)",
+"text": "Principle: correspondence",
+"topic": "theory-in-criminal-law"
+},
+{
+"id": "3.2.1(e)",
+"text": "Principle: maximum certainty",
+"topic": "theory-in-criminal-law"
+},
+{
+"id": "3.2.1(f)",
+"text": "Principle: no retrospective liability",
+"topic": "theory-in-criminal-law"
+}
+]
+},
+{
+"code": "3.2.2",
+"title": "General elements of liability",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.2(a)",
+"text": "Actus reus: conduct; acts and omissions and state of affairs",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(b)",
+"text": "Actus reus: voluntariness and involuntariness",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(c)",
+"text": "Actus reus: causation",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(d)",
+"text": "Actus reus: consequences",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(e)",
+"text": "Mens rea: intention and subjective recklessness",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(f)",
+"text": "Negligence (as a fault element)",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(g)",
+"text": "Transferred malice",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(h)",
+"text": "No fault: strict liability",
+"topic": "actus-reus-and-mens-rea"
+},
+{
+"id": "3.2.2(i)",
+"text": "Coincidence of actus reus and mens rea",
+"topic": "actus-reus-and-mens-rea"
+}
+]
+},
+{
+"code": "3.2.3",
+"title": "Fatal offences against the person",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.3(a)",
+"text": "Murder",
+"topic": "murder-and-voluntary-manslaughter"
+},
+{
+"id": "3.2.3(b)",
+"text": "Voluntary manslaughter: loss of control (s54 Coroners and Justice Act 2009)",
+"topic": "murder-and-voluntary-manslaughter"
+},
+{
+"id": "3.2.3(c)",
+"text": "Voluntary manslaughter: diminished responsibility (s2 Homicide Act 1957 as amended)",
+"topic": "murder-and-voluntary-manslaughter"
+},
+{
+"id": "3.2.3(d)",
+"text": "Involuntary manslaughter: unlawful act manslaughter",
+"topic": "involuntary-manslaughter"
+},
+{
+"id": "3.2.3(e)",
+"text": "Involuntary manslaughter: gross negligence manslaughter",
+"topic": "involuntary-manslaughter"
+}
+]
+},
+{
+"code": "3.2.4",
+"title": "Non-fatal offences against the person",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.4(a)",
+"text": "Common assault: assault",
+"topic": "non-fatal-offences"
+},
+{
+"id": "3.2.4(b)",
+"text": "Common assault: battery",
+"topic": "non-fatal-offences"
+},
+{
+"id": "3.2.4(c)",
+"text": "s47 assault/battery occasioning actual bodily harm",
+"topic": "non-fatal-offences"
+},
+{
+"id": "3.2.4(d)",
+"text": "s20 unlawful and malicious wounding or inflicting grievous bodily harm",
+"topic": "non-fatal-offences"
+},
+{
+"id": "3.2.4(e)",
+"text": "s18 wounding or causing grievous bodily harm with intent",
+"topic": "non-fatal-offences"
+}
+]
+},
+{
+"code": "3.2.5",
+"title": "Property offences",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.5(a)",
+"text": "Theft (s1 Theft Act 1968)",
+"topic": "theft-and-robbery"
+},
+{
+"id": "3.2.5(b)",
+"text": "Robbery (s8 Theft Act 1968)",
+"topic": "theft-and-robbery"
+}
+]
+},
+{
+"code": "3.2.6",
+"title": "Preliminary offence",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.6(a)",
+"text": "Attempt (s1 Criminal Attempts Act 1981)",
+"topic": "attempts"
+}
+]
+},
+{
+"code": "3.2.7",
+"title": "Defences",
+"level": 2,
+"group": "Criminal law",
+"statements": [
+{
+"id": "3.2.7(a)",
+"text": "Capacity defence: insanity",
+"topic": "insanity-automatism-and-intoxication"
+},
+{
+"id": "3.2.7(b)",
+"text": "Capacity defence: automatism",
+"topic": "insanity-automatism-and-intoxication"
+},
+{
+"id": "3.2.7(c)",
+"text": "Capacity defence: intoxication",
+"topic": "insanity-automatism-and-intoxication"
+},
+{
+"id": "3.2.7(d)",
+"text": "Necessity defence: self-defence/prevention of crime",
+"topic": "self-defence-and-duress"
+},
+{
+"id": "3.2.7(e)",
+"text": "Necessity defence: duress",
+"topic": "self-defence-and-duress"
+},
+{
+"id": "3.2.7(f)",
+"text": "Necessity defence: duress of circumstances",
+"topic": "self-defence-and-duress"
+}
+]
+},
+{
+"code": "3.3",
+"title": "Tort",
+"level": 1,
+"group": null,
+"statements": []
+},
+{
+"code": "3.3.1",
+"title": "Theory of tort law",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.1(a)",
+"text": "Public policy factors governing the imposition of a duty of care (the Caparo three-part test)",
+"topic": "theory-of-tort-law"
+},
+{
+"id": "3.3.1(b)",
+"text": "Policy factors governing liability for pure economic loss and psychiatric injury",
+"topic": "theory-of-tort-law"
+},
+{
+"id": "3.3.1(c)",
+"text": "Factors governing the objective standard of care in negligence",
+"topic": "theory-of-tort-law"
+},
+{
+"id": "3.3.1(d)",
+"text": "Factors governing the grant of an injunction, and the balancing of conflicting interests",
+"topic": "theory-of-tort-law"
+},
+{
+"id": "3.3.1(e)",
+"text": "The nature and purpose of vicarious liability",
+"topic": "theory-of-tort-law"
+}
+]
+},
+{
+"code": "3.3.2",
+"title": "Liability in negligence for physical injury to people and damage to property",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.2(a)",
+"text": "Duty of care: the 'neighbour' principle; the Caparo three-part test",
+"topic": "negligence"
+},
+{
+"id": "3.3.2(b)",
+"text": "Breach of duty: the objective standard of care",
+"topic": "negligence"
+},
+{
+"id": "3.3.2(c)",
+"text": "Damage: factual causation and legal causation (remoteness of damage)",
+"topic": "negligence"
+}
+]
+},
+{
+"code": "3.3.3",
+"title": "Liability in negligence for economic loss and psychiatric injury",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.3(a)",
+"text": "Pure economic loss caused by negligent acts and negligent misstatements",
+"topic": "economic-loss-and-psychiatric-injury"
+},
+{
+"id": "3.3.3(b)",
+"text": "Psychiatric injury sustained by primary and secondary victims",
+"topic": "economic-loss-and-psychiatric-injury"
+}
+]
+},
+{
+"code": "3.3.4",
+"title": "Occupiers' liability",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.4(a)",
+"text": "Liability to visitors (Occupiers' Liability Act 1957)",
+"topic": "occupiers-liability"
+},
+{
+"id": "3.3.4(b)",
+"text": "Liability to trespassers (Occupiers' Liability Act 1984)",
+"topic": "occupiers-liability"
+}
+]
+},
+{
+"code": "3.3.5",
+"title": "Nuisance and the escape of dangerous things",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.5(a)",
+"text": "Private nuisance",
+"topic": "nuisance-and-rylands-v-fletcher"
+},
+{
+"id": "3.3.5(b)",
+"text": "The rule in Rylands v Fletcher",
+"topic": "nuisance-and-rylands-v-fletcher"
+}
+]
+},
+{
+"code": "3.3.6",
+"title": "Vicarious liability",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.6(a)",
+"text": "Nature and purpose of vicarious liability",
+"topic": "vicarious-liability"
+},
+{
+"id": "3.3.6(b)",
+"text": "Testing employment status",
+"topic": "vicarious-liability"
+},
+{
+"id": "3.3.6(c)",
+"text": "Other areas of vicarious liability",
+"topic": "vicarious-liability"
+}
+]
+},
+{
+"code": "3.3.7",
+"title": "Defences",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.7(a)",
+"text": "Contributory negligence",
+"topic": "tort-defences"
+},
+{
+"id": "3.3.7(b)",
+"text": "Consent (volenti non fit injuria)",
+"topic": "tort-defences"
+},
+{
+"id": "3.3.7(c)",
+"text": "Defences specific to private nuisance and the rule in Rylands v Fletcher",
+"topic": "tort-defences"
+}
+]
+},
+{
+"code": "3.3.8",
+"title": "Remedies",
+"level": 2,
+"group": "Tort",
+"statements": [
+{
+"id": "3.3.8(a)",
+"text": "Compensatory damages for physical injury, damage to property and economic loss; mitigation of loss",
+"topic": "tort-remedies"
+},
+{
+"id": "3.3.8(b)",
+"text": "Injunctions",
+"topic": "tort-remedies"
+}
+]
+},
+{
+"code": "3.4",
+"title": "Law of contract",
+"level": 1,
+"group": null,
+"statements": []
+},
+{
+"code": "3.4.1",
+"title": "Theory of contract law",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.1(a)",
+"text": "Freedom of contract and the competing need to protect the consumer",
+"topic": "theory-of-contract-law"
+},
+{
+"id": "3.4.1(b)",
+"text": "Offers, offers in unilateral contracts and invitations to treat; acceptance, the postal rule and electronic communications",
+"topic": "theory-of-contract-law"
+},
+{
+"id": "3.4.1(c)",
+"text": "The rationale for consideration; consideration and privity; consideration and economic duress",
+"topic": "theory-of-contract-law"
+},
+{
+"id": "3.4.1(d)",
+"text": "The nature and effectiveness of exemption clauses",
+"topic": "theory-of-contract-law"
+},
+{
+"id": "3.4.1(e)",
+"text": "The nature and effectiveness of remedies including consumer remedies",
+"topic": "theory-of-contract-law"
+}
+]
+},
+{
+"code": "3.4.2",
+"title": "Essential requirements of contract",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.2(a)",
+"text": "Offer and acceptance",
+"topic": "formation-of-contract"
+},
+{
+"id": "3.4.2(b)",
+"text": "Consideration (including privity of contract)",
+"topic": "formation-of-contract"
+},
+{
+"id": "3.4.2(c)",
+"text": "Intention to create legal relations",
+"topic": "formation-of-contract"
+}
+]
+},
+{
+"code": "3.4.3",
+"title": "Contract terms: general",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.3(a)",
+"text": "Express and implied terms",
+"topic": "contract-terms"
+},
+{
+"id": "3.4.3(b)",
+"text": "Conditions, warranties and innominate terms",
+"topic": "contract-terms"
+}
+]
+},
+{
+"code": "3.4.4",
+"title": "Contract terms: terms implied by the Consumer Rights Act 2015",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.4(a)",
+"text": "Goods: s9 satisfactory quality, s10 fitness for particular purpose, s11 description",
+"topic": "consumer-rights-act-2015"
+},
+{
+"id": "3.4.4(b)",
+"text": "Goods remedies: s20 short-term right to reject, s23 repair or replacement, s24 price reduction or final right to reject",
+"topic": "consumer-rights-act-2015"
+},
+{
+"id": "3.4.4(c)",
+"text": "Services: s49 reasonable care and skill, s52 performance within a reasonable time",
+"topic": "consumer-rights-act-2015"
+},
+{
+"id": "3.4.4(d)",
+"text": "Services remedies: s55 repeat performance, s56 price reduction",
+"topic": "consumer-rights-act-2015"
+}
+]
+},
+{
+"code": "3.4.5",
+"title": "Contract terms: exclusion clauses",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.5(a)",
+"text": "The nature of exclusion and limitation clauses",
+"topic": "exclusion-clauses"
+},
+{
+"id": "3.4.5(b)",
+"text": "Common law control: incorporation; construction",
+"topic": "exclusion-clauses"
+},
+{
+"id": "3.4.5(c)",
+"text": "Statutory control: Unfair Contract Terms Act 1977 (s2, s3); Consumer Rights Act 2015 (s31, s57, s65)",
+"topic": "exclusion-clauses"
+}
+]
+},
+{
+"code": "3.4.6",
+"title": "Vitiating factors",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.6(a)",
+"text": "Misrepresentation (nature, types and remedies)",
+"topic": "misrepresentation-and-economic-duress"
+},
+{
+"id": "3.4.6(b)",
+"text": "Economic duress (definition and remedies)",
+"topic": "misrepresentation-and-economic-duress"
+}
+]
+},
+{
+"code": "3.4.7",
+"title": "Discharge of a contract",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.7(a)",
+"text": "Performance",
+"topic": "discharge-of-contract"
+},
+{
+"id": "3.4.7(b)",
+"text": "Breach (actual and anticipatory breach)",
+"topic": "discharge-of-contract"
+},
+{
+"id": "3.4.7(c)",
+"text": "Frustration",
+"topic": "discharge-of-contract"
+}
+]
+},
+{
+"code": "3.4.8",
+"title": "Remedies",
+"level": 2,
+"group": "Law of contract",
+"statements": [
+{
+"id": "3.4.8(a)",
+"text": "Compensatory damages (categories of recoverable loss, causation, remoteness and mitigation)",
+"topic": "contract-remedies"
+},
+{
+"id": "3.4.8(b)",
+"text": "Equitable remedies of specific performance and rescission",
+"topic": "contract-remedies"
+},
+{
+"id": "3.4.8(c)",
+"text": "Termination of contract for breach",
+"topic": "contract-remedies"
+}
+]
+},
+{
+"code": "3.5",
+"title": "Human rights",
+"level": 1,
+"group": null,
+"statements": []
+},
+{
+"code": "3.5.1",
+"title": "Theory in human rights",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.1(a)",
+"text": "Theories of rights",
+"topic": "theory-in-human-rights"
+},
+{
+"id": "3.5.1(b)",
+"text": "Rights contrasted with liberties",
+"topic": "theory-in-human-rights"
+},
+{
+"id": "3.5.1(c)",
+"text": "The scope of 'fundamental human' rights",
+"topic": "theory-in-human-rights"
+}
+]
+},
+{
+"code": "3.5.2",
+"title": "Human rights in international law",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.2(a)",
+"text": "The Second World War and its aftermath",
+"topic": "human-rights-before-the-hra"
+},
+{
+"id": "3.5.2(b)",
+"text": "The United Nations and the Universal Declaration of Human Rights 1948",
+"topic": "human-rights-before-the-hra"
+},
+{
+"id": "3.5.2(c)",
+"text": "The Council of Europe and the European Convention on Human Rights 1953",
+"topic": "human-rights-before-the-hra"
+}
+]
+},
+{
+"code": "3.5.3",
+"title": "Human rights in the UK before the Human Rights Act 1998",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.3(a)",
+"text": "The status of the ECHR in the UK and the impact of decisions of the European Court of Human Rights",
+"topic": "human-rights-before-the-hra"
+}
+]
+},
+{
+"code": "3.5.4",
+"title": "Human rights in the UK after the Human Rights Act 1998",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.4(a)",
+"text": "Extent and method of incorporation and interpretation of the ECHR",
+"topic": "human-rights-act-1998"
+},
+{
+"id": "3.5.4(b)",
+"text": "Impact on constitutional arrangements and on UK law, including the entrenched HRA in the devolution settlements of Scotland and Northern Ireland",
+"topic": "human-rights-act-1998"
+},
+{
+"id": "3.5.4(c)",
+"text": "Criticisms of human rights",
+"topic": "human-rights-act-1998"
+}
+]
+},
+{
+"code": "3.5.5",
+"title": "Article 2 ECHR",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.5(a)",
+"text": "Article 2.1: right to life",
+"topic": "article-2-right-to-life"
+},
+{
+"id": "3.5.5(b)",
+"text": "Article 2.2: justified exceptions",
+"topic": "article-2-right-to-life"
+}
+]
+},
+{
+"code": "3.5.6",
+"title": "Article 5 ECHR",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.6(a)",
+"text": "Article 5.1: right to liberty and security of person",
+"topic": "article-5-right-to-liberty"
+},
+{
+"id": "3.5.6(b)",
+"text": "Article 5.1a–5.1c: justified deprivation of liberty – lawful arrest or detention",
+"topic": "article-5-right-to-liberty"
+},
+{
+"id": "3.5.6(c)",
+"text": "Article 5.2–5.5: additional requirements in cases of lawful arrest or detention",
+"topic": "article-5-right-to-liberty"
+}
+]
+},
+{
+"code": "3.5.7",
+"title": "Article 8 ECHR",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.7(a)",
+"text": "Article 8.1: right to respect for private and family life, home and correspondence",
+"topic": "article-8-private-and-family-life"
+}
+]
+},
+{
+"code": "3.5.8",
+"title": "Article 10 ECHR",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.8(a)",
+"text": "Article 10.1: freedom of expression (receive and communicate information and ideas)",
+"topic": "articles-10-and-11"
+}
+]
+},
+{
+"code": "3.5.9",
+"title": "Article 11 ECHR",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.9(a)",
+"text": "Article 11.1: freedom of peaceful assembly and of association",
+"topic": "articles-10-and-11"
+}
+]
+},
+{
+"code": "3.5.10",
+"title": "Restrictions",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.10(a)",
+"text": "Article 8.2, 10.2 and 11.2: restrictions on the rights",
+"topic": "restrictions-on-rights"
+},
+{
+"id": "3.5.10(b)",
+"text": "General requirements relating to restrictions",
+"topic": "restrictions-on-rights"
+}
+]
+},
+{
+"code": "3.5.11",
+"title": "Enforcement",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.11(a)",
+"text": "Claims before the European Court of Human Rights; the role of domestic courts; the effect of decisions on states and claimants",
+"topic": "enforcement-of-human-rights"
+},
+{
+"id": "3.5.11(b)",
+"text": "The process of judicial review",
+"topic": "enforcement-of-human-rights"
+}
+]
+},
+{
+"code": "3.5.12",
+"title": "Human rights and English law",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.12(a)",
+"text": "Right to life: homicide and self-defence, police planning of dangerous operations, protective policing, civil negligence, investigation of deaths in custody",
+"topic": "human-rights-and-english-law"
+},
+{
+"id": "3.5.12(b)",
+"text": "Deprivation of liberty",
+"topic": "human-rights-and-english-law"
+},
+{
+"id": "3.5.12(c)",
+"text": "Privacy and communication: criminal and civil law provisions which protect or restrict the rights",
+"topic": "human-rights-and-english-law"
+},
+{
+"id": "3.5.12(d)",
+"text": "Expression, assembly and association: provisions affecting the balance with privacy",
+"topic": "human-rights-and-english-law"
+}
+]
+},
+{
+"code": "3.5.13",
+"title": "Reform",
+"level": 2,
+"group": "Human rights",
+"statements": [
+{
+"id": "3.5.13(a)",
+"text": "Reform of the protection of human rights in the UK",
+"topic": "human-rights-act-1998"
+}
+]
+}
+]

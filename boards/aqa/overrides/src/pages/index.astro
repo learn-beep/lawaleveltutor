@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import { allTopics, allQuestions, allPapers, groupInfo, FIRST_SERIES } from '../lib/data';
+import { decks } from '../lib/decks';
+import Icon from '../components/Icon.astro';
+const top = [...allTopics].sort((a, b) => b.marks - a.marks).slice(0, 14);
+const topics = allTopics.map((t) => ({ slug: t.slug, name: t.name, parts: t.parts }));
+const essays = allQuestions.filter((q) => q.format === 'Essay').length;
+const scenarios = allQuestions.filter((q) => q.format === 'Scenario').length;
+const mcq = allQuestions.filter((q) => q.format === 'Multiple choice').length;
+const sat = allPapers.filter((p) => p.kind === 'exam');
+const latest = 'June 2025';
+---
+<Base title="AQA A-level Law 7162: past-paper questions by topic, mark schemes and a tutor" description="Free AQA A-level Law (7162) past-paper questions sorted by specification topic, with mark schemes, examiners' reports, practice with instant multiple-choice marking, essays, a mock builder and a grade calculator." context="home" leadLine="Not sure where to start? Tell us the year group, whether you take contract or human rights, and your target grade, and we will arrange a trial lesson.">
+  <h1>AQA A-level Law, one topic at a time</h1>
+  <p>{allQuestions.length} questions from {sat.length} AQA 7162 papers, {FIRST_SERIES} to {latest}, plus AQA's specimen papers. Each is sorted by specification topic, with the mark scheme and the examiners' report one tap away. Free, no sign-up.</p>
+  <p class="board-note">Taking another board? The <a href="/">{'OC' + 'R section'}</a> has every {'OC' + 'R'} Law paper since 2022, and the <a href={'/cam' + 'bridge/'}>Cambridge International section</a> covers 9084.</p>
+  <p class="muted">Specification 7162: Paper 1 Criminal law, Paper 2 Tort, and Paper 3A Law of contract or Paper 3B Human rights, each with the nature of law and the English legal system. The June 2026 papers will be added when AQA releases them.</p>
+
+  <div class="progress-box" id="progress" hidden>
+    <strong>Your progress</strong>
+    <dl><div><dt>Checklist ticks</dt><dd id="pr-ticks">0</dd></div><div><dt>Questions marked</dt><dd id="pr-q">0</dd></div><div><dt>Weakest topic</dt><dd id="pr-weak">—</dd></div></dl>
+    <a href="/planner/">Build a plan from these</a> · <a href="/specification/">Checklist</a>
+  </div>
+
+  <nav class="tool-strip" aria-label="Key tools">
+    <a href="/practice/"><Icon name="target" />Practice</a>
+    <a href="/past-papers/"><Icon name="file" />Past papers</a>
+    <a href="/questions/type/scenarios/"><Icon name="lightbulb" />Problems</a>
+    <a href="/essays/"><Icon name="pen" />Essays</a>
+    <a href="/mock/"><Icon name="timer" />Mock</a>
+  </nav>
+
+  <label for="topic-search" class="muted">Find a topic</label>
+  <input id="topic-search" class="search" type="search" placeholder="e.g. negligence, theft, judicial precedent" autocomplete="off" />
+
+  <h2 class="strand-head">Most-examined topics</h2>
+  <ul class="topic-list" id="topic-list">
+    {top.map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.name}</span><span class="strand"><span class={`badge badge-${groupInfo(t.group).badge}`}>{groupInfo(t.group).short}</span> {t.parts} questions</span></a></li>)}
+  </ul>
+  <p><a href="/questions/">All {allTopics.length} topics by area</a></p>
+
+  <h2>Everything on the site</h2>
+  <div class="tiles">
+    <a class="tile-card" href="/past-papers/"><Icon name="file" /><strong>Past papers</strong><span>Every public 7162 paper since {FIRST_SERIES.split(' ')[1]}: Papers 1, 2, 3A and 3B with a question-by-question table</span></a>
+    <a class="tile-card" href="/practice/"><Icon name="target" /><strong>Practice</strong><span>Real questions one at a time: multiple choice marked instantly, the rest self-marked on AQA's bands</span></a>
+    <a class="tile-card" href="/questions/type/multiple-choice/"><Icon name="check" /><strong>Multiple choice</strong><span>All {mcq} multiple-choice questions with AQA's answers and the examiners' comments</span></a>
+    <a class="tile-card" href="/questions/type/scenarios/"><Icon name="lightbulb" /><strong>Problem questions</strong><span>All {scenarios} ten-mark and thirty-mark problems with their scenarios: identify, apply, conclude</span></a>
+    <a class="tile-card" href="/essays/"><Icon name="pen" /><strong>Essays</strong><span>All {essays} fifteen-mark Question 9 essays by nature of law theme, and a timed essay tool</span></a>
+    <a class="tile-card" href="/mock/"><Icon name="timer" /><strong>Mini-mock builder</strong><span>A paper-shaped timed mock from real questions: any of the four papers, part or whole</span></a>
+    <a class="tile-card" href="/specification/"><Icon name="checklist" /><strong>Specification checklist</strong><span>Every content point of the 7162 specification, tickable, linked to its questions</span></a>
+    <a class="tile-card" href="/analysis/"><Icon name="chart" /><strong>What comes up</strong><span>Marks on each topic in every series, the latest papers, every paper as a timeline</span></a>
+    {decks.length > 0 && <a class="tile-card" href="/flashcards/"><Icon name="layers" /><strong>Key terms</strong><span>Key legal terms for {decks.length} topics as flip cards with spaced repetition</span></a>}
+    <a class="tile-card" href="/grade-boundaries/"><Icon name="calendar" /><strong>Boundaries and dates</strong><span>Grade calculator on AQA's boundaries and the June 2027 exam dates with a countdown</span></a>
+    <a class="tile-card" href="/planner/"><Icon name="lightbulb" /><strong>Revision planner</strong><span>A week-by-week plan to Paper 1 from your weak topics</span></a>
+    <a class="tile-card" href="/tutors/"><Icon name="users" /><strong>Your tutor</strong><span>Sue: qualified solicitor, 25 years teaching A-level Law on the AQA and {'OC' + 'R'} specifications, online one-to-one</span></a>
+  </div>
+
+  <script define:vars={{ topics }}>
+    try {
+      const ticks = JSON.parse(localStorage.getItem('malt-aqa-spec') || '{}'), scores = JSON.parse(localStorage.getItem('malt-aqa-scores') || '{}');
+      const nTicks = Object.values(ticks).filter(Boolean).length, rows = Object.entries(scores);
+      const nQ = rows.reduce((n, [, r]) => n + (r.n || 0), 0);
+      if (nTicks || nQ) {
+        document.getElementById('progress').hidden = false;
+        document.getElementById('pr-ticks').textContent = nTicks;
+        document.getElementById('pr-q').textContent = nQ;
+        const weak = rows.filter(([, r]) => r.total).sort((a, b) => a[1].earned / a[1].total - b[1].earned / b[1].total)[0];
+        if (weak) { const t = topics.find((x) => x.slug === weak[0]); document.getElementById('pr-weak').innerHTML = t ? `<a href="/questions/${t.slug}/">${t.name.split(':')[0]}</a> ${Math.round(100 * weak[1].earned / weak[1].total)}%` : '—'; }
+      }
+    } catch {}
+    const input = document.getElementById('topic-search');
+    const list = document.getElementById('topic-list');
+    const initial = list.innerHTML;
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      if (!q) { list.innerHTML = initial; return; }
+      const items = topics.filter((t) => t.name.toLowerCase().includes(q) || t.slug.includes(q.replace(/\s+/g, '-')));
+      list.innerHTML = items.length
+        ? items.map((t) => `<li><a href="/questions/${t.slug}/"><span>${t.name}</span><span class="strand">${t.parts} questions</span></a></li>`).join('')
+        : '<li class="muted">No topic matches that. <a href="/questions/">Browse all topics</a>.</li>';
+    });
+  </script>
+</Base>

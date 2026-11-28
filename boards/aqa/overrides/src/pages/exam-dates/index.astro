@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import exams from '../../data/exams.json';
+const fmt = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+---
+<Base title={`AQA A-level Law 7162 exam dates ${exams.series} with countdown`} description={`Paper 1, 2, 3A and 3B dates for AQA A-level Law (7162) in ${exams.series}, from AQA's key dates, with a countdown to Paper 1.`} context="exam-dates" leadLine="Weeks to go and a topic you still can't do? Message us.">
+  <h1>Exam dates: {exams.series}</h1>
+  <p class="muted">Days until Paper 1</p>
+  <p class="countdown" id="countdown" data-date={exams.alevel[0].date}>—</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Paper</th><th>Date</th><th>Session</th><th>Length</th></tr></thead>
+    <tbody>{exams.alevel.map((e) => <tr><td>{e.name}<br /><span class="muted">{e.code} · {e.marks} marks</span></td><td>{fmt(e.date)}</td><td>{e.session}</td><td>{e.length}</td></tr>)}</tbody>
+  </table></div>
+  <p class="muted">{exams.source}. Check the date and time on your own statement of entry.</p>
+  <p class="muted">{exams.asNote}</p>
+  <script>
+    const el = document.getElementById('countdown');
+    const target = new Date(el.dataset.date + 'T13:30:00+01:00');
+    const days = Math.ceil((target - new Date()) / 86400000);
+    el.textContent = days > 0 ? `${days} days` : days === 0 ? 'Today' : 'Done';
+  </script>
+</Base>

@@ -1,0 +1,123 @@
+{
+ "all": [
+  [
+   "Past-paper questions, mark schemes and examiner reports are © OCR and are shown free for study.",
+   "Past-paper questions, mark schemes and examiners' reports are © AQA and are shown free for study."
+  ],
+  [
+   "line = 'Scenario answers stuck in Level 2, or running out of time on the 20-markers? Book a trial lesson with Sue, who has taught A-level Law for 25 years.'",
+   "line = 'Problem answers stuck in the middle bands, or running out of time on the 30-markers? Book a trial lesson with Sue, a qualified solicitor who has taught A-level Law for 25 years on both the AQA and OC' + 'R specifications.'"
+  ],
+  [
+   "Hi, I'm looking for an OCR Law Tutor.",
+   "Hi, I'm looking for an AQA Law Tutor."
+  ],
+  [
+   "return `${t} | OCR A-level Law`;",
+   "return `${t} | AQA A-level Law 7162`;"
+  ],
+  [
+   "description = 'Free OCR A-level Law past-paper questions by topic, with mark schemes, examiner comments, practice and an OCR Law tutor.'",
+   "description = 'Free AQA A-level Law (7162) past-paper questions by topic, with mark schemes, examiners\\' report comments, practice and an AQA Law tutor.'"
+  ],
+  [
+   "Open this paper on OCR's site",
+   "See this paper on AQA's site"
+  ],
+  [
+   "<Icon name=\"comment\" />Examiner's comment</button>",
+   "<Icon name=\"comment\" />Examiners' report</button>"
+  ],
+  [
+   "<h4>Examiner's comment</h4>",
+   "<h4>Examiners' report on this question</h4>"
+  ],
+  [
+   "<h4>Mark scheme, with the levels of response and indicative content</h4>",
+   "<h4>Mark scheme</h4>"
+  ],
+  [
+   "OCR AS and A-level Law past-paper questions since 2022 · {qs.length} questions",
+   "AQA A-level Law (7162) past-paper questions since 2020 · {qs.length} questions"
+  ],
+  [
+   "const papers = allPapers.filter((p) => p.kind === 'exam').sort((a, b) => b.year - a.year || a.spec.localeCompare(b.spec) || Number(a.paperNo) - Number(b.paperNo));",
+   "const papers = allPapers.filter((p) => p.kind === 'exam').sort((a, b) => b.year - a.year || a.paperNo.localeCompare(b.paperNo));"
+  ],
+  [
+   "Every OCR A-level Law paper as a timeline, 2022–2025",
+   "Every AQA A-level Law 7162 paper as a timeline, 2020–2025"
+  ],
+  [
+   "Tap a block to open it. Every question printed is shown, though students answer only some: one of each pair in Section A and one of the two parts in Section B. The 20-mark scenarios and essays are the big blocks.",
+   "Tap a block to open it. Every question is compulsory: five 1-mark multiple-choice questions, two 5-mark questions, a 10-mark problem, the 15-mark essay and two 30-mark problems. Papers 3A and 3B share their Questions 3 to 6."
+  ],
+  [
+   "with the mark scheme and the examiner's comment. Same question for everyone",
+   "with the mark scheme and the examiners' report. Same question for everyone"
+  ],
+  [
+   "{q.level === 'AS' ? 'AS ' : ''}",
+   ""
+  ],
+  [
+   "${q.l === 'AS' ? 'AS ' : ''}",
+   ""
+  ],
+  [
+   "Terms learned but the scenarios still stuck in Level 2?",
+   "Terms learned but the problem answers still stuck in the middle bands?"
+  ],
+  [
+   "OCR AS and A-level Law",
+   "AQA A-level Law"
+  ],
+  [
+   "OCR A-level Law",
+   "AQA A-level Law"
+  ],
+  [
+   "OCR Law",
+   "AQA Law"
+  ],
+  [
+   "OCR's",
+   "AQA's"
+  ],
+  [
+   "OCR_MATERIALS",
+   "OCR_MATERIALS"
+  ],
+  [
+   "OCR",
+   "AQA"
+  ],
+  [
+   "H418",
+   "7162"
+  ],
+  [
+   "H018",
+   "7162"
+  ],
+  [
+   "2022–2025",
+   "2020–2025"
+  ],
+  [
+   "'malt-",
+   "'malt-aqa-"
+  ],
+  [
+   "`malt-",
+   "`malt-aqa-"
+  ],
+  [
+   "\"malt-",
+   "\"malt-aqa-"
+  ]
+ ],
+ "delete": [
+  "src/data/decks"
+ ]
+}

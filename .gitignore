@@ -7,3 +7,4 @@ dist/
 *.zip
 extract-all.bat
 /.build/
+publish-aqa.bat

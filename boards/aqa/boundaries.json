@@ -1,0 +1,127 @@
+{
+ "source": "AQA's subject grade boundaries for A-level Law (7162), June 2022 to June 2026, from AQA's grade boundary documents. Three 100-mark papers are added with no weighting, so the maximum is 300. Option A is Papers 1, 2 and 3A (contract); option B is Papers 1, 2 and 3B (human rights).",
+ "alevel": [
+  {
+   "series": "June 2026",
+   "option": "A",
+   "papers": "1/2/3A",
+   "max": 300,
+   "A*": 212,
+   "A": 188,
+   "B": 156,
+   "C": 125,
+   "D": 94,
+   "E": 63
+  },
+  {
+   "series": "June 2026",
+   "option": "B",
+   "papers": "1/2/3B",
+   "max": 300,
+   "A*": 221,
+   "A": 195,
+   "B": 162,
+   "C": 129,
+   "D": 96,
+   "E": 63
+  },
+  {
+   "series": "June 2025",
+   "option": "A",
+   "papers": "1/2/3A",
+   "max": 300,
+   "A*": 209,
+   "A": 185,
+   "B": 153,
+   "C": 122,
+   "D": 91,
+   "E": 60
+  },
+  {
+   "series": "June 2025",
+   "option": "B",
+   "papers": "1/2/3B",
+   "max": 300,
+   "A*": 213,
+   "A": 186,
+   "B": 155,
+   "C": 124,
+   "D": 93,
+   "E": 62
+  },
+  {
+   "series": "June 2024",
+   "option": "A",
+   "papers": "1/2/3A",
+   "max": 300,
+   "A*": 218,
+   "A": 190,
+   "B": 155,
+   "C": 120,
+   "D": 86,
+   "E": 52
+  },
+  {
+   "series": "June 2024",
+   "option": "B",
+   "papers": "1/2/3B",
+   "max": 300,
+   "A*": 215,
+   "A": 188,
+   "B": 154,
+   "C": 121,
+   "D": 88,
+   "E": 55
+  },
+  {
+   "series": "June 2023",
+   "option": "A",
+   "papers": "1/2/3A",
+   "max": 300,
+   "A*": 218,
+   "A": 193,
+   "B": 159,
+   "C": 125,
+   "D": 91,
+   "E": 58
+  },
+  {
+   "series": "June 2023",
+   "option": "B",
+   "papers": "1/2/3B",
+   "max": 300,
+   "A*": 211,
+   "A": 185,
+   "B": 153,
+   "C": 121,
+   "D": 90,
+   "E": 59
+  },
+  {
+   "series": "June 2022",
+   "option": "A",
+   "papers": "1/2/3A",
+   "max": 300,
+   "A*": 196,
+   "A": 167,
+   "B": 135,
+   "C": 103,
+   "D": 72,
+   "E": 41
+  },
+  {
+   "series": "June 2022",
+   "option": "B",
+   "papers": "1/2/3B",
+   "max": 300,
+   "A*": 196,
+   "A": 167,
+   "B": 135,
+   "C": 103,
+   "D": 72,
+   "E": 41
+  }
+ ],
+ "asSource": "",
+ "as": []
+}

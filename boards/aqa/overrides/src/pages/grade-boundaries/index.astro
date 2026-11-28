@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import b from '../../data/boundaries.json';
+const grades = ['A*', 'A', 'B', 'C', 'D', 'E'];
+const opts = b.alevel.map((r) => ({ v: `${r.series}|${r.option}`, label: `${r.series}, option ${r.option} (Papers ${r.papers.replace(/\//g, ', ')})` }));
+---
+<Base title="AQA A-level Law 7162 grade boundaries 2022–2026 and grade calculator" description="AQA A-level Law (7162) grade boundaries for every summer since 2022, for the contract and human rights options, with a calculator that turns your three paper marks into a grade and the marks you need for the next one." context="grade-boundaries" leadLine="Short of the grade you need? A tutor can work out exactly where the marks are.">
+  <h1>Grade boundaries and grade calculator</h1>
+  <p>AQA A-level Law is three papers of 100 marks added together with no weighting, so the total is out of 300. AQA sets a boundary for each option: option A is Papers 1, 2 and 3A (contract) and option B is Papers 1, 2 and 3B (human rights). Boundaries move each year with the difficulty of the papers, so use the last few as a range, not a target.</p>
+  <h2>Grade calculator</h2>
+  <div class="calc" id="calc">
+    <label>Paper 1 mark (out of 100) <input type="number" min="0" max="100" id="p1" inputmode="numeric" /></label>
+    <label>Paper 2 mark (out of 100) <input type="number" min="0" max="100" id="p2" inputmode="numeric" /></label>
+    <label>Paper 3A or 3B mark (out of 100) <input type="number" min="0" max="100" id="p3" inputmode="numeric" /></label>
+    <label>Compare with <select id="series">{opts.map((o) => <option value={o.v}>{o.label}</option>)}</select></label>
+    <div class="result" id="result">Enter your marks</div>
+    <div class="muted" id="next"></div>
+  </div>
+  <h2>A-level (7162), out of 300</h2>
+  <div class="table-wrap"><table><thead><tr><th>Series</th><th>Option (papers)</th>{grades.map((g) => <th>{g}</th>)}</tr></thead>
+    <tbody>{b.alevel.map((r) => <tr><td>{r.series}</td><td>{r.option} ({r.papers.replace(/\//g, ', ')})</td>{grades.map((g) => <td>{r[g]}</td>)}</tr>)}</tbody></table></div>
+  <p class="muted">{b.source}</p>
+  <p class="muted">The June 2022 boundaries were set more generously as part of the return to exams after the pandemic. AQA also publishes notional boundaries for each paper, for illustration only; they are not used to award the grade.</p>
+  <script define:vars={{ rows: b.alevel }}>
+    const ids = ['p1', 'p2', 'p3'];
+    const out = document.getElementById('result'), next = document.getElementById('next'), sel = document.getElementById('series');
+    const grades = ['A*', 'A', 'B', 'C', 'D', 'E'];
+    function update() {
+      const marks = ids.map((i) => Number(document.getElementById(i).value));
+      if (marks.some((m) => Number.isNaN(m)) || marks.every((m) => m === 0)) { out.textContent = 'Enter your marks'; next.textContent = ''; return; }
+      const total = marks[0] + marks[1] + marks[2];
+      const [series, option] = sel.value.split('|');
+      const row = rows.find((r) => r.series === series && r.option === option);
+      let grade = 'U';
+      for (const g of grades) { if (total >= row[g]) { grade = g; break; } }
+      const label = `${row.series} option ${row.option}`;
+      if (grade === 'A*') { out.textContent = `${total}/300: grade A* on ${label} boundaries`; next.textContent = `${total - row['A*']} marks above the A* boundary.`; return; }
+      const idx = grades.indexOf(grade); const nextGrade = idx === -1 ? 'E' : grades[idx - 1]; const need = row[nextGrade] - total;
+      out.textContent = `${total}/300: grade ${grade} on ${label} boundaries`;
+      next.textContent = `${need} more mark${need === 1 ? '' : 's'} for ${/^[AE]/.test(nextGrade) ? 'an' : 'a'} ${nextGrade}.`;
+    }
+    [...ids.map((i) => document.getElementById(i)), sel].forEach((el) => el.addEventListener('input', update));
+  </script>
+</Base>

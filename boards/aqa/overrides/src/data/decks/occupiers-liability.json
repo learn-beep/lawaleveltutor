@@ -1,0 +1,37 @@
+{
+ "topic": "occupiers-liability",
+ "name": "Occupiers' liability",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Occupier",
+   "definition": "A person with sufficient control over premises to owe a duty of care to those who come onto them.",
+   "examiner": "Wheat v Lacon: there can be more than one occupier."
+  },
+  {
+   "term": "Occupiers' Liability Act 1957",
+   "definition": "The Act setting out the duty owed by an occupier to lawful visitors: the common duty of care.",
+   "examiner": "s2(2): to take reasonable care to see that the visitor will be reasonably safe in using the premises for the purposes for which they are invited."
+  },
+  {
+   "term": "Lawful visitor",
+   "definition": "A person with express or implied permission to be on the premises, including those entering by contract or legal right.",
+   "examiner": "A visitor who goes beyond their permission becomes a trespasser."
+  },
+  {
+   "term": "Children (s2(3)(a))",
+   "definition": "An occupier must be prepared for children to be less careful than adults.",
+   "examiner": "Glasgow Corporation v Taylor (allurements); Phipps v Rochester (parents expected to supervise very young children)."
+  },
+  {
+   "term": "Occupiers' Liability Act 1984",
+   "definition": "The Act setting out the duty owed to people other than visitors, chiefly trespassers.",
+   "examiner": "s1(3): the duty arises only if the occupier knows of the danger, knows the trespasser may come into its vicinity and could reasonably be expected to offer protection. Tomlinson v Congleton."
+  },
+  {
+   "term": "Independent contractors (s2(4)(b))",
+   "definition": "An occupier is not liable for a contractor's faulty work if they took reasonable care to choose a competent contractor and, where possible, checked the work.",
+   "examiner": "Haseldine v Daw; Woodward v Mayor of Hastings."
+  }
+ ]
+}

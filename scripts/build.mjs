@@ -1,4 +1,4 @@
-// Builds the site: OCR at the root (as before) and Cambridge International 9084 under /cambridge/.
+// Builds the site: OCR at the root (as before), Cambridge International 9084 under /cambridge/ and AQA 7162 under /aqa/.
 // 1. `astro build` of this repo as it stands (OCR data in src/data) -> dist/
 // 2. a copy of the repo in .build/<board> with that board's data (boards/<board>/data), the string replacements in
 //    boards/<board>/replace.json and the page overrides in boards/<board>/overrides/ -> built, moved under dist/<board>/
@@ -23,7 +23,7 @@ fs.rmSync(DIST, { recursive: true, force: true });
 run('npx astro build', root);
 
 // 2. The other boards (boards/<board>/)
-for (const board of ['cambridge']) {
+for (const board of ['cambridge', 'aqa']) {
   const B = path.join(root, 'boards', board);
   const work = path.join(BUILD, board);
   fs.rmSync(work, { recursive: true, force: true });

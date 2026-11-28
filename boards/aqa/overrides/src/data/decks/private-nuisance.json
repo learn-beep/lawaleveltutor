@@ -1,0 +1,37 @@
+{
+ "topic": "nuisance-and-rylands-v-fletcher",
+ "name": "Private nuisance",
+ "checked": false,
+ "terms": [
+  {
+   "term": "Private nuisance",
+   "definition": "An unlawful interference with a person's use or enjoyment of land, or some right over or in connection with it.",
+   "examiner": "Hunter v Canary Wharf: only those with a proprietary interest in the land can sue."
+  },
+  {
+   "term": "Indirect interference",
+   "definition": "Nuisance concerns interference by things such as noise, smells, smoke or vibration spreading from the defendant's land.",
+   "examiner": "Direct entry onto land is trespass, not nuisance."
+  },
+  {
+   "term": "Unreasonable use",
+   "definition": "The court balances the parties' interests to decide whether the defendant's use of land is unreasonable.",
+   "examiner": "Factors: locality (Sturges v Bridgman), duration, sensitivity of the claimant (Robinson v Kilvert), malice (Christie v Davey; Hollywood Silver Fox Farm)."
+  },
+  {
+   "term": "Locality",
+   "definition": "The character of the neighbourhood affects what level of interference is reasonable.",
+   "examiner": "\"What would be a nuisance in Belgrave Square would not necessarily be so in Bermondsey\" (Sturges v Bridgman). Coventry v Lawrence on planning permission."
+  },
+  {
+   "term": "Defences: prescription and statutory authority",
+   "definition": "Prescription: the nuisance has continued for 20 years without complaint. Statutory authority: the activity is authorised by Act of Parliament.",
+   "examiner": "Coming to the nuisance is not a defence (Miller v Jackson; Coventry v Lawrence)."
+  },
+  {
+   "term": "Remedies",
+   "definition": "An injunction to stop or limit the activity, damages, or abatement (removing the nuisance oneself).",
+   "examiner": "Damages in lieu of an injunction were considered in Coventry v Lawrence; Miller v Jackson refused an injunction."
+  }
+ ]
+}

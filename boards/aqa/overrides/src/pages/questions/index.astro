@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allTopics, groupInfo, GROUPS, FIRST_SERIES } from '../../lib/data';
+const groups = GROUPS.map((g) => [g[0], g[4], g[0]]);
+const since = FIRST_SERIES.split(' ')[1];
+---
+<Base title={`AQA A-level Law (7162) questions by topic, every paper since ${since}`} description={`Every AQA A-level Law (7162) past-paper question since ${since} sorted into ${allTopics.length} specification topics, each with its mark schemes, examiners' report comments and every essay and problem question set.`} context="questions-index">
+  <h1>Questions by topic</h1>
+  <p>Every AQA A-level Law (7162) past-paper question from {FIRST_SERIES} to June 2025, plus AQA's specimen papers, sorted into topics by the specification content each question assesses. Each topic page shows every question as printed, with its scenario, the mark scheme (the answer for multiple choice; the mark bands and indicative content for the rest), the examiners' report on the question, and filters by paper, year and question type. Papers 3A and 3B print the same Questions 3 to 6, which are shown once.</p>
+  {groups.map(([h, where, key]) => (
+    <>
+      <h2 class="strand-head">{h}</h2>
+      <p class="muted">{where}</p>
+      <ul class="topic-list">
+        {allTopics.filter((t) => t.group === key).map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.name}</span><span class="strand"><span class={`badge badge-${groupInfo(t.group).badge}`}>{t.codes.length > 1 ? `${t.codes[0]}, ${t.codes[t.codes.length - 1].split('.').pop()}` : t.code}</span> {t.parts} question{t.parts === 1 ? '' : 's'}</span></a></li>)}
+      </ul>
+    </>
+  ))}
+  <h2>By question type</h2>
+  <p>Or work on a kind of question across every topic: <a href="/questions/type/multiple-choice/">multiple choice (Questions 1 to 5)</a>, <a href="/questions/type/explain/">5-mark explain questions (Question 6)</a>, <a href="/questions/type/application/">5-mark application questions (Question 7)</a>, <a href="/questions/type/scenarios/">10-mark and 30-mark problem questions (Questions 8, 10 and 11)</a>, <a href="/questions/type/essays/">15-mark essays (Question 9)</a>.</p>
+</Base>

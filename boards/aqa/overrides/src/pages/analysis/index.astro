@@ -1,0 +1,32 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers, allTopics, allQuestions, seriesRank, GROUPS } from '../../lib/data';
+// One table per paper: marks on each topic in each series, from the main content each question assesses (a question's marks are shared equally between its topics).
+const PAPERS = [['Paper 1', 'Criminal law'], ['Paper 2', 'Tort'], ['Paper 3A', 'Law of contract'], ['Paper 3B', 'Human rights']];
+const exams = allPapers.filter((p) => p.kind === 'exam');
+const series = [...new Set(exams.map((p) => p.series))].sort((a, b) => seriesRank(a) - seriesRank(b));
+const short = (s) => s.replace('June ', 'Jun ').replace('November ', 'Nov ').replace(' 20', ' ');
+const marks = (slug, paper, s) => Math.round(allQuestions.filter((q) => (q.paper === paper || (paper === 'Paper 3B' && q.paper === 'Paper 3A' && q.number >= 3 && q.number <= 6)) && q.series === s && q.topics.includes(slug)).reduce((n, q) => n + q.marks / q.topics.length, 0));
+const tables = PAPERS.map(([paper, area]) => {
+  const rows = allTopics.filter((t) => t.group === area).map((t) => { const v = series.map((s) => marks(t.slug, paper, s)); return { t, v, total: v.reduce((a, b) => a + b, 0) }; });
+  return { paper, area, rows, max: Math.max(1, ...rows.flatMap((r) => r.v)) };
+});
+const els = allTopics.filter((t) => !PAPERS.some(([, a]) => a === t.group)).map((t) => { const v = series.map((s) => PAPERS.reduce((n, [p]) => n + marks(t.slug, p, s), 0)); return { t, v, total: v.reduce((a, b) => a + b, 0) }; });
+const elsMax = Math.max(1, ...els.flatMap((r) => r.v));
+const shade = (v, max) => (v ? `background: color-mix(in srgb, var(--accent) ${Math.round(12 + 70 * v / max)}%, transparent)${v / max > 0.55 ? '; color: #fff' : ''}` : '');
+---
+<Base title="What comes up in AQA A-level Law 7162: marks by topic, 2020–2025" description="Marks set on each topic of the AQA A-level Law (7162) specification in every series since 2020, paper by paper, as heat maps." context="analysis">
+  <h1>What comes up, series by series</h1>
+  <p>Marks set on each topic in each series, counted from the main content each question assesses; where a question assesses two or three topics its marks are shared between them. Darker cells carry more marks; the right-hand column is the total. Every question is compulsory, so this is what every student faced.</p>
+  {tables.map((tb) => <>
+    <h2>{tb.paper}: {tb.area}</h2>
+    <div class="table-wrap"><table class="heatmap"><thead><tr><th>Topic</th>{series.map((s) => <th>{short(s)}</th>)}<th>Total</th></tr></thead>
+      <tbody>{tb.rows.map((r) => <tr><th><a href={`/questions/${r.t.slug}/`}>{r.t.name.split(':')[0]}</a></th>{r.v.map((v) => <td style={shade(v, tb.max)}>{v || ''}</td>)}<td class="tot">{r.total}</td></tr>)}</tbody></table></div>
+  </>)}
+  <h2>Nature of law and the English legal system (all four papers together)</h2>
+  <p class="muted">Each paper carries 25 marks on this content. Papers 3A and 3B share Questions 3 to 6, which are counted for both.</p>
+  <div class="table-wrap"><table class="heatmap"><thead><tr><th>Topic</th>{series.map((s) => <th>{short(s)}</th>)}<th>Total</th></tr></thead>
+    <tbody>{els.map((r) => <tr><th><a href={`/questions/${r.t.slug}/`}>{r.t.name.split(':')[0]}</a></th>{r.v.map((v) => <td style={shade(v, elsMax)}>{v || ''}</td>)}<td class="tot">{r.total}</td></tr>)}</tbody></table></div>
+  <p class="muted">With six series the pattern is thin: use it to see what has not been asked for a while, not to predict the next paper. The June 2026 papers will be added when AQA releases them.</p>
+  <p><a href="/what-came-up/">What came up in the latest papers</a> · <a href="/timeline/">Every paper as a timeline</a></p>
+</Base>

@@ -1,0 +1,2207 @@
+[
+{
+"slug": "nature-of-law",
+"name": "Nature of law: legal rules, civil and criminal law, sources of law",
+"code": "3.1.1",
+"codes": [
+"3.1.1"
+],
+"group": "Nature of law",
+"strand": "Nature of law",
+"paper": "Nature of law",
+"papers": [
+"Paper 2",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.1(a)",
+"3.1.1(b)"
+],
+"statementText": {
+"3.1.1(a)": "The distinction between enforceable legal rules and principles and other rules and norms of behaviour",
+"3.1.1(b)": "The differences between criminal and civil law and between different sources of law including custom, statute law and the common law"
+},
+"statementShort": {
+"3.1.1(a)": "",
+"3.1.1(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.1(a)": null,
+"3.1.1(b)": null
+},
+"parts": 12,
+"marks": 132,
+"essays": 0,
+"mcq": 7,
+"sectionTitle": "3.1.1 Nature of law"
+},
+{
+"slug": "law-and-society",
+"name": "Law and society: balancing interests and the role of fault",
+"code": "3.1.2",
+"codes": [
+"3.1.2"
+],
+"group": "Nature of law",
+"strand": "Nature of law",
+"paper": "Nature of law",
+"papers": [
+"Paper 1",
+"Paper 2",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.2(a)",
+"3.1.2(b)",
+"3.1.2(c)"
+],
+"statementText": {
+"3.1.2(a)": "The role law plays in society",
+"3.1.2(b)": "The effect of law on enforceable rights and the balance required between competing interests (eg public and private)",
+"3.1.2(c)": "The meaning and importance of fault in civil and/or criminal law"
+},
+"statementShort": {
+"3.1.2(a)": "",
+"3.1.2(b)": "",
+"3.1.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.2(a)": null,
+"3.1.2(b)": null,
+"3.1.2(c)": null
+},
+"parts": 14,
+"marks": 270,
+"essays": 10,
+"mcq": 0,
+"sectionTitle": "3.1.2 Nature of law: law and society"
+},
+{
+"slug": "law-and-morality",
+"name": "Law and morality",
+"code": "3.1.3",
+"codes": [
+"3.1.3"
+],
+"group": "Nature of law",
+"strand": "Nature of law",
+"paper": "Nature of law",
+"papers": [
+"Paper 2",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.3(a)",
+"3.1.3(b)",
+"3.1.3(c)"
+],
+"statementText": {
+"3.1.3(a)": "The distinction between law and morality and the diversity of moral views in a pluralist society",
+"3.1.3(b)": "The relationship between law and morality and its importance",
+"3.1.3(c)": "The legal enforcement of moral values"
+},
+"statementShort": {
+"3.1.3(a)": "",
+"3.1.3(b)": "",
+"3.1.3(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.3(a)": null,
+"3.1.3(b)": null,
+"3.1.3(c)": null
+},
+"parts": 6,
+"marks": 90,
+"essays": 6,
+"mcq": 0,
+"sectionTitle": "3.1.3 Nature of law: law and morality"
+},
+{
+"slug": "law-and-justice",
+"name": "Law and justice",
+"code": "3.1.4",
+"codes": [
+"3.1.4"
+],
+"group": "Nature of law",
+"strand": "Nature of law",
+"paper": "Nature of law",
+"papers": [
+"Paper 1",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.4(a)",
+"3.1.4(b)"
+],
+"statementText": {
+"3.1.4(a)": "The meaning of justice and theories of justice",
+"3.1.4(b)": "The extent to which the law (civil and/or criminal) achieves justice"
+},
+"statementShort": {
+"3.1.4(a)": "",
+"3.1.4(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.4(a)": null,
+"3.1.4(b)": null
+},
+"parts": 10,
+"marks": 180,
+"essays": 8,
+"mcq": 0,
+"sectionTitle": "3.1.4 Nature of law: law and justice"
+},
+{
+"slug": "rule-of-law",
+"name": "The rule of law",
+"code": "3.1.5",
+"codes": [
+"3.1.5"
+],
+"group": "Nature of law",
+"strand": "Nature of law",
+"paper": "Nature of law",
+"papers": [
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.5(a)",
+"3.1.5(b)",
+"3.1.5(c)"
+],
+"statementText": {
+"3.1.5(a)": "Rule of law: no person shall be sanctioned except in accordance with the law",
+"3.1.5(b)": "Rule of law: equality before the law",
+"3.1.5(c)": "Rule of law: fairness and clarity (and its application to law making, the legal system and substantive law)"
+},
+"statementShort": {
+"3.1.5(a)": "",
+"3.1.5(b)": "",
+"3.1.5(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.5(a)": null,
+"3.1.5(b)": null,
+"3.1.5(c)": null
+},
+"parts": 5,
+"marks": 17,
+"essays": 0,
+"mcq": 2,
+"sectionTitle": "3.1.5 The rule of law"
+},
+{
+"slug": "parliamentary-law-making",
+"name": "Parliamentary law making",
+"code": "3.1.6",
+"codes": [
+"3.1.6"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.6(a)",
+"3.1.6(b)",
+"3.1.6(c)",
+"3.1.6(d)",
+"3.1.6(e)"
+],
+"statementText": {
+"3.1.6(a)": "Green and White papers",
+"3.1.6(b)": "The formal legislative process",
+"3.1.6(c)": "The influences on parliament",
+"3.1.6(d)": "The doctrine of parliamentary supremacy and limitations on it",
+"3.1.6(e)": "The advantages and disadvantages of influences on parliamentary law making"
+},
+"statementShort": {
+"3.1.6(a)": "",
+"3.1.6(b)": "",
+"3.1.6(c)": "",
+"3.1.6(d)": "",
+"3.1.6(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.6(a)": null,
+"3.1.6(b)": null,
+"3.1.6(c)": null,
+"3.1.6(d)": null,
+"3.1.6(e)": null
+},
+"parts": 8,
+"marks": 12,
+"essays": 0,
+"mcq": 7,
+"sectionTitle": "3.1.6 Law making: parliamentary law making"
+},
+{
+"slug": "delegated-legislation",
+"name": "Delegated legislation",
+"code": "3.1.7",
+"codes": [
+"3.1.7"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.7(a)",
+"3.1.7(b)",
+"3.1.7(c)",
+"3.1.7(d)"
+],
+"statementText": {
+"3.1.7(a)": "Types of delegated legislation: orders in council, statutory instruments, bylaws",
+"3.1.7(b)": "Parliamentary and judicial controls on delegated legislation",
+"3.1.7(c)": "The reasons for the use of delegated legislation",
+"3.1.7(d)": "The advantages and disadvantages of delegated legislation"
+},
+"statementShort": {
+"3.1.7(a)": "",
+"3.1.7(b)": "",
+"3.1.7(c)": "",
+"3.1.7(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.7(a)": null,
+"3.1.7(b)": null,
+"3.1.7(c)": null,
+"3.1.7(d)": null
+},
+"parts": 13,
+"marks": 25,
+"essays": 0,
+"mcq": 10,
+"sectionTitle": "3.1.7 Law making: delegated legislation"
+},
+{
+"slug": "statutory-interpretation",
+"name": "Statutory interpretation",
+"code": "3.1.8",
+"codes": [
+"3.1.8"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.8(a)",
+"3.1.8(b)",
+"3.1.8(c)",
+"3.1.8(d)"
+],
+"statementText": {
+"3.1.8(a)": "The rules of statutory interpretation: literal, golden and mischief rules; the purposive approach",
+"3.1.8(b)": "Internal (intrinsic) and external (extrinsic) aids",
+"3.1.8(c)": "The impact of European Union law and of the Human Rights Act 1998 on statutory interpretation",
+"3.1.8(d)": "The advantages and disadvantages of the different approaches to statutory interpretation"
+},
+"statementShort": {
+"3.1.8(a)": "",
+"3.1.8(b)": "",
+"3.1.8(c)": "",
+"3.1.8(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.8(a)": null,
+"3.1.8(b)": null,
+"3.1.8(c)": null,
+"3.1.8(d)": null
+},
+"parts": 6,
+"marks": 10,
+"essays": 0,
+"mcq": 5,
+"sectionTitle": "3.1.8 Law making: statutory interpretation"
+},
+{
+"slug": "judicial-precedent",
+"name": "Judicial precedent",
+"code": "3.1.9",
+"codes": [
+"3.1.9"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 1",
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.9(a)",
+"3.1.9(b)",
+"3.1.9(c)",
+"3.1.9(d)",
+"3.1.9(e)"
+],
+"statementText": {
+"3.1.9(a)": "The doctrine of judicial precedent",
+"3.1.9(b)": "The hierarchy of the courts including the Supreme Court",
+"3.1.9(c)": "Stare decisis, ratio decidendi and obiter dicta; law reporting in outline and the reasons for it",
+"3.1.9(d)": "The operation of judicial precedent: following, overruling and distinguishing",
+"3.1.9(e)": "The advantages and disadvantages of the doctrine of judicial precedent and the operation of precedent"
+},
+"statementShort": {
+"3.1.9(a)": "",
+"3.1.9(b)": "",
+"3.1.9(c)": "",
+"3.1.9(d)": "",
+"3.1.9(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.9(a)": null,
+"3.1.9(b)": null,
+"3.1.9(c)": null,
+"3.1.9(d)": null,
+"3.1.9(e)": null
+},
+"parts": 8,
+"marks": 53,
+"essays": 0,
+"mcq": 3,
+"sectionTitle": "3.1.9 Law making: judicial precedent"
+},
+{
+"slug": "law-reform",
+"name": "Law reform and the Law Commission",
+"code": "3.1.10",
+"codes": [
+"3.1.10"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.10(a)",
+"3.1.10(b)"
+],
+"statementText": {
+"3.1.10(a)": "The work of the Law Commission: reform, codification, consolidation and repeal",
+"3.1.10(b)": "The advantages and disadvantages of reform through the Law Commission"
+},
+"statementShort": {
+"3.1.10(a)": "",
+"3.1.10(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.10(a)": null,
+"3.1.10(b)": null
+},
+"parts": 5,
+"marks": 13,
+"essays": 0,
+"mcq": 3,
+"sectionTitle": "3.1.10 Law making: law reform"
+},
+{
+"slug": "european-union-law",
+"name": "The European Union",
+"code": "3.1.11",
+"codes": [
+"3.1.11"
+],
+"group": "Law making",
+"strand": "Law making",
+"paper": "Law making",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.11(a)",
+"3.1.11(b)",
+"3.1.11(c)"
+],
+"statementText": {
+"3.1.11(a)": "The institutions of the European Union (Council, Commission, Parliament, Court of Justice) and their functions",
+"3.1.11(b)": "The different sources of European Union law: treaties, regulations and directives",
+"3.1.11(c)": "The impact of European Union law on the law of England and Wales"
+},
+"statementShort": {
+"3.1.11(a)": "",
+"3.1.11(b)": "",
+"3.1.11(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.11(a)": null,
+"3.1.11(b)": null,
+"3.1.11(c)": null
+},
+"parts": 2,
+"marks": 2,
+"essays": 0,
+"mcq": 2,
+"sectionTitle": "3.1.11 Law making: the European Union"
+},
+{
+"slug": "civil-courts-and-adr",
+"name": "Civil courts and other forms of dispute resolution",
+"code": "3.1.12",
+"codes": [
+"3.1.12"
+],
+"group": "The legal system",
+"strand": "The legal system",
+"paper": "The legal system",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.12(a)",
+"3.1.12(b)"
+],
+"statementText": {
+"3.1.12(a)": "Civil courts, including the track system and the appeal system",
+"3.1.12(b)": "Other forms of dispute resolution: tribunals; mediation and negotiation"
+},
+"statementShort": {
+"3.1.12(a)": "",
+"3.1.12(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.12(a)": null,
+"3.1.12(b)": null
+},
+"parts": 9,
+"marks": 46,
+"essays": 0,
+"mcq": 6,
+"sectionTitle": "3.1.12 The legal system: the civil courts and other forms of dispute resolution"
+},
+{
+"slug": "criminal-courts-and-lay-people",
+"name": "Criminal courts and lay people: magistrates, juries and sentencing",
+"code": "3.1.13",
+"codes": [
+"3.1.13"
+],
+"group": "The legal system",
+"strand": "The legal system",
+"paper": "The legal system",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.13(a)",
+"3.1.13(b)",
+"3.1.13(c)",
+"3.1.13(d)"
+],
+"statementText": {
+"3.1.13(a)": "The criminal process including the classification of offences, and the appeal system",
+"3.1.13(b)": "Criminal court powers and sentencing of adult offenders",
+"3.1.13(c)": "The role and powers of magistrates and the role of juries in criminal courts",
+"3.1.13(d)": "The advantages and disadvantages of using juries in criminal courts"
+},
+"statementShort": {
+"3.1.13(a)": "",
+"3.1.13(b)": "",
+"3.1.13(c)": "",
+"3.1.13(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.13(a)": null,
+"3.1.13(b)": null,
+"3.1.13(c)": null,
+"3.1.13(d)": null
+},
+"parts": 13,
+"marks": 137,
+"essays": 0,
+"mcq": 7,
+"sectionTitle": "3.1.13 The legal system: the criminal courts and lay people"
+},
+{
+"slug": "legal-personnel-and-the-judiciary",
+"name": "Legal personnel and the judiciary",
+"code": "3.1.14",
+"codes": [
+"3.1.14"
+],
+"group": "The legal system",
+"strand": "The legal system",
+"paper": "The legal system",
+"papers": [
+"Paper 1",
+"Paper 2",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.14(a)",
+"3.1.14(b)",
+"3.1.14(c)",
+"3.1.14(d)",
+"3.1.14(e)",
+"3.1.14(f)"
+],
+"statementText": {
+"3.1.14(a)": "The different roles of barristers, solicitors and legal executives",
+"3.1.14(b)": "The regulation of legal personnel",
+"3.1.14(c)": "The judiciary: types of judge",
+"3.1.14(d)": "The role of judges in civil and criminal courts",
+"3.1.14(e)": "The independence of the judiciary: security of tenure, immunity from suit, independence from the Executive",
+"3.1.14(f)": "Reason for and advantages of judicial independence and the methods by which it is achieved"
+},
+"statementShort": {
+"3.1.14(a)": "",
+"3.1.14(b)": "",
+"3.1.14(c)": "",
+"3.1.14(d)": "",
+"3.1.14(e)": "",
+"3.1.14(f)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.14(a)": null,
+"3.1.14(b)": null,
+"3.1.14(c)": null,
+"3.1.14(d)": null,
+"3.1.14(e)": null,
+"3.1.14(f)": null
+},
+"parts": 22,
+"marks": 129,
+"essays": 0,
+"mcq": 14,
+"sectionTitle": "3.1.14 The legal system: legal personnel and the judiciary"
+},
+{
+"slug": "access-to-justice-and-funding",
+"name": "Access to justice and funding",
+"code": "3.1.15",
+"codes": [
+"3.1.15"
+],
+"group": "The legal system",
+"strand": "The legal system",
+"paper": "The legal system",
+"papers": [
+"Paper 1",
+"Paper 2",
+"Paper 3A",
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.1.15(a)",
+"3.1.15(b)",
+"3.1.15(c)"
+],
+"statementText": {
+"3.1.15(a)": "Alternative sources of legal advice: help lines, Citizens Advice, law centres and trade unions",
+"3.1.15(b)": "Private funding: own resources, insurance and conditional fee agreements",
+"3.1.15(c)": "Public funding: criminal and civil state funding"
+},
+"statementShort": {
+"3.1.15(a)": "",
+"3.1.15(b)": "",
+"3.1.15(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.1.15(a)": null,
+"3.1.15(b)": null,
+"3.1.15(c)": null
+},
+"parts": 11,
+"marks": 131,
+"essays": 0,
+"mcq": 6,
+"sectionTitle": "3.1.15 The legal system: access to justice and funding"
+},
+{
+"slug": "theory-in-criminal-law",
+"name": "Theory in criminal law: harm, fault and the principles",
+"code": "3.2.1",
+"codes": [
+"3.2.1"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.1(a)",
+"3.2.1(b)",
+"3.2.1(c)",
+"3.2.1(d)",
+"3.2.1(e)",
+"3.2.1(f)"
+],
+"statementText": {
+"3.2.1(a)": "Harm as the basis for criminalising conduct",
+"3.2.1(b)": "Autonomy, fault and individual responsibility",
+"3.2.1(c)": "Principle: fair labelling",
+"3.2.1(d)": "Principle: correspondence",
+"3.2.1(e)": "Principle: maximum certainty",
+"3.2.1(f)": "Principle: no retrospective liability"
+},
+"statementShort": {
+"3.2.1(a)": "",
+"3.2.1(b)": "",
+"3.2.1(c)": "",
+"3.2.1(d)": "",
+"3.2.1(e)": "",
+"3.2.1(f)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.1(a)": null,
+"3.2.1(b)": null,
+"3.2.1(c)": null,
+"3.2.1(d)": null,
+"3.2.1(e)": null,
+"3.2.1(f)": null
+},
+"parts": 2,
+"marks": 30,
+"essays": 2,
+"mcq": 0,
+"sectionTitle": "3.2.1 Theory in criminal law"
+},
+{
+"slug": "actus-reus-and-mens-rea",
+"name": "General elements of liability: actus reus, mens rea and causation",
+"code": "3.2.2",
+"codes": [
+"3.2.2"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.2(a)",
+"3.2.2(b)",
+"3.2.2(c)",
+"3.2.2(d)",
+"3.2.2(e)",
+"3.2.2(f)",
+"3.2.2(g)",
+"3.2.2(h)",
+"3.2.2(i)"
+],
+"statementText": {
+"3.2.2(a)": "Actus reus: conduct; acts and omissions and state of affairs",
+"3.2.2(b)": "Actus reus: voluntariness and involuntariness",
+"3.2.2(c)": "Actus reus: causation",
+"3.2.2(d)": "Actus reus: consequences",
+"3.2.2(e)": "Mens rea: intention and subjective recklessness",
+"3.2.2(f)": "Negligence (as a fault element)",
+"3.2.2(g)": "Transferred malice",
+"3.2.2(h)": "No fault: strict liability",
+"3.2.2(i)": "Coincidence of actus reus and mens rea"
+},
+"statementShort": {
+"3.2.2(a)": "",
+"3.2.2(b)": "",
+"3.2.2(c)": "",
+"3.2.2(d)": "",
+"3.2.2(e)": "",
+"3.2.2(f)": "",
+"3.2.2(g)": "",
+"3.2.2(h)": "",
+"3.2.2(i)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.2(a)": null,
+"3.2.2(b)": null,
+"3.2.2(c)": null,
+"3.2.2(d)": null,
+"3.2.2(e)": null,
+"3.2.2(f)": null,
+"3.2.2(g)": null,
+"3.2.2(h)": null,
+"3.2.2(i)": null
+},
+"parts": 12,
+"marks": 114,
+"essays": 1,
+"mcq": 4,
+"sectionTitle": "3.2.2 General elements of liability"
+},
+{
+"slug": "murder-and-voluntary-manslaughter",
+"name": "Murder and voluntary manslaughter: loss of control and diminished responsibility",
+"code": "3.2.3",
+"codes": [
+"3.2.3"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.3(a)",
+"3.2.3(b)",
+"3.2.3(c)"
+],
+"statementText": {
+"3.2.3(a)": "Murder",
+"3.2.3(b)": "Voluntary manslaughter: loss of control (s54 Coroners and Justice Act 2009)",
+"3.2.3(c)": "Voluntary manslaughter: diminished responsibility (s2 Homicide Act 1957 as amended)"
+},
+"statementShort": {
+"3.2.3(a)": "",
+"3.2.3(b)": "",
+"3.2.3(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.3(a)": null,
+"3.2.3(b)": null,
+"3.2.3(c)": null
+},
+"parts": 12,
+"marks": 189,
+"essays": 1,
+"mcq": 4,
+"sectionTitle": "3.2.3 Fatal offences against the person"
+},
+{
+"slug": "involuntary-manslaughter",
+"name": "Involuntary manslaughter: unlawful act and gross negligence",
+"code": "3.2.3",
+"codes": [
+"3.2.3"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.3(d)",
+"3.2.3(e)"
+],
+"statementText": {
+"3.2.3(d)": "Involuntary manslaughter: unlawful act manslaughter",
+"3.2.3(e)": "Involuntary manslaughter: gross negligence manslaughter"
+},
+"statementShort": {
+"3.2.3(d)": "",
+"3.2.3(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.3(d)": null,
+"3.2.3(e)": null
+},
+"parts": 7,
+"marks": 161,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.2.3 Fatal offences against the person"
+},
+{
+"slug": "non-fatal-offences",
+"name": "Non-fatal offences against the person",
+"code": "3.2.4",
+"codes": [
+"3.2.4"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.4(a)",
+"3.2.4(b)",
+"3.2.4(c)",
+"3.2.4(d)",
+"3.2.4(e)"
+],
+"statementText": {
+"3.2.4(a)": "Common assault: assault",
+"3.2.4(b)": "Common assault: battery",
+"3.2.4(c)": "s47 assault/battery occasioning actual bodily harm",
+"3.2.4(d)": "s20 unlawful and malicious wounding or inflicting grievous bodily harm",
+"3.2.4(e)": "s18 wounding or causing grievous bodily harm with intent"
+},
+"statementShort": {
+"3.2.4(a)": "",
+"3.2.4(b)": "",
+"3.2.4(c)": "",
+"3.2.4(d)": "",
+"3.2.4(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.4(a)": null,
+"3.2.4(b)": null,
+"3.2.4(c)": null,
+"3.2.4(d)": null,
+"3.2.4(e)": null
+},
+"parts": 12,
+"marks": 231,
+"essays": 1,
+"mcq": 1,
+"sectionTitle": "3.2.4 Non-fatal offences against the person"
+},
+{
+"slug": "theft-and-robbery",
+"name": "Property offences: theft and robbery",
+"code": "3.2.5",
+"codes": [
+"3.2.5"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.5(a)",
+"3.2.5(b)"
+],
+"statementText": {
+"3.2.5(a)": "Theft (s1 Theft Act 1968)",
+"3.2.5(b)": "Robbery (s8 Theft Act 1968)"
+},
+"statementShort": {
+"3.2.5(a)": "",
+"3.2.5(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.5(a)": null,
+"3.2.5(b)": null
+},
+"parts": 8,
+"marks": 191,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.2.5 Property offences"
+},
+{
+"slug": "attempts",
+"name": "Attempt",
+"code": "3.2.6",
+"codes": [
+"3.2.6"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.6(a)"
+],
+"statementText": {
+"3.2.6(a)": "Attempt (s1 Criminal Attempts Act 1981)"
+},
+"statementShort": {
+"3.2.6(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.6(a)": null
+},
+"parts": 3,
+"marks": 40,
+"essays": 0,
+"mcq": 0,
+"sectionTitle": "3.2.6 Preliminary offence"
+},
+{
+"slug": "insanity-automatism-and-intoxication",
+"name": "Capacity defences: insanity, automatism and intoxication",
+"code": "3.2.7",
+"codes": [
+"3.2.7"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.7(a)",
+"3.2.7(b)",
+"3.2.7(c)"
+],
+"statementText": {
+"3.2.7(a)": "Capacity defence: insanity",
+"3.2.7(b)": "Capacity defence: automatism",
+"3.2.7(c)": "Capacity defence: intoxication"
+},
+"statementShort": {
+"3.2.7(a)": "",
+"3.2.7(b)": "",
+"3.2.7(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.7(a)": null,
+"3.2.7(b)": null,
+"3.2.7(c)": null
+},
+"parts": 12,
+"marks": 251,
+"essays": 1,
+"mcq": 1,
+"sectionTitle": "3.2.7 Defences"
+},
+{
+"slug": "self-defence-and-duress",
+"name": "Necessity defences: self-defence, duress and duress of circumstances",
+"code": "3.2.7",
+"codes": [
+"3.2.7"
+],
+"group": "Criminal law",
+"strand": "Criminal law",
+"paper": "Criminal law",
+"papers": [
+"Paper 1"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.2.7(d)",
+"3.2.7(e)",
+"3.2.7(f)"
+],
+"statementText": {
+"3.2.7(d)": "Necessity defence: self-defence/prevention of crime",
+"3.2.7(e)": "Necessity defence: duress",
+"3.2.7(f)": "Necessity defence: duress of circumstances"
+},
+"statementShort": {
+"3.2.7(d)": "",
+"3.2.7(e)": "",
+"3.2.7(f)": ""
+},
+"asStatements": [],
+"levels": {
+"3.2.7(d)": null,
+"3.2.7(e)": null,
+"3.2.7(f)": null
+},
+"parts": 7,
+"marks": 112,
+"essays": 1,
+"mcq": 2,
+"sectionTitle": "3.2.7 Defences"
+},
+{
+"slug": "theory-of-tort-law",
+"name": "Theory of tort law",
+"code": "3.3.1",
+"codes": [
+"3.3.1"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.1(a)",
+"3.3.1(b)",
+"3.3.1(c)",
+"3.3.1(d)",
+"3.3.1(e)"
+],
+"statementText": {
+"3.3.1(a)": "Public policy factors governing the imposition of a duty of care (the Caparo three-part test)",
+"3.3.1(b)": "Policy factors governing liability for pure economic loss and psychiatric injury",
+"3.3.1(c)": "Factors governing the objective standard of care in negligence",
+"3.3.1(d)": "Factors governing the grant of an injunction, and the balancing of conflicting interests",
+"3.3.1(e)": "The nature and purpose of vicarious liability"
+},
+"statementShort": {
+"3.3.1(a)": "",
+"3.3.1(b)": "",
+"3.3.1(c)": "",
+"3.3.1(d)": "",
+"3.3.1(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.1(a)": null,
+"3.3.1(b)": null,
+"3.3.1(c)": null,
+"3.3.1(d)": null,
+"3.3.1(e)": null
+},
+"parts": 5,
+"marks": 150,
+"essays": 0,
+"mcq": 0,
+"sectionTitle": "3.3.1 Theory of tort law"
+},
+{
+"slug": "negligence",
+"name": "Negligence: duty of care, breach and damage",
+"code": "3.3.2",
+"codes": [
+"3.3.2"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.2(a)",
+"3.3.2(b)",
+"3.3.2(c)"
+],
+"statementText": {
+"3.3.2(a)": "Duty of care: the 'neighbour' principle; the Caparo three-part test",
+"3.3.2(b)": "Breach of duty: the objective standard of care",
+"3.3.2(c)": "Damage: factual causation and legal causation (remoteness of damage)"
+},
+"statementShort": {
+"3.3.2(a)": "",
+"3.3.2(b)": "",
+"3.3.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.2(a)": null,
+"3.3.2(b)": null,
+"3.3.2(c)": null
+},
+"parts": 11,
+"marks": 207,
+"essays": 0,
+"mcq": 2,
+"sectionTitle": "3.3.2 Liability in negligence for physical injury to people and damage to property"
+},
+{
+"slug": "economic-loss-and-psychiatric-injury",
+"name": "Economic loss and psychiatric injury",
+"code": "3.3.3",
+"codes": [
+"3.3.3"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.3(a)",
+"3.3.3(b)"
+],
+"statementText": {
+"3.3.3(a)": "Pure economic loss caused by negligent acts and negligent misstatements",
+"3.3.3(b)": "Psychiatric injury sustained by primary and secondary victims"
+},
+"statementShort": {
+"3.3.3(a)": "",
+"3.3.3(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.3(a)": null,
+"3.3.3(b)": null
+},
+"parts": 14,
+"marks": 257,
+"essays": 1,
+"mcq": 2,
+"sectionTitle": "3.3.3 Liability in negligence for economic loss and psychiatric injury"
+},
+{
+"slug": "occupiers-liability",
+"name": "Occupiers' liability",
+"code": "3.3.4",
+"codes": [
+"3.3.4"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.4(a)",
+"3.3.4(b)"
+],
+"statementText": {
+"3.3.4(a)": "Liability to visitors (Occupiers' Liability Act 1957)",
+"3.3.4(b)": "Liability to trespassers (Occupiers' Liability Act 1984)"
+},
+"statementShort": {
+"3.3.4(a)": "",
+"3.3.4(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.4(a)": null,
+"3.3.4(b)": null
+},
+"parts": 11,
+"marks": 157,
+"essays": 3,
+"mcq": 2,
+"sectionTitle": "3.3.4 Occupiers' liability"
+},
+{
+"slug": "nuisance-and-rylands-v-fletcher",
+"name": "Private nuisance and Rylands v Fletcher",
+"code": "3.3.5",
+"codes": [
+"3.3.5"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.5(a)",
+"3.3.5(b)"
+],
+"statementText": {
+"3.3.5(a)": "Private nuisance",
+"3.3.5(b)": "The rule in Rylands v Fletcher"
+},
+"statementShort": {
+"3.3.5(a)": "",
+"3.3.5(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.5(a)": null,
+"3.3.5(b)": null
+},
+"parts": 11,
+"marks": 148,
+"essays": 2,
+"mcq": 3,
+"sectionTitle": "3.3.5 Nuisance and the escape of dangerous things"
+},
+{
+"slug": "vicarious-liability",
+"name": "Vicarious liability",
+"code": "3.3.6",
+"codes": [
+"3.3.6"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.6(a)",
+"3.3.6(b)",
+"3.3.6(c)"
+],
+"statementText": {
+"3.3.6(a)": "Nature and purpose of vicarious liability",
+"3.3.6(b)": "Testing employment status",
+"3.3.6(c)": "Other areas of vicarious liability"
+},
+"statementShort": {
+"3.3.6(a)": "",
+"3.3.6(b)": "",
+"3.3.6(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.6(a)": null,
+"3.3.6(b)": null,
+"3.3.6(c)": null
+},
+"parts": 5,
+"marks": 106,
+"essays": 1,
+"mcq": 1,
+"sectionTitle": "3.3.6 Vicarious liability"
+},
+{
+"slug": "tort-defences",
+"name": "Defences in tort: contributory negligence and consent",
+"code": "3.3.7",
+"codes": [
+"3.3.7"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.7(a)",
+"3.3.7(b)",
+"3.3.7(c)"
+],
+"statementText": {
+"3.3.7(a)": "Contributory negligence",
+"3.3.7(b)": "Consent (volenti non fit injuria)",
+"3.3.7(c)": "Defences specific to private nuisance and the rule in Rylands v Fletcher"
+},
+"statementShort": {
+"3.3.7(a)": "",
+"3.3.7(b)": "",
+"3.3.7(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.7(a)": null,
+"3.3.7(b)": null,
+"3.3.7(c)": null
+},
+"parts": 11,
+"marks": 216,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.3.7 Defences"
+},
+{
+"slug": "tort-remedies",
+"name": "Remedies in tort: damages and injunctions",
+"code": "3.3.8",
+"codes": [
+"3.3.8"
+],
+"group": "Tort",
+"strand": "Tort",
+"paper": "Tort",
+"papers": [
+"Paper 2"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.3.8(a)",
+"3.3.8(b)"
+],
+"statementText": {
+"3.3.8(a)": "Compensatory damages for physical injury, damage to property and economic loss; mitigation of loss",
+"3.3.8(b)": "Injunctions"
+},
+"statementShort": {
+"3.3.8(a)": "",
+"3.3.8(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.3.8(a)": null,
+"3.3.8(b)": null
+},
+"parts": 14,
+"marks": 284,
+"essays": 0,
+"mcq": 4,
+"sectionTitle": "3.3.8 Remedies"
+},
+{
+"slug": "theory-of-contract-law",
+"name": "Theory of contract law",
+"code": "3.4.1",
+"codes": [
+"3.4.1"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.1(a)",
+"3.4.1(b)",
+"3.4.1(c)",
+"3.4.1(d)",
+"3.4.1(e)"
+],
+"statementText": {
+"3.4.1(a)": "Freedom of contract and the competing need to protect the consumer",
+"3.4.1(b)": "Offers, offers in unilateral contracts and invitations to treat; acceptance, the postal rule and electronic communications",
+"3.4.1(c)": "The rationale for consideration; consideration and privity; consideration and economic duress",
+"3.4.1(d)": "The nature and effectiveness of exemption clauses",
+"3.4.1(e)": "The nature and effectiveness of remedies including consumer remedies"
+},
+"statementShort": {
+"3.4.1(a)": "",
+"3.4.1(b)": "",
+"3.4.1(c)": "",
+"3.4.1(d)": "",
+"3.4.1(e)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.1(a)": null,
+"3.4.1(b)": null,
+"3.4.1(c)": null,
+"3.4.1(d)": null,
+"3.4.1(e)": null
+},
+"parts": 3,
+"marks": 75,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "3.4.1 Theory of contract law"
+},
+{
+"slug": "formation-of-contract",
+"name": "Formation of contract: offer and acceptance, consideration, privity and intention",
+"code": "3.4.2",
+"codes": [
+"3.4.2"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.2(a)",
+"3.4.2(b)",
+"3.4.2(c)"
+],
+"statementText": {
+"3.4.2(a)": "Offer and acceptance",
+"3.4.2(b)": "Consideration (including privity of contract)",
+"3.4.2(c)": "Intention to create legal relations"
+},
+"statementShort": {
+"3.4.2(a)": "",
+"3.4.2(b)": "",
+"3.4.2(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.2(a)": null,
+"3.4.2(b)": null,
+"3.4.2(c)": null
+},
+"parts": 21,
+"marks": 290,
+"essays": 1,
+"mcq": 5,
+"sectionTitle": "3.4.2 Essential requirements of contract"
+},
+{
+"slug": "contract-terms",
+"name": "Contract terms: express and implied terms, conditions and warranties",
+"code": "3.4.3",
+"codes": [
+"3.4.3"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.3(a)",
+"3.4.3(b)"
+],
+"statementText": {
+"3.4.3(a)": "Express and implied terms",
+"3.4.3(b)": "Conditions, warranties and innominate terms"
+},
+"statementShort": {
+"3.4.3(a)": "",
+"3.4.3(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.3(a)": null,
+"3.4.3(b)": null
+},
+"parts": 5,
+"marks": 101,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.4.3 Contract terms: general"
+},
+{
+"slug": "consumer-rights-act-2015",
+"name": "Consumer Rights Act 2015: implied terms and remedies",
+"code": "3.4.4",
+"codes": [
+"3.4.4"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.4(a)",
+"3.4.4(b)",
+"3.4.4(c)",
+"3.4.4(d)"
+],
+"statementText": {
+"3.4.4(a)": "Goods: s9 satisfactory quality, s10 fitness for particular purpose, s11 description",
+"3.4.4(b)": "Goods remedies: s20 short-term right to reject, s23 repair or replacement, s24 price reduction or final right to reject",
+"3.4.4(c)": "Services: s49 reasonable care and skill, s52 performance within a reasonable time",
+"3.4.4(d)": "Services remedies: s55 repeat performance, s56 price reduction"
+},
+"statementShort": {
+"3.4.4(a)": "",
+"3.4.4(b)": "",
+"3.4.4(c)": "",
+"3.4.4(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.4(a)": null,
+"3.4.4(b)": null,
+"3.4.4(c)": null,
+"3.4.4(d)": null
+},
+"parts": 14,
+"marks": 356,
+"essays": 1,
+"mcq": 1,
+"sectionTitle": "3.4.4 Contract terms: terms implied by the Consumer Rights Act 2015"
+},
+{
+"slug": "exclusion-clauses",
+"name": "Exclusion clauses",
+"code": "3.4.5",
+"codes": [
+"3.4.5"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.5(a)",
+"3.4.5(b)",
+"3.4.5(c)"
+],
+"statementText": {
+"3.4.5(a)": "The nature of exclusion and limitation clauses",
+"3.4.5(b)": "Common law control: incorporation; construction",
+"3.4.5(c)": "Statutory control: Unfair Contract Terms Act 1977 (s2, s3); Consumer Rights Act 2015 (s31, s57, s65)"
+},
+"statementShort": {
+"3.4.5(a)": "",
+"3.4.5(b)": "",
+"3.4.5(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.5(a)": null,
+"3.4.5(b)": null,
+"3.4.5(c)": null
+},
+"parts": 6,
+"marks": 93,
+"essays": 0,
+"mcq": 3,
+"sectionTitle": "3.4.5 Contract terms: exclusion clauses"
+},
+{
+"slug": "misrepresentation-and-economic-duress",
+"name": "Vitiating factors: misrepresentation and economic duress",
+"code": "3.4.6",
+"codes": [
+"3.4.6"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.6(a)",
+"3.4.6(b)"
+],
+"statementText": {
+"3.4.6(a)": "Misrepresentation (nature, types and remedies)",
+"3.4.6(b)": "Economic duress (definition and remedies)"
+},
+"statementShort": {
+"3.4.6(a)": "",
+"3.4.6(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.6(a)": null,
+"3.4.6(b)": null
+},
+"parts": 9,
+"marks": 177,
+"essays": 1,
+"mcq": 2,
+"sectionTitle": "3.4.6 Vitiating factors"
+},
+{
+"slug": "discharge-of-contract",
+"name": "Discharge of a contract: performance, breach and frustration",
+"code": "3.4.7",
+"codes": [
+"3.4.7"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.7(a)",
+"3.4.7(b)",
+"3.4.7(c)"
+],
+"statementText": {
+"3.4.7(a)": "Performance",
+"3.4.7(b)": "Breach (actual and anticipatory breach)",
+"3.4.7(c)": "Frustration"
+},
+"statementShort": {
+"3.4.7(a)": "",
+"3.4.7(b)": "",
+"3.4.7(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.7(a)": null,
+"3.4.7(b)": null,
+"3.4.7(c)": null
+},
+"parts": 10,
+"marks": 137,
+"essays": 1,
+"mcq": 2,
+"sectionTitle": "3.4.7 Discharge of a contract"
+},
+{
+"slug": "contract-remedies",
+"name": "Remedies in contract: damages, equitable remedies and termination",
+"code": "3.4.8",
+"codes": [
+"3.4.8"
+],
+"group": "Law of contract",
+"strand": "Law of contract",
+"paper": "Law of contract",
+"papers": [
+"Paper 3A"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.4.8(a)",
+"3.4.8(b)",
+"3.4.8(c)"
+],
+"statementText": {
+"3.4.8(a)": "Compensatory damages (categories of recoverable loss, causation, remoteness and mitigation)",
+"3.4.8(b)": "Equitable remedies of specific performance and rescission",
+"3.4.8(c)": "Termination of contract for breach"
+},
+"statementShort": {
+"3.4.8(a)": "",
+"3.4.8(b)": "",
+"3.4.8(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.4.8(a)": null,
+"3.4.8(b)": null,
+"3.4.8(c)": null
+},
+"parts": 15,
+"marks": 351,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.4.8 Remedies"
+},
+{
+"slug": "theory-in-human-rights",
+"name": "Theory in human rights",
+"code": "3.5.1",
+"codes": [
+"3.5.1"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.1(a)",
+"3.5.1(b)",
+"3.5.1(c)"
+],
+"statementText": {
+"3.5.1(a)": "Theories of rights",
+"3.5.1(b)": "Rights contrasted with liberties",
+"3.5.1(c)": "The scope of 'fundamental human' rights"
+},
+"statementShort": {
+"3.5.1(a)": "",
+"3.5.1(b)": "",
+"3.5.1(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.1(a)": null,
+"3.5.1(b)": null,
+"3.5.1(c)": null
+},
+"parts": 1,
+"marks": 15,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "3.5.1 Theory in human rights"
+},
+{
+"slug": "human-rights-before-the-hra",
+"name": "Human rights in international law and in the UK before the Human Rights Act 1998",
+"code": "3.5.2, 3.5.3",
+"codes": [
+"3.5.2",
+"3.5.3"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.2(a)",
+"3.5.2(b)",
+"3.5.2(c)",
+"3.5.3(a)"
+],
+"statementText": {
+"3.5.2(a)": "The Second World War and its aftermath",
+"3.5.2(b)": "The United Nations and the Universal Declaration of Human Rights 1948",
+"3.5.2(c)": "The Council of Europe and the European Convention on Human Rights 1953",
+"3.5.3(a)": "The status of the ECHR in the UK and the impact of decisions of the European Court of Human Rights"
+},
+"statementShort": {
+"3.5.2(a)": "",
+"3.5.2(b)": "",
+"3.5.2(c)": "",
+"3.5.3(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.2(a)": null,
+"3.5.2(b)": null,
+"3.5.2(c)": null,
+"3.5.3(a)": null
+},
+"parts": 0,
+"marks": 0,
+"essays": 0,
+"mcq": 0,
+"sectionTitle": "3.5.2 Human rights in international law / 3.5.3 Human rights in the UK before the Human Rights Act 1998"
+},
+{
+"slug": "human-rights-act-1998",
+"name": "The Human Rights Act 1998 and reform",
+"code": "3.5.4, 3.5.13",
+"codes": [
+"3.5.4",
+"3.5.13"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.4(a)",
+"3.5.4(b)",
+"3.5.4(c)",
+"3.5.13(a)"
+],
+"statementText": {
+"3.5.4(a)": "Extent and method of incorporation and interpretation of the ECHR",
+"3.5.4(b)": "Impact on constitutional arrangements and on UK law, including the entrenched HRA in the devolution settlements of Scotland and Northern Ireland",
+"3.5.4(c)": "Criticisms of human rights",
+"3.5.13(a)": "Reform of the protection of human rights in the UK"
+},
+"statementShort": {
+"3.5.4(a)": "",
+"3.5.4(b)": "",
+"3.5.4(c)": "",
+"3.5.13(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.4(a)": null,
+"3.5.4(b)": null,
+"3.5.4(c)": null,
+"3.5.13(a)": null
+},
+"parts": 9,
+"marks": 47,
+"essays": 0,
+"mcq": 7,
+"sectionTitle": "3.5.4 Human rights in the UK after the Human Rights Act 1998 / 3.5.13 Reform"
+},
+{
+"slug": "article-2-right-to-life",
+"name": "Article 2: the right to life",
+"code": "3.5.5",
+"codes": [
+"3.5.5"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.5(a)",
+"3.5.5(b)"
+],
+"statementText": {
+"3.5.5(a)": "Article 2.1: right to life",
+"3.5.5(b)": "Article 2.2: justified exceptions"
+},
+"statementShort": {
+"3.5.5(a)": "",
+"3.5.5(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.5(a)": null,
+"3.5.5(b)": null
+},
+"parts": 11,
+"marks": 100,
+"essays": 0,
+"mcq": 5,
+"sectionTitle": "3.5.5 Article 2 ECHR"
+},
+{
+"slug": "article-5-right-to-liberty",
+"name": "Article 5: the right to liberty and security",
+"code": "3.5.6",
+"codes": [
+"3.5.6"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.6(a)",
+"3.5.6(b)",
+"3.5.6(c)"
+],
+"statementText": {
+"3.5.6(a)": "Article 5.1: right to liberty and security of person",
+"3.5.6(b)": "Article 5.1a–5.1c: justified deprivation of liberty – lawful arrest or detention",
+"3.5.6(c)": "Article 5.2–5.5: additional requirements in cases of lawful arrest or detention"
+},
+"statementShort": {
+"3.5.6(a)": "",
+"3.5.6(b)": "",
+"3.5.6(c)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.6(a)": null,
+"3.5.6(b)": null,
+"3.5.6(c)": null
+},
+"parts": 11,
+"marks": 154,
+"essays": 1,
+"mcq": 4,
+"sectionTitle": "3.5.6 Article 5 ECHR"
+},
+{
+"slug": "article-8-private-and-family-life",
+"name": "Article 8: respect for private and family life",
+"code": "3.5.7",
+"codes": [
+"3.5.7"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.7(a)"
+],
+"statementText": {
+"3.5.7(a)": "Article 8.1: right to respect for private and family life, home and correspondence"
+},
+"statementShort": {
+"3.5.7(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.7(a)": null
+},
+"parts": 12,
+"marks": 247,
+"essays": 1,
+"mcq": 2,
+"sectionTitle": "3.5.7 Article 8 ECHR"
+},
+{
+"slug": "articles-10-and-11",
+"name": "Articles 10 and 11: freedom of expression, assembly and association",
+"code": "3.5.8, 3.5.9",
+"codes": [
+"3.5.8",
+"3.5.9"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.8(a)",
+"3.5.9(a)"
+],
+"statementText": {
+"3.5.8(a)": "Article 10.1: freedom of expression (receive and communicate information and ideas)",
+"3.5.9(a)": "Article 11.1: freedom of peaceful assembly and of association"
+},
+"statementShort": {
+"3.5.8(a)": "",
+"3.5.9(a)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.8(a)": null,
+"3.5.9(a)": null
+},
+"parts": 20,
+"marks": 373,
+"essays": 2,
+"mcq": 3,
+"sectionTitle": "3.5.8 Article 10 ECHR / 3.5.9 Article 11 ECHR"
+},
+{
+"slug": "restrictions-on-rights",
+"name": "Restrictions on the rights (Articles 8.2, 10.2 and 11.2)",
+"code": "3.5.10",
+"codes": [
+"3.5.10"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.10(a)",
+"3.5.10(b)"
+],
+"statementText": {
+"3.5.10(a)": "Article 8.2, 10.2 and 11.2: restrictions on the rights",
+"3.5.10(b)": "General requirements relating to restrictions"
+},
+"statementShort": {
+"3.5.10(a)": "",
+"3.5.10(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.10(a)": null,
+"3.5.10(b)": null
+},
+"parts": 15,
+"marks": 336,
+"essays": 0,
+"mcq": 1,
+"sectionTitle": "3.5.10 Restrictions"
+},
+{
+"slug": "enforcement-of-human-rights",
+"name": "Enforcement of human rights and judicial review",
+"code": "3.5.11",
+"codes": [
+"3.5.11"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.11(a)",
+"3.5.11(b)"
+],
+"statementText": {
+"3.5.11(a)": "Claims before the European Court of Human Rights; the role of domestic courts; the effect of decisions on states and claimants",
+"3.5.11(b)": "The process of judicial review"
+},
+"statementShort": {
+"3.5.11(a)": "",
+"3.5.11(b)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.11(a)": null,
+"3.5.11(b)": null
+},
+"parts": 4,
+"marks": 18,
+"essays": 1,
+"mcq": 3,
+"sectionTitle": "3.5.11 Enforcement"
+},
+{
+"slug": "human-rights-and-english-law",
+"name": "Human rights and English law: police powers, privacy and protest",
+"code": "3.5.12",
+"codes": [
+"3.5.12"
+],
+"group": "Human rights",
+"strand": "Human rights",
+"paper": "Human rights",
+"papers": [
+"Paper 3B"
+],
+"option": null,
+"aLevelOnly": false,
+"asOrA": "A level",
+"statements": [
+"3.5.12(a)",
+"3.5.12(b)",
+"3.5.12(c)",
+"3.5.12(d)"
+],
+"statementText": {
+"3.5.12(a)": "Right to life: homicide and self-defence, police planning of dangerous operations, protective policing, civil negligence, investigation of deaths in custody",
+"3.5.12(b)": "Deprivation of liberty",
+"3.5.12(c)": "Privacy and communication: criminal and civil law provisions which protect or restrict the rights",
+"3.5.12(d)": "Expression, assembly and association: provisions affecting the balance with privacy"
+},
+"statementShort": {
+"3.5.12(a)": "",
+"3.5.12(b)": "",
+"3.5.12(c)": "",
+"3.5.12(d)": ""
+},
+"asStatements": [],
+"levels": {
+"3.5.12(a)": null,
+"3.5.12(b)": null,
+"3.5.12(c)": null,
+"3.5.12(d)": null
+},
+"parts": 28,
+"marks": 535,
+"essays": 1,
+"mcq": 0,
+"sectionTitle": "3.5.12 Human rights and English law"
+}
+]

@@ -1,0 +1,13 @@
+{
+  "series": "June 2027",
+  "source": "AQA's key dates for A-level Law (7162), June 2027 series",
+  "zoneNote": "",
+  "alevel": [
+    { "code": "7162/1", "name": "Paper 1: Criminal law, with the nature of law and the English legal system", "date": "2027-05-20", "session": "Afternoon", "length": "2 hours", "marks": 100, "level": "A level" },
+    { "code": "7162/2", "name": "Paper 2: Tort, with the nature of law and the English legal system", "date": "2027-05-27", "session": "Morning", "length": "2 hours", "marks": 100, "level": "A level" },
+    { "code": "7162/3A", "name": "Paper 3A: Law of contract, with the nature of law and the English legal system", "date": "2027-06-10", "session": "Afternoon", "length": "2 hours", "marks": 100, "level": "A level" },
+    { "code": "7162/3B", "name": "Paper 3B: Human rights, with the nature of law and the English legal system", "date": "2027-06-10", "session": "Afternoon", "length": "2 hours", "marks": 100, "level": "A level" }
+  ],
+  "as": [],
+  "asNote": "Students sit Paper 1, Paper 2 and one of Paper 3A (contract) or Paper 3B (human rights), which are timetabled together. AQA no longer offers AS Law."
+}

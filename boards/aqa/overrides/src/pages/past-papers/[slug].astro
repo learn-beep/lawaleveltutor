@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allPapers, byId, topicByslug, OCR_MATERIALS } from '../../lib/data';
+export function getStaticPaths() {
+  return allPapers.map((p) => ({ params: { slug: p.slug }, props: { paper: p } }));
+}
+const { paper } = Astro.props;
+const qs = paper.questions.map((id) => byId.get(id)).filter(Boolean);
+const sam = paper.kind !== 'exam';
+const title = `${paper.series} ${paper.paper} (${paper.spec}/${paper.comp})`;
+const note = sam ? " · AQA's specimen paper; no examiners' report" : !paper.hasReport ? " · Sat on the paper printed for the cancelled summer exam; AQA published no examiners' report" : '';
+---
+<Base title={`AQA Law ${title}: questions, mark scheme and examiners' report`} description={`Every question in AQA A-level Law ${title}, ${paper.name}, with its topic, marks and AO split, the mark scheme and the examiners' report.`} context={`paper:${paper.slug}`} leadLine="Want a paper marked and gone through with you? Message us.">
+  <h1>{paper.series}: {paper.paper} {paper.name} ({paper.spec}/{paper.comp})</h1>
+  <p class="muted">A-level · {paper.total} marks · 2 hours · {qs.length} questions, all compulsory · <a href={OCR_MATERIALS} rel="noopener">AQA's assessment resources</a>{note}</p>
+  <p>Questions 1 to 5 are multiple choice (1 mark each). Question 6 (5 marks) explains a point of the nature of law or the English legal system; Question 7 (5 marks) applies the law to a short scenario. Question 8 is a 10-mark problem, Question 9 the 15-mark essay and Questions 10 and 11 the 30-mark problems, each needing an extended answer with a sustained line of reasoning.</p>
+  <h2>Question by question</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Q</th><th>Topic</th><th>Marks</th><th>AO</th><th>Type</th></tr></thead>
+    <tbody>{qs.map((q) => <tr>
+      <td><a href={`#${q.id}`}>{q.question}</a></td>
+      <td>{q.topics.map((t, i) => <>{i ? ', ' : ''}<a href={`/questions/${t}/`}>{topicByslug.get(t)?.name.split(':')[0] ?? t}</a></>)}</td>
+      <td>{q.marks}</td><td>{(q.aoText || '').replace(/=/g, ' ').replace(/,/g, ', ')}</td><td>{q.format}</td>
+    </tr>)}</tbody>
+  </table></div>
+  <h2>The questions</h2>
+  <div class="jump">{qs.map((q) => <a href={`#${q.id}`}>{q.question}</a>)}</div>
+  {qs.map((q) => <QuestionCard q={q} showTopics={true} />)}
+</Base>

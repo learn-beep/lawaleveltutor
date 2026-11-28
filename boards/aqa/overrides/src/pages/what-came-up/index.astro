@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers, byId, topicByslug, seriesRank, essayTitle } from '../../lib/data';
+const exams = allPapers.filter((p) => p.kind === 'exam');
+const latest = [...new Set(exams.map((p) => p.series))].sort((a, b) => seriesRank(b) - seriesRank(a))[0];
+const papers = exams.filter((p) => p.series === latest).sort((a, b) => a.paperNo.localeCompare(b.paperNo));
+---
+<Base title={`What came up in AQA A-level Law ${latest}: every question by topic and marks`} description={`Question-by-question summary of the ${latest} AQA A-level Law (7162) papers: topics, marks and the essay set on each paper.`} context="what-came-up" leadLine="Want next summer's papers gone through topic by topic? Message us.">
+  <h1>What came up: {latest}</h1>
+  <p class="muted">{latest} is the latest series AQA has published; it releases each summer's papers the following summer.</p>
+  <p>The most recent series, question by question. Use it to see which topics carried the 30-mark problems and the essay and which came up only in the multiple choice; the <a href="/essays/">essays page</a> shows every essay theme set so far.</p>
+  {papers.map((p) => { const qs = p.questions.map((id) => byId.get(id)).filter(Boolean); const essay = qs.find((q) => q.format === 'Essay'); return <>
+    <h2><a href={`/past-papers/${p.slug}/`}>{p.paper} ({p.spec}/{p.comp})</a> <span class="muted">({p.name}, {p.total} marks)</span></h2>
+    {essay && <p><strong>Essay (Q9):</strong> {essayTitle(essay)}</p>}
+    <div class="table-wrap"><table><thead><tr><th>Q</th><th>Topic</th><th>Marks</th><th>Type</th></tr></thead>
+      <tbody>{qs.map((q) => <tr><td><a href={`/past-papers/${p.slug}/#${q.id}`}>{q.question}</a></td><td>{q.topics.map((t, i) => <>{i ? ', ' : ''}<a href={`/questions/${t}/`}>{topicByslug.get(t)?.name.split(':')[0] ?? t}</a></>)}</td><td>{q.marks}</td><td>{q.format}</td></tr>)}</tbody></table></div>
+  </>; })}
+  <p class="muted">This page regenerates when the next series is added.</p>
+</Base>

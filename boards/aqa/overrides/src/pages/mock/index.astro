@@ -1,0 +1,63 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+---
+<Base title="AQA A-level Law 7162 mini-mock builder: timed papers from real questions" description="Build a timed mock from real AQA A-level Law (7162) past-paper questions in the shape of Paper 1, 2, 3A or 3B. Play it on screen or print it with the mark schemes." context="mock" leadLine="Want a mock marked properly and gone through? Message us.">
+  <h1>Mini-mock builder</h1>
+  <p>Builds a paper in the shape of the AQA exam from real questions, each question taken from the same slot of a different past paper where possible. Every AQA Law paper has the same eleven compulsory questions: five multiple choice, two 5-mark questions, a 10-mark problem, the 15-mark essay and two 30-mark problems. Timed at 1.2 minutes a mark, the pace of the real papers (100 marks in 2 hours).</p>
+  <div class="panel" id="setup">
+    <h3>Paper</h3>
+    <div class="chips" data-group="paper"><button class="chip" type="button" data-v="Paper 1" aria-pressed="true">Paper 1 Criminal law</button><button class="chip" type="button" data-v="Paper 2">Paper 2 Tort</button><button class="chip" type="button" data-v="Paper 3A">Paper 3A Contract</button><button class="chip" type="button" data-v="Paper 3B">Paper 3B Human rights</button></div>
+    <h3>Length</h3>
+    <div class="chips" data-group="part"><button class="chip" type="button" data-v="short" aria-pressed="true">Questions 1–8</button><button class="chip" type="button" data-v="long">Questions 9–11</button><button class="chip" type="button" data-v="full">Full paper</button></div>
+    <p class="muted" id="shape"></p>
+    <div><button class="btn btn-accent" type="button" id="build">Build my mock</button></div>
+  </div>
+  <div id="paper" hidden>
+    <div class="playbar"><span id="title"></span><span class="timer" id="timer"></span><span><button class="btn" type="button" id="starttimer"><Icon name="timer" />Start timer</button> <button class="btn" type="button" id="print"><Icon name="printer" />Print</button> <button class="btn" type="button" id="share"><Icon name="link" />Copy link</button></span></div>
+    <div id="cards"></div>
+    <div class="btn-row"><button class="btn btn-accent" type="button" id="rebuild">Build another</button></div>
+  </div>
+  <script>
+    import { loadBank, card, shuffle, fmtTime } from '../../scripts/player.js';
+    const $ = (s) => document.querySelector(s);
+    const sel = { paper: 'Paper 1', part: 'short' };
+    let bank = null, timer = null, secs = 0;
+    const TEXT = { short: 'Questions 1 to 8: five multiple choice, two 5-mark questions and the 10-mark problem (25 marks, 30 minutes).', long: 'Questions 9 to 11: the 15-mark essay and the two 30-mark problems (75 marks, 1 hour 30 minutes).', full: 'The whole paper (100 marks, 2 hours).' };
+    const SLOTS = { short: [1, 2, 3, 4, 5, 6, 7, 8], long: [9, 10, 11], full: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] };
+    function shape() { $('#shape').textContent = TEXT[sel.part]; }
+    document.querySelectorAll('[data-group="paper"], [data-group="part"]').forEach((g) => g.querySelectorAll('.chip').forEach((b) => b.addEventListener('click', () => { g.querySelectorAll('.chip').forEach((x) => x.setAttribute('aria-pressed', 'false')); b.setAttribute('aria-pressed', 'true'); sel[g.dataset.group] = b.dataset.v; shape(); })));
+    shape();
+    loadBank().then((b) => { bank = b; });
+    $('#build').addEventListener('click', () => {
+      if (!bank) return;
+      // Papers 3A and 3B share Questions 3 to 6, which the bank holds once under Paper 3A
+      const inPaper = (q, n) => q.p === sel.paper || (sel.paper === 'Paper 3B' && q.p === 'Paper 3A' && n >= 3 && n <= 6);
+      const used = {}; const picked = [];
+      for (const n of SLOTS[sel.part]) {
+        const pool = shuffle(bank.q.filter((q) => q.c && q.n === n && inPaper(q, n)));
+        if (!pool.length) continue;
+        // spread the questions across papers: take the one whose source paper has been used least
+        pool.sort((a, b) => (used[a.pid] || 0) - (used[b.pid] || 0));
+        const q = pool[0]; used[q.pid] = (used[q.pid] || 0) + 1; picked.push(q);
+      }
+      if (!picked.length) { $('#shape').textContent = 'Nothing matched; try another combination.'; return; }
+      show(picked, `${sel.paper}: ${picked.length} questions`);
+      location.hash = 'set=' + picked.map((q) => q.id).join(',');
+      window.scrollTo({ top: 0 });
+    });
+    function show(picked, label) {
+      const total = picked.reduce((a, q) => a + q.m, 0);
+      $('#setup').hidden = true; $('#paper').hidden = false;
+      $('#title').textContent = `${label}, ${total} marks`;
+      secs = Math.round(total * 72); $('#timer').textContent = fmtTime(secs); if (timer) clearInterval(timer);
+      const holder = $('#cards'); holder.innerHTML = '';
+      picked.forEach((q, n) => { const c = card(q); c.querySelector('.meta strong').textContent = `Question ${q.n} (from ${q.s} ${q.p})`; holder.appendChild(c); });
+    }
+    $('#share').addEventListener('click', async () => { const url = location.href.split('#')[0] + location.hash; try { await navigator.clipboard.writeText(url); window.maltToast && window.maltToast('Link copied'); } catch { prompt('Copy this link', url); } });
+    loadBank().then(() => { const m = location.hash.match(/set=([^&]+)/); if (!m || !bank) return; const picked = m[1].split(',').map((id) => bank.q.find((q) => q.id === id)).filter(Boolean); if (picked.length) show(picked, `Shared mock: ${picked.length} questions`); });
+    $('#starttimer').addEventListener('click', () => { if (timer) clearInterval(timer); timer = setInterval(() => { secs--; $('#timer').textContent = fmtTime(Math.max(secs, 0)); if (secs <= 0) { clearInterval(timer); $('#timer').textContent = "Time's up"; } }, 1000); });
+    $('#print').addEventListener('click', () => { document.querySelectorAll('#cards img[data-src]').forEach((img) => { img.src = img.dataset.src; img.removeAttribute('data-src'); }); setTimeout(() => window.print(), 300); });
+    $('#rebuild').addEventListener('click', () => { if (timer) clearInterval(timer); $('#paper').hidden = true; $('#setup').hidden = false; window.scrollTo({ top: 0 }); });
+  </script>
+</Base>

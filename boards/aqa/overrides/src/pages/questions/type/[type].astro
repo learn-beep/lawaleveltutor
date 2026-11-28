@@ -1,0 +1,41 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuestionCard from '../../../components/QuestionCard.astro';
+import { allQuestions, FIRST_SERIES, seriesRank } from '../../../lib/data';
+export function getStaticPaths() {
+  // [slug, format, title, intro]
+  const T = [
+    ['multiple-choice', 'Multiple choice', 'Multiple-choice questions (Questions 1 to 5, 1 mark each)', 'Every paper opens with five multiple-choice questions: Questions 1 and 2 on the paper\'s substantive law, Questions 3 to 5 on the nature of law and the English legal system. Many ask for the one false statement, so read the instruction before the options. The Answer button shows AQA\'s key; the examiners\' report usually says which wrong option was most popular.'],
+    ['explain', 'Explain', 'Explain questions (Question 6, 5 marks)', 'Question 6 is five marks of knowledge (AO1) on the nature of law or the English legal system: explain a rule, a process or a role, usually two or three points or with an example. The top band (4–5) needs a good, accurate explanation; no evaluation is asked for.'],
+    ['application', 'Application', 'Application questions (Question 7, 5 marks)', 'Question 7 gives a short scenario and asks you to "suggest why" a claim or defence will succeed or fail: AO1 2 marks and AO2 3 marks. State the rule briefly, with an authority, and apply it to the facts given; other offences or defences the question rules out earn nothing.'],
+    ['scenarios', 'Scenario', 'Problem questions (Questions 8, 10 and 11: 10 and 30 marks)', 'Question 8 is a 10-mark "advise" problem (AO1 3, AO2 4, AO3 3) on one area. Questions 10 and 11 are 30-mark extended problems (AO1, AO2 and AO3 10 each) across several areas: identify each issue, state the law with authority, apply it to each party and reach a conclusion on liability and remedies. Question 11 usually ends with a 7-mark part on the nature of law or the legal system.'],
+    ['essays', 'Essay', 'Essays (Question 9, 15 marks)', 'Question 9 is the extended essay: AO1 5 and AO3 10. It sets a nature of law theme (fault, morality, justice, balancing conflicting interests, a principle of criminal law) and asks you to discuss it against an area of the paper\'s substantive law. Ten of the marks are for the non-substantive theme, so an account of the substantive rules alone stays in the lower bands.'],
+  ];
+  return T.map(([slug, matcher, title, intro]) => ({ params: { type: slug }, props: { slug, matcher, title, intro, others: T.filter((t) => t[0] !== slug) } }));
+}
+const { slug, matcher, title, intro, others } = Astro.props;
+const qs = allQuestions.filter((q) => q.format === matcher).sort((a, b) => seriesRank(b.series) - seriesRank(a.series) || a.paper.localeCompare(b.paper) || a.number - b.number);
+const papers = [...new Set(qs.map((q) => q.paper))].sort();
+---
+<Base title={`${title.split(' (')[0]}: AQA A-level Law 7162 past-paper questions`} description={`${qs.length} ${title.split(' (')[0].toLowerCase()} from AQA A-level Law (7162) papers since ${FIRST_SERIES.split(' ')[1]}, with mark schemes and examiners' report comments.`} context={`type:${slug}`}>
+  <h1>{title}</h1>
+  <p>{intro} {qs.length} questions.</p>
+  <p class="muted small-text">The notes on question types are the site's summary of AQA's mark schemes and are being checked by our tutor.</p>
+  <p class="muted">Other types: {others.map((t, i) => <>{i ? ' · ' : ''}<a href={`/questions/type/${t[0]}/`}>{t[2].split(' (')[0]}</a></>)}</p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All</button>
+    {papers.map((p) => <button class="chip" type="button" aria-pressed="false" data-filter={`paper:${p}`}>{p}</button>)}
+    {matcher === 'Scenario' && <><button class="chip" type="button" aria-pressed="false" data-filter="marks:10">10 marks</button><button class="chip" type="button" aria-pressed="false" data-filter="marks:30">30 marks</button></>}
+  </div><div class="count" id="count"></div></div>
+  {qs.map((q) => <div data-wrap data-paper={q.paper} data-marks={String(q.marks)}><QuestionCard q={q} showTopics={true} /></div>)}
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const wraps = document.querySelectorAll('[data-wrap]');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false')); c.setAttribute('aria-pressed', 'true');
+      const [key, val] = (c.getAttribute('data-filter') || '').split(':');
+      wraps.forEach((w) => { w.hidden = !!key && w.dataset[key] !== val; });
+      document.getElementById('count').textContent = `Showing ${[...wraps].filter((w) => !w.hidden).length} of ${wraps.length}`;
+    }));
+  </script>
+</Base>
